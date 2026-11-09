@@ -1,0 +1,19 @@
+{
+  "note": "Only verified awards. Each entry is keyed by Muso track id and cites its source. Add new entries here; nothing is displayed without one.",
+  "byTrack": {
+    "a0552c42-7bea-4810-b761-05f32ad6f0fa": { "riaa": "RIAA Diamond", "grammy": { "status": "Grammy Winner", "detail": "F.A.M.E. won Best R&B Album at the 54th Grammy Awards. The song was nominated for Best Rap Performance and Best Rap Song." }, "sources": ["https://en.wikipedia.org/wiki/Look_at_Me_Now_(Chris_Brown_song)", "https://en.wikipedia.org/wiki/F.A.M.E._(Chris_Brown_album)"] },
+    "638eb1e3-ff6d-4959-8066-1f0a9a23a15d": { "riaa": "RIAA 3× Platinum", "sources": ["https://en.wikipedia.org/wiki/Feels_(song)"] },
+    "38ea1261-9429-4550-9ef8-bf56efa185a1": { "riaa": "RIAA Platinum", "grammy": { "status": "Grammy Winner", "detail": "F.A.M.E. won Best R&B Album at the 54th Grammy Awards." }, "sources": ["https://en.wikipedia.org/wiki/Wet_the_Bed", "https://en.wikipedia.org/wiki/F.A.M.E._(Chris_Brown_album)"] },
+    "1add89ac-4484-4c4e-ae9a-69995abb364f": { "riaa": "RIAA 2× Platinum", "grammy": { "status": "Grammy Nominated", "detail": "Fortune was nominated for Best Urban Contemporary Album at the 55th Grammy Awards." }, "sources": ["https://en.wikipedia.org/wiki/Chris_Brown_discography", "https://en.wikipedia.org/wiki/Fortune_(Chris_Brown_album)"] },
+    "2751a823-3a2e-407e-85d1-dd8f8749dfd4": { "riaa": "RIAA 2× Platinum", "sources": ["https://en.wikipedia.org/wiki/Kid_Cudi_discography"] },
+    "b72fb294-6568-457c-a837-d2f3be6f4bf1": { "grammy": { "status": "Grammy Winner", "detail": "Sweetener won Best Pop Vocal Album at the 61st Grammy Awards." }, "sources": ["https://en.wikipedia.org/wiki/Sweetener_(album)"] },
+    "c41a72e2-6b6f-4df7-8828-b4b9d01eb32e": { "riaa": "RIAA 2× Platinum", "grammy": { "status": "Grammy Winner", "detail": "F.A.M.E. won Best R&B Album at the 54th Grammy Awards." }, "sources": ["https://en.wikipedia.org/wiki/Chris_Brown_discography", "https://en.wikipedia.org/wiki/F.A.M.E._(Chris_Brown_album)"] },
+    "37d1e786-6909-42f7-8d5e-6bef3b1fcb80": { "riaa": "RIAA 2× Platinum", "grammy": { "status": "Grammy Nominated", "detail": "Fortune was nominated for Best Urban Contemporary Album at the 55th Grammy Awards." }, "sources": ["https://en.wikipedia.org/wiki/Chris_Brown_discography", "https://en.wikipedia.org/wiki/Fortune_(Chris_Brown_album)"] },
+    "368e32fa-15c5-4492-b5be-e64e12ba43b0": { "riaa": "RIAA 5× Platinum", "sources": ["https://en.wikipedia.org/wiki/Rake_It_Up"] },
+    "f8eede8c-e87c-47b6-9d2c-85c263aa13ca": { "riaa": "RIAA Platinum", "sources": ["https://en.wikipedia.org/wiki/Swish_Swish"] },
+    "d5716ff9-e5b1-434f-9e87-627a0b29a58f": { "riaa": "RIAA Platinum", "grammy": { "status": "Grammy Winner", "detail": "F.A.M.E. won Best R&B Album at the 54th Grammy Awards." }, "sources": ["https://en.wikipedia.org/wiki/Chris_Brown_discography", "https://en.wikipedia.org/wiki/F.A.M.E._(Chris_Brown_album)"] },
+    "821ff191-89a8-4e06-ae6f-d1aa5f1365c4": { "riaa": "RIAA 3× Platinum", "grammy": { "status": "Grammy Nominated", "detail": "Fortune was nominated for Best Urban Contemporary Album at the 55th Grammy Awards." }, "sources": ["https://en.wikipedia.org/wiki/Chris_Brown_discography", "https://en.wikipedia.org/wiki/Fortune_(Chris_Brown_album)"] },
+    "bfac6728-25a4-41ad-b94d-ce720512d1f9": { "riaa": "RIAA Gold", "sources": ["https://en.wikipedia.org/wiki/Chris_Brown_discography"] },
+    "ed196f8e-14ee-4daa-976c-32059f089609": { "riaa": "RIAA Gold", "grammy": { "status": "Grammy Winner", "detail": "F.A.M.E. won Best R&B Album at the 54th Grammy Awards." }, "sources": ["https://en.wikipedia.org/wiki/Chris_Brown_discography", "https://en.wikipedia.org/wiki/F.A.M.E._(Chris_Brown_album)"] }
+  }
+}

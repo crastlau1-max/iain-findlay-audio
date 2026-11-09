@@ -1,0 +1,4 @@
+{
+  "note": "Set a cover by hand for any credit. Key is the Muso track id (the id at the end of its muso.ai/track/... link). Value is an image URL or a file you put in public/covers/, e.g. \"/covers/look-at-me-now.jpg\". These always win over Deezer and Apple.",
+  "byTrack": {}
+}

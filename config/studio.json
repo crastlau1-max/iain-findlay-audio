@@ -1,0 +1,100 @@
+{
+  "engineer": "Iain Findlay",
+  "city": "Los Angeles",
+  "musoProfileId": "fb595b26-5c7a-422a-8e1a-fac8ca9971e2",
+  "musoProfileUrl": "https://muso.ai/profile/fb595b26-5c7a-422a-8e1a-fac8ca9971e2/credits?sort=popularity&direction=DESC&page=1",
+  "soundbetterUrl": "https://soundbetter.com/profiles/57541-iain-findlay",
+  "twitchChannel": "alrightiain",
+  "heroImage": "/assets/studio-room.jpg",
+  "currency": "usd",
+  "services": [
+    {
+      "id": "mixing",
+      "name": "Mixing",
+      "unit": "song",
+      "rateLabel": "[$RATE / song]",
+      "rateCents": null,
+      "summary": "Your session balanced, shaped and printed by hand, with two rounds of revisions."
+    },
+    {
+      "id": "mastering",
+      "name": "Mastering",
+      "unit": "song",
+      "rateLabel": "[$RATE / song]",
+      "rateCents": null,
+      "summary": "Stereo or stem mastering for streaming, club and radio playback."
+    },
+    {
+      "id": "production",
+      "name": "Production",
+      "unit": "song",
+      "rateLabel": "[$RATE / song]",
+      "rateCents": null,
+      "summary": "Additional instrumentation, arrangement and sound design on top of your record."
+    }
+  ],
+  "includedDeliverables": [
+    "Full Mix / Master",
+    "Instrumental Pass",
+    "Acapella Pass",
+    "TV Track",
+    "Multitrack Mix Stems"
+  ],
+  "addOns": [
+    {
+      "id": "live_drums",
+      "name": "Live Drum Recording",
+      "unit": "session",
+      "rateLabel": "[$RATE / session]",
+      "rateCents": null,
+      "summary": "A live acoustic kit tracked with a full multi mic setup."
+    }
+  ],
+  "payment": {
+    "depositPercent": 50,
+    "options": [
+      {
+        "id": "deposit",
+        "label": "50% deposit",
+        "detail": "Balance due once you approve the final mix, before the uncompressed master is released."
+      },
+      {
+        "id": "full",
+        "label": "Pay in full",
+        "detail": "One payment now. Deliverables release as soon as you approve."
+      }
+    ]
+  },
+  "intake": {
+    "dropboxUrl": "[DROPBOX_FILE_REQUEST_URL]",
+    "guidelines": [
+      "24-bit WAV at the session's native sample rate",
+      "Every stem consolidated from bar 1 beat 1 so they line up on import",
+      "Master bus limiters, clippers and bus compression switched off",
+      "Label stems clearly and include the tempo and key in the folder name",
+      "Include a rough mix or reference bounce so I can hear where you are going"
+    ]
+  },
+  "loyalty": {
+    "bookingsRequired": 10,
+    "windowDays": 30,
+    "projectLimit": 3,
+    "discountPercent": 25
+  },
+  "featuredArtists": [
+    "Chris Brown",
+    "Kid Cudi",
+    "Calvin Harris",
+    "Ariana Grande",
+    "Katy Perry",
+    "Nicki Minaj",
+    "Kelly Clarkson",
+    "Justin Bieber",
+    "Yo Gotti",
+    "Oliver Tree",
+    "Ty Dolla $ign",
+    "N.E.R.D",
+    "DJ Khaled",
+    "Ciara"
+  ]
+}

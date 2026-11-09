@@ -1,0 +1,170 @@
+{
+  "clients": {
+    "artist@example.com": {
+      "email": "artist@example.com",
+      "name": "Test Artist",
+      "notes": "",
+      "createdAt": "2026-11-05T02:45:34.022Z",
+      "cardToken": "cKY12W7ja_0W_5CdBQl_ymjf",
+      "sessions": [
+        {
+          "id": "ses_e9449dcfdc57",
+          "date": "2026-10-01",
+          "title": "SB 0",
+          "source": "soundbetter",
+          "amountCents": null,
+          "counts": true,
+          "bookingId": null,
+          "usedLockId": null,
+          "addedAt": "2026-11-05T02:45:34.027Z"
+        },
+        {
+          "id": "ses_9ce6385bb190",
+          "date": "2026-10-01",
+          "title": "SB 1",
+          "source": "soundbetter",
+          "amountCents": null,
+          "counts": true,
+          "bookingId": null,
+          "usedLockId": null,
+          "addedAt": "2026-11-05T02:45:34.028Z"
+        },
+        {
+          "id": "ses_a763936bbcfa",
+          "date": "2026-10-01",
+          "title": "SB 2",
+          "source": "soundbetter",
+          "amountCents": null,
+          "counts": true,
+          "bookingId": null,
+          "usedLockId": null,
+          "addedAt": "2026-11-05T02:45:34.034Z"
+        },
+        {
+          "id": "ses_9bdfba9ecc2c",
+          "date": "2026-10-01",
+          "title": "SB 3",
+          "source": "soundbetter",
+          "amountCents": null,
+          "counts": true,
+          "bookingId": null,
+          "usedLockId": null,
+          "addedAt": "2026-11-05T02:45:34.036Z"
+        },
+        {
+          "id": "ses_f88822632e4a",
+          "date": "2026-10-01",
+          "title": "SB 4",
+          "source": "soundbetter",
+          "amountCents": null,
+          "counts": true,
+          "bookingId": null,
+          "usedLockId": null,
+          "addedAt": "2026-11-05T02:45:34.037Z"
+        },
+        {
+          "id": "ses_a3debf17be99",
+          "date": "2026-11-05",
+          "title": "Not counted",
+          "source": "manual",
+          "amountCents": null,
+          "counts": false,
+          "bookingId": null,
+          "usedLockId": null,
+          "addedAt": "2026-11-05T02:45:34.038Z"
+        },
+        {
+          "id": "ses_265447be5c17",
+          "date": "2026-11-05",
+          "title": "Song 0",
+          "source": "direct",
+          "amountCents": 60000,
+          "counts": true,
+          "bookingId": "bk0",
+          "usedLockId": null,
+          "addedAt": "2026-11-05T02:45:34.039Z"
+        },
+        {
+          "id": "ses_d652fd05cfce",
+          "date": "2026-11-05",
+          "title": "Song 1",
+          "source": "direct",
+          "amountCents": 60000,
+          "counts": true,
+          "bookingId": "bk1",
+          "usedLockId": null,
+          "addedAt": "2026-11-05T02:45:34.041Z"
+        },
+        {
+          "id": "ses_f6504e830a24",
+          "date": "2026-11-05",
+          "title": "Song 2",
+          "source": "direct",
+          "amountCents": 60000,
+          "counts": true,
+          "bookingId": "bk2",
+          "usedLockId": null,
+          "addedAt": "2026-11-05T02:45:34.042Z"
+        },
+        {
+          "id": "ses_06e2d5e90fcf",
+          "date": "2026-11-05",
+          "title": "Song 3",
+          "source": "direct",
+          "amountCents": 60000,
+          "counts": true,
+          "bookingId": "bk3",
+          "usedLockId": null,
+          "addedAt": "2026-11-05T02:45:34.044Z"
+        },
+        {
+          "id": "ses_2e2dc22d2f37",
+          "date": "2026-11-05",
+          "title": "Tenth",
+          "source": "soundbetter",
+          "amountCents": null,
+          "counts": true,
+          "bookingId": null,
+          "usedLockId": null,
+          "addedAt": "2026-11-05T02:45:34.047Z"
+        },
+        {
+          "id": "ses_aff21c17979c",
+          "date": "2026-11-05",
+          "title": "Session",
+          "source": "direct",
+          "amountCents": 45000,
+          "counts": true,
+          "bookingId": "bk9",
+          "usedLockId": "lock_9d8c4af955e4",
+          "addedAt": "2026-11-05T02:45:34.050Z"
+        }
+      ],
+      "rateLocks": [
+        {
+          "id": "lock_9d8c4af955e4",
+          "milestone": 1,
+          "manual": false,
+          "unlockedAt": "2026-11-05T02:45:34.047Z",
+          "expiresAt": "2026-12-05T02:45:34.047Z",
+          "total": 3,
+          "used": 1,
+          "discountPercent": 25,
+          "note": "",
+          "revokedAt": "2026-11-05T02:45:34.051Z"
+        },
+        {
+          "id": "lock_0f5a26600681",
+          "milestone": null,
+          "manual": true,
+          "unlockedAt": "2026-11-05T02:45:34.053Z",
+          "expiresAt": "2026-11-15T02:45:34.053Z",
+          "total": 1,
+          "used": 0,
+          "discountPercent": 15,
+          "note": "Granted by hand"
+        }
+      ]
+    }
+  }
+}

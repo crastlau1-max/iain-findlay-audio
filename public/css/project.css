@@ -1,0 +1,44 @@
+/* Project thread (client and admin share these) */
+.pj-main { padding-top: calc(var(--nav-h) + 32px); padding-bottom: 80px; }
+.pj-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; margin-bottom: 22px; }
+.pj-head h1 { font-family: var(--serif); font-size: clamp(36px, 4.6vw, 56px); line-height: 1; }
+.pj-head .sub { color: var(--muted); font-size: 14px; margin-top: 8px; }
+.pj-grid { display: grid; grid-template-columns: minmax(0, 1fr) 380px; gap: 20px; align-items: start; }
+@media (max-width: 1000px) { .pj-grid { grid-template-columns: 1fr; } .pj-side { order: -1; } }
+.pj-panel { border: 1px solid var(--line); border-radius: var(--r-2); background: var(--panel); box-shadow: var(--lift); }
+.pj-panel + .pj-panel { margin-top: 16px; }
+.pj-panel .ph { padding: 14px 18px; border-bottom: 1px solid var(--line); font-weight: 600; font-size: 15px; display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.pj-panel .pb { padding: 16px 18px; }
+
+.thread { display: flex; flex-direction: column; gap: 12px; padding: 18px; max-height: 62vh; overflow-y: auto; scroll-behavior: smooth; }
+.msg { max-width: 78%; padding: 11px 14px; border-radius: 10px; font-size: 15px; line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; }
+.msg .meta { font-size: 11.5px; color: var(--dim); margin-top: 6px; }
+.msg a { color: var(--gold); text-decoration: underline; text-underline-offset: 2px; }
+.msg.me { align-self: flex-end; background: rgba(212,163,89,.12); border: 1px solid rgba(212,163,89,.3); border-bottom-right-radius: 3px; }
+.msg.them { align-self: flex-start; background: var(--surface-2); border: 1px solid var(--line-2); border-bottom-left-radius: 3px; }
+.msg.sys { align-self: center; max-width: 90%; background: none; border: 0; padding: 2px 8px; font-size: 13px; color: var(--muted); text-align: center; }
+.composer { display: flex; gap: 10px; padding: 14px 18px; border-top: 1px solid var(--line); align-items: flex-end; }
+.composer textarea { flex: 1; min-height: 46px; max-height: 200px; height: 46px; padding: 12px; resize: vertical; }
+
+.status-steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.status-steps li { display: flex; gap: 10px; align-items: center; font-size: 14px; color: var(--dim); padding: 5px 0; }
+.status-steps li i { width: 10px; height: 10px; border-radius: 50%; border: 1px solid var(--line-2); flex: none; }
+.status-steps li.done { color: var(--text-2); }
+.status-steps li.done i { background: var(--gold-lo); border-color: var(--gold-lo); }
+.status-steps li.now { color: var(--text); font-weight: 600; }
+.status-steps li.now i { background: var(--gold); border-color: var(--gold); box-shadow: 0 0 0 4px rgba(212,163,89,.15); }
+
+.prop-lines { list-style: none; margin: 0; padding: 0; }
+.prop-lines li { display: flex; justify-content: space-between; gap: 12px; padding: 7px 0; border-bottom: 1px dashed var(--line); font-size: 14.5px; }
+.prop-lines li span:last-child { font-variant-numeric: tabular-nums; color: var(--text-2); white-space: nowrap; }
+.prop-lines li.disc span:last-child { color: var(--ok); }
+.prop-total { display: flex; justify-content: space-between; align-items: baseline; padding: 12px 0 4px; }
+.prop-total .v { font-family: var(--serif); font-size: 32px; }
+.prop-terms { font-size: 13.5px; color: var(--muted); margin: 8px 0 0; display: grid; gap: 3px; }
+.prop-note { margin-top: 12px; font-size: 14px; color: var(--text-2); white-space: pre-wrap; border-left: 2px solid var(--gold-lo); padding-left: 10px; }
+.pay-actions { display: grid; gap: 8px; margin-top: 14px; }
+.pay-actions .btn { width: 100%; }
+.kv2 { display: grid; grid-template-columns: auto 1fr; gap: 6px 14px; font-size: 14px; }
+.kv2 dt { color: var(--muted); }
+.kv2 dd { margin: 0; color: var(--text-2); overflow-wrap: anywhere; }
+.badge-status { display: inline-flex; height: 24px; align-items: center; padding: 0 10px; border-radius: var(--r-1); font-size: 12.5px; font-weight: 600; border: 1px solid rgba(212,163,89,.5); color: var(--gold-hi); }

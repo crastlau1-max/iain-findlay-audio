@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Admin · Iain Findlay</title>
+  <meta name="theme-color" content="#09090C">
+  <link rel="icon" href="/assets/vinyl.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/site.css">
+  <link rel="stylesheet" href="/css/admin.css">
+  <link rel="stylesheet" href="/css/project.css">
+</head>
+<body class="admin">
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="/admin"><span class="brand-name">Iain Findlay</span><span class="nav-subtitle">Studio admin</span></a>
+      <nav class="nav-links admin-tabs" aria-label="Admin" hidden>
+        <a href="#overview" data-view="overview">Overview</a>
+        <a href="#clients" data-view="clients">Clients</a>
+        <a href="#projects" data-view="projects">Projects <span id="unread-badge" class="unread" hidden></span></a>
+        <a href="#settings" data-view="settings">Settings</a>
+      </nav>
+      <div class="nav-right">
+        <a class="btn btn-sm btn-ghost" href="/" target="_blank" rel="noopener">View site</a>
+        <button id="logout" class="btn btn-sm" type="button" hidden>Sign out</button>
+      </div>
+    </div>
+  </header>
+  <nav class="admin-tabs-mobile" aria-label="Admin sections" hidden>
+    <a href="#overview" data-view="overview">Overview</a><a href="#clients" data-view="clients">Clients</a><a href="#projects" data-view="projects">Projects</a><a href="#settings" data-view="settings">Settings</a>
+  </nav>
+
+  <main class="wrap admin-main">
+    <section id="login" class="login-card" hidden>
+      <h1 class="display">Sign in</h1>
+      <p class="label" id="login-hint">Use the admin password from your .env file.</p>
+      <form id="login-form">
+        <div class="field"><label for="pw">Password</label><input id="pw" class="input" type="password" autocomplete="current-password" required></div>
+        <button class="btn btn-gold" type="submit">Sign in</button>
+        <div id="login-error" class="form-error" role="alert"></div>
+      </form>
+    </section>
+    <div id="view"></div>
+  </main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="/js/admin.js"></script>
+</body>
+</html>

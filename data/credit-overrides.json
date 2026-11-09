@@ -1,0 +1,34 @@
+{
+  "note": "Corrections applied on top of Muso.ai data at every sync. artistAliases fixes spelling and legal names, dropArtists removes non-artist tags, excludeTitlePatterns guarantees a release can never appear even if a source lists it.",
+  "artistAliases": {
+    "Kid Kudi": "Kid Cudi",
+    "Onika Maraj": "Nicki Minaj",
+    "Lil' Wayne": "Lil Wayne",
+    "Benny Benasi": "Benny Benassi",
+    "Nayvadius Wilburn": "Future",
+    "Tauheed Epps": "2 Chainz",
+    "Mark Kight": "Mark Knight",
+    "Dave on HD Accel at Audacious": "Dave Audé",
+    "USHER": "Usher"
+  },
+  "dropArtists": [
+    "Funk Wav"
+  ],
+  "excludeTitlePatterns": [
+    "\\bfat raps\\b",
+    "\\bcleveland show\\b",
+    "\\bstudio archive",
+    "\\bacapella pass\\b",
+    "\\binstrumental pass\\b",
+    "speedin'? bullet 2 heaven 2"
+  ],
+  "excludeTrackIds": [
+    "e351ddfb-da1a-4522-a955-e7262dadcbfe",
+    "00f67953-c197-44af-9265-6b6a7256a5c2",
+    "b0859b00-73b3-4a88-ad60-14bc8be45970",
+    "2ec97cec-d1e1-44fc-9dd3-51e9d647b21c",
+    "f4cd6a53-e93a-43cb-b37d-c737b40eb28e"
+  ],
+  "trackFixes": {},
+  "excludeNote": "Excluded ids are five other artists' songs that happen to share the title 'Release the Hounds' with The LaFontaines track. Muso matched them to the composer credit by title. Remove an id here to show it again."
+}

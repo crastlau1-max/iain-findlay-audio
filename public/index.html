@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Iain Findlay · Recording, Mixing and Mastering Engineer</title>
+  <meta name="description" content="Iain Findlay records, mixes and masters records in Los Angeles. Credits with Chris Brown, Kid Cudi, Calvin Harris, Ariana Grande and Katy Perry. Book direct.">
+  <meta name="theme-color" content="#09090C">
+  <link rel="icon" href="/assets/vinyl.svg" type="image/svg+xml">
+  <link rel="preload" as="font" type="font/woff2" href="/fonts/instrument-serif-latin-400-normal.woff2" crossorigin>
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="preload" as="image" href="/assets/studio-room.jpg">
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="/" aria-label="Iain Findlay home"><span class="brand-name">Iain Findlay</span><span class="nav-subtitle">Recording, mixing and mastering</span></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="/credits">Credits</a>
+      <a href="#book">Book</a>
+      <a href="#loyalty">Loyalty</a>
+      <a href="#course">Course</a>
+      <a href="#live">Studio Live</a>
+    </nav>
+    <div class="nav-right">
+      <div class="status-slot"><a id="status-pill" class="status-pill" href="https://www.twitch.tv/alrightiain" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1"><span class="dot"></span><span class="txt">Off-Air</span></a></div>
+      <a class="btn btn-gold btn-sm nav-book" href="#book">Book direct</a>
+      <button id="menu-btn" class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mobile-menu"><svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4.5h12M2 8h12M2 11.5h12"/></svg></button>
+    </div>
+  </div>
+</header>
+<nav id="mobile-menu" class="mobile-menu" aria-label="Mobile">
+  <a href="#work">Work</a><a href="/credits">Credits</a><a href="#book">Book direct</a><a href="#loyalty">Loyalty</a><a href="#course">Course</a><a href="#live">Studio Live</a>
+</nav>
+
+<main>
+  <!-- HERO: the work is the first thing you see -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-photo"><img src="/assets/studio-room.jpg" alt="" fetchpriority="high"></div>
+    <div class="hero-glow"></div>
+    <div class="wrap hero-grid">
+      <div>
+        <div class="hero-kicker"><span class="rule"></span>Recording, mixing and mastering engineer</div>
+        <h1 id="hero-title" class="display">Iain<br><em>Findlay</em></h1>
+        <p class="lede">I record, mix and master records in Los Angeles. My name is in the credits of records by Chris Brown, Kid Cudi, Calvin Harris, Ariana Grande, Katy Perry and Yo Gotti. Send me your session and I'll treat it the same way.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-gold" href="#book">Book a session</a>
+          <button id="hear-btn" class="btn" type="button"><svg class="icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M4.5 2.8v10.4c0 .5.6.8 1 .5l8-5.2a.6.6 0 000-1L5.5 2.3c-.4-.3-1 0-1 .5z"/></svg>Hear the work</button>
+        </div>
+      </div>
+      <div id="plaques" class="plaques" aria-label="Selected certified records"></div>
+    </div>
+    <div class="metrics">
+      <div class="wrap metrics-row" id="metrics"></div>
+    </div>
+  </section>
+
+  <!-- Ambient highlights marquee, directly under the metrics -->
+  <div class="marquee-band" aria-label="Certified highlights">
+    <div id="marquee" class="marquee"></div>
+  </div>
+  <div class="artist-strip" aria-label="Artists">
+    <div class="wrap"><p id="artist-strip"></p></div>
+  </div>
+
+  <!-- DISCOGRAPHY -->
+  <section id="work" class="block" aria-labelledby="work-title">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <h2 id="work-title" class="h2">Discography</h2>
+          <p class="lede">Every credit comes from my Muso.ai profile. Click any record to hear a preview.</p>
+        </div>
+        <div>
+          <p id="sync-note" class="sync-note"></p>
+          <p class="sync-note"><a href="/credits">Open the full catalog</a></p>
+        </div>
+      </div>
+      <div id="console" class="reveal"></div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section id="book" class="block" aria-labelledby="book-title" style="border-top:1px solid var(--line);background:linear-gradient(180deg,var(--bg-deep),var(--bg) 40%)">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <h2 id="book-title" class="h2">Book direct</h2>
+          <p class="lede">Tell me about your project. I'll reply with questions or a custom proposal, usually within a day. You only pay once you've accepted it, and booking here skips the marketplace fee.</p>
+        </div>
+      </div>
+
+      <form id="request-form" class="book-grid" novalidate>
+        <div>
+          <div class="step reveal">
+            <div class="step-head"><span class="step-num">1</span><div><h3 class="h3">What do you need?</h3><p>Pick one or combine them on the same project.</p></div></div>
+            <div id="svc-grid" class="choice-grid"></div>
+            <div class="inline-row" style="margin-top:18px">
+              <div><div class="h3" style="font-size:15px">Songs</div><div class="label">How many songs are in this project?</div></div>
+              <div id="songs-slot"></div>
+            </div>
+            <div id="addon-wrap" style="margin-top:16px"></div>
+          </div>
+
+          <div class="step reveal">
+            <div class="step-head"><span class="step-num">2</span><div><h3 class="h3">Tell me about it</h3><p>The more I know, the more accurate the proposal.</p></div></div>
+            <div class="form-grid">
+              <div class="field full"><label for="r-title">Project or song title</label><input id="r-title" class="input" name="title" maxlength="160"></div>
+              <div class="field full"><label for="r-desc">What are you going for?</label><textarea id="r-desc" class="input" name="description" required maxlength="4000" placeholder="Genre, the sound you want, what's recorded so far, anything I should know"></textarea></div>
+              <div class="field full"><label for="r-refs">References</label><input id="r-refs" class="input" name="references" maxlength="1000" placeholder="Links to songs that sound the way you want"></div>
+              <div class="field"><label for="r-deadline">Deadline</label><input id="r-deadline" class="input" name="deadline" type="date"></div>
+              <div class="field"><label for="r-budget">Budget</label><input id="r-budget" class="input" name="budget" maxlength="60" placeholder="Optional"></div>
+            </div>
+          </div>
+
+          <div class="step reveal">
+            <div class="step-head"><span class="step-num">3</span><div><h3 class="h3">Your details</h3><p>Your private project link and my replies go to this email.</p></div></div>
+            <div class="form-grid">
+              <div class="field"><label for="r-name">Name</label><input id="r-name" class="input" name="name" autocomplete="name"></div>
+              <div class="field"><label for="r-email">Email</label><input id="r-email" class="input" name="email" type="email" autocomplete="email" required></div>
+              <div class="field full"><label for="r-artist">Artist name</label><input id="r-artist" class="input" name="artist"></div>
+              <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px">
+            </div>
+          </div>
+        </div>
+
+        <aside class="summary" aria-label="How booking works">
+          <div class="summary-head"><h3 class="h3">How it works</h3></div>
+          <div class="summary-body">
+            <ol class="how">
+              <li><strong>Send your request.</strong> It takes two minutes.</li>
+              <li><strong>We talk it through.</strong> Questions and files go in your private project thread.</li>
+              <li><strong>I send a proposal.</strong> A price for your exact project, with delivery time and revisions.</li>
+              <li><strong>Accept and pay.</strong> A deposit or the full amount, through Stripe. The balance is due when you approve the final mix.</li>
+            </ol>
+            <div id="rates-box"></div>
+            <div class="included" style="border-top:0;padding-top:4px;margin-top:6px"><div class="h3" style="font-size:14px">Included with every project</div><ul id="included-list"></ul></div>
+          </div>
+          <div class="summary-foot">
+            <button id="request-btn" class="btn btn-gold" type="submit">Send request</button>
+            <div class="secure-note">Free to ask. You pay only after accepting a proposal.</div>
+            <div id="form-error" class="form-error" role="alert"></div>
+          </div>
+          <div class="sb-fallback"><span>Rather use SoundBetter?</span><a data-soundbetter href="https://soundbetter.com/profiles/57541-iain-findlay" target="_blank" rel="noopener">Book on SoundBetter</a></div>
+        </aside>
+      </form>
+    </div>
+  </section>
+
+  <!-- LOYALTY -->
+  <section id="loyalty" class="block" aria-labelledby="loyalty-title" style="border-top:1px solid var(--line)">
+    <div class="wrap loyalty-grid">
+      <div class="reveal">
+        <div id="punchcard" class="punchcard" aria-label="Ten booking punch card">
+          <div class="pc-top">
+            <div><div class="pc-title">Iain Findlay</div><div class="pc-sub">Direct client card</div></div>
+            <div class="pc-mark">Rate lock</div>
+          </div>
+          <div class="punches">
+            <span class="punch">1</span><span class="punch">2</span><span class="punch">3</span><span class="punch">4</span><span class="punch">5</span>
+            <span class="punch">6</span><span class="punch">7</span><span class="punch">8</span><span class="punch">9</span><span class="punch reward"><span data-loy="discountPercent">25</span>%</span>
+          </div>
+          <div class="pc-bottom"><span><span data-loy-words="bookingsRequired">Ten</span> paid bookings unlock <strong><span data-loy="windowDays">30</span> days</strong> at <strong><span data-loy="discountPercent">25</span>% off</strong></span><span>Up to <span data-loy="projectLimit">3</span> projects</span></div>
+        </div>
+      </div>
+      <div class="reveal">
+        <h2 id="loyalty-title" class="h2"><span data-loy-words="bookingsRequired" data-cap>Ten</span> bookings,<br><span class="italic gold">then <span data-loy="discountPercent">25</span>% off</span></h2>
+        <ul class="mechanic">
+          <li><span class="n" data-loy="bookingsRequired">10</span><div><div class="h3">Complete <span data-loy-words="bookingsRequired">ten</span> paid bookings</div><p>Every project booked and paid here counts automatically. Sessions booked with me on SoundBetter count too.</p></div></li>
+          <li><span class="n" data-loy="windowDays">30</span><div><div class="h3">Your rate locks for <span data-loy="windowDays">30</span> days</div><p>The window opens the day your final punch is paid in full.</p></div></li>
+          <li><span class="n" data-loy="projectLimit">3</span><div><div class="h3">Up to <span data-loy="projectLimit">3</span> projects at <span data-loy="discountPercent">25</span>% off</div><p>Use them on any services inside the window. Unused slots expire.</p></div></li>
+        </ul>
+        <p class="fine">Nothing to sign up for. Your history is matched privately to your billing email at checkout and the discount applies on its own. Ask me for your private card link to check your progress any time. Personal to you and not transferable. <a href="/terms#loyalty">Program terms</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSE -->
+  <section id="course" class="block" aria-labelledby="course-title" style="border-top:1px solid var(--line)">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <h2 id="course-title" class="h2">Recording<br><span class="italic gold">engineering course</span></h2>
+          <p class="lede">A three-day, hands-on course taught by me at Glenwood Place Studios in Burbank, CA. The class is kept small, with 8–10 students.</p>
+        </div>
+      </div>
+
+      <div class="book-grid">
+        <div class="reveal">
+          <ul class="mechanic" style="margin-top:0">
+            <li><span class="n">1</span><div><div class="h3">Day one</div><p>Signal flow, console, patchbay, and microphones.</p></div></li>
+            <li><span class="n">2</span><div><div class="h3">Day two</div><p>Live tracking session and gain staging.</p></div></li>
+            <li><span class="n">3</span><div><div class="h3">Day three</div><p>Editing, mixing, and the business side of engineering.</p></div></li>
+          </ul>
+          <p class="fine">Students may not record the course. Phones are collected during sessions.</p>
+        </div>
+
+        <aside class="summary reveal" aria-label="Course details">
+          <div class="summary-head"><h3 class="h3">Course details</h3></div>
+          <div class="summary-body">
+            <ul class="sum-lines">
+              <li><span>Length</span><span>3 days, hands-on</span></li>
+              <li><span>Location</span><span>Glenwood Place Studios, Burbank, CA</span></li>
+              <li><span>Class size</span><span>8–10 students</span></li>
+            </ul>
+            <div class="sum-total"><span>Price</span><span class="v">$1,500</span></div>
+            <div class="sum-due"><span>Per student</span></div>
+          </div>
+          <div class="summary-foot">
+            <a class="btn btn-gold" href="#book" data-course-inquiry>Inquire about enrollment</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- STUDIO LIVE -->
+  <section id="live" class="block" aria-labelledby="live-title" style="border-top:1px solid var(--line)">
+    <div class="wrap live-grid">
+      <div class="reveal">
+        <h2 id="live-title" class="h2">Studio Live</h2>
+        <p class="lede" style="margin-top:14px">Some nights I stream mix sessions from the room on Twitch. You get to hear decisions get made in real time, and you can ask questions in chat.</p>
+        <p style="margin-top:24px"><a class="btn" href="https://www.twitch.tv/alrightiain" target="_blank" rel="noopener">Follow on Twitch <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3H3.5v9.5H13V10M9 3h4v4M13 3L7.5 8.5"/></svg></a></p>
+      </div>
+      <div class="reveal">
+        <div id="live-screen" class="screen">
+          
+        </div>
+        <div class="live-meta">
+          <span id="live-meta-text" class="label">twitch.tv/alrightiain</span>
+          <label id="sim-wrap" class="switch" hidden title="Testing only, shown with ?demo in the address"><input id="sim-toggle" type="checkbox"><span class="track"></span>Preview live state</label>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-row">
+    <div><span class="brand-name">Iain Findlay</span><div style="margin-top:6px">Recording, mixing and mastering engineer, Los Angeles</div></div>
+    <nav aria-label="Footer">
+      <a href="/credits">Credits</a>
+      <a href="https://muso.ai/profile/fb595b26-5c7a-422a-8e1a-fac8ca9971e2" target="_blank" rel="noopener">Muso.ai</a>
+      <a data-soundbetter href="https://soundbetter.com/profiles/57541-iain-findlay" target="_blank" rel="noopener">SoundBetter</a>
+      <a href="https://www.twitch.tv/alrightiain" target="_blank" rel="noopener">Twitch</a>
+      <a href="/terms">Terms</a>
+    </nav>
+  </div>
+</footer>
+
+<a id="mobile-book" class="mobile-book" href="#book" aria-hidden="true" tabindex="-1"><span>Book a session direct</span><strong>Book</strong></a>
+
+
+
+<script type="module" src="/js/home.js"></script>
+</body>
+</html>

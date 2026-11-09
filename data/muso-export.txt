@@ -1,0 +1,261 @@
+# Iain Findlay's Muso.ai credits, read from the public profile pages (sort: popularity, descending).
+# Captured 2026-11-05. One credit per line: muso track id | title | artists... | release date | roles... | IMG:cover
+# IMG is a Spotify cover hash (https://i.scdn.co/image/ab67616d0000b273 + hash) or a full image URL.
+# Rebuild data/muso-snapshot.json from this file with: npm run import:muso
+638eb1e3-ff6d-4959-8066-1f0a9a23a15d|Feels (feat. Pharrell Williams, Katy Perry & Big Sean)|Calvin Harris,|Pharrell Williams,|Katy Perry,|Big Sean,|Funk Wav|Jun 30, 2017|Assistant Engineer|IMG:4d3fa5ce7ba599f4fd7803ef
+a0552c42-7bea-4810-b761-05f32ad6f0fa|Look At Me Now (feat. Lil' Wayne & Busta Rhymes)|Chris Brown,|Lil Wayne,|Busta Rhymes|Mar 22, 2011|Assistant Engineer|IMG:0a1d20ec09cab4bb17a36aab
+38ea1261-9429-4550-9ef8-bf56efa185a1|Wet The Bed (feat. Ludacris)|Chris Brown,|Ludacris|Mar 22, 2011|Assistant Engineer|IMG:0a1d20ec09cab4bb17a36aab
+1add89ac-4484-4c4e-ae9a-69995abb364f|Don't Judge Me|Chris Brown|Jul 3, 2012|Assistant Engineer|IMG:781583ade2f00c2966a35965
+2707b34d-c2a6-4192-870a-1aec992490f2|AT THE PARTY (feat. Pharrell Williams & Travis Scott)|Kid Cudi,|Pharrell Williams,|Travis Scott|Jan 12, 2024|Engineer|IMG:bbf99eb282ff165289120b1e
+98c29935-93f6-4559-91f3-dcd5a3948482|REAL ONES NEVER DIE|Kid Kudi|Mar 19, 2026|Mastering|Engineer|IMG:eedc04a9294e9fedb40432ec
+2751a823-3a2e-407e-85d1-dd8f8749dfd4|Just What I Am|Kid Cudi,|King Chip|Apr 12, 2013|Mixing|Engineer|IMG:b9ab5cc935d2327a7d2bc629
+b72fb294-6568-457c-a837-d2f3be6f4bf1|sweetener|Ariana Grande|Aug 17, 2018|Assistant Engineer|Engineer|IMG:c3af0c2355c24ed7023cd394
+bee5ac6f-0b39-4e56-87fa-bac7d644b731|love.|Kid Cudi|Jul 8, 2022|Mixing|Engineer|IMG:ef3b5a279ee075749b67e0a7
+c41a72e2-6b6f-4df7-8828-b4b9d01eb32e|She Ain't You|Chris Brown|Mar 22, 2011|Assistant Engineer|IMG:0a1d20ec09cab4bb17a36aab
+37d1e786-6909-42f7-8d5e-6bef3b1fcb80|Turn Up the Music|Chris Brown|Jul 3, 2012|Assistant Engineer|IMG:781583ade2f00c2966a35965
+368e32fa-15c5-4492-b5be-e64e12ba43b0|Rake It Up (feat. Nicki Minaj)|Yo Gotti,|Onika Maraj|Oct 27, 2017|Assistant Engineer|IMG:2cc72b6f465812679b803638
+f8eede8c-e87c-47b6-9d2c-85c263aa13ca|Swish Swish|Katy Perry,|Onika Maraj|Jun 9, 2017|Assistant Engineer|Engineer|IMG:cce6bab1f59b165133175d88
+df61d1d3-38a2-4588-b093-978923dfec1b|Alien Boy|Oliver Tree|Jul 17, 2020|Engineer|IMG:bf5af474b6ed745faf53f508
+d5716ff9-e5b1-434f-9e87-627a0b29a58f|Beautiful People|Chris Brown,|Benny Benassi|Mar 22, 2011|Assistant Engineer|IMG:0a1d20ec09cab4bb17a36aab
+1cd169e9-af07-4eed-9876-654e9a272917|GET OFF ME (with Travis Scott)|Kid Cudi,|Travis Scott|Jan 12, 2024|Engineer|IMG:bbf99eb282ff165289120b1e
+fb5dc618-88d1-4a62-b6fa-831e88e7353c|DROWN|Kid Kudi|Mar 19, 2026|Mastering|Engineer|IMG:eedc04a9294e9fedb40432ec
+08f1e17a-338e-41d0-af8f-f4f433971fe7|BLUE SKY|Kid Cudi|Jan 12, 2024|Engineer|IMG:bbf99eb282ff165289120b1e
+645ea636-d785-422b-99e9-75911752c122|HALOS ON ANGELS|Kid Kudi|Mar 19, 2026|Mastering|Engineer|IMG:eedc04a9294e9fedb40432ec
+821ff191-89a8-4e06-ae6f-d1aa5f1365c4|Don't Wake Me Up|Chris Brown|Jul 3, 2012|Assistant Engineer|IMG:781583ade2f00c2966a35965
+bfac6728-25a4-41ad-b94d-ce720512d1f9|Beg For It|Chris Brown|Mar 22, 2011|Assistant Engineer|IMG:0a1d20ec09cab4bb17a36aab
+db079759-bf5b-4d9b-a8d1-2fda7337c0ed|Rake It Up - Diplo & Party Favor Remix|Yo Gotti,|Diplo,|Party Favor,|Onika Maraj|Oct 26, 2017|Assistant Engineer|IMG:ccb8c3d258935e9447b9aca4
+a5dcf955-df19-44ca-a60c-bf0c8bca8b87|RIDE RIDE|Kid Kudi|Mar 19, 2026|Mastering|Engineer|IMG:eedc04a9294e9fedb40432ec
+c903dcd6-b8d0-4346-9f2c-1768e00fa53a|'97|Sevyn Streeter|Dec 19, 2025|Engineer|IMG:54af704660da237389843021
+ed196f8e-14ee-4daa-976c-32059f089609|Should've Kissed You|Chris Brown|Mar 22, 2011|Assistant Engineer|IMG:0a1d20ec09cab4bb17a36aab
+f2cfea5c-93bb-40b4-9c75-9d7a66aba4f6|King Wizard|Kid Cudi|Apr 12, 2013|Mixing|Engineer|IMG:b9ab5cc935d2327a7d2bc629
+39c54b99-4765-46c5-8faa-1f6096bfdecb|Christmas Eve|Justin Bieber|Jan 1, 2011|Assistant Engineer|Engineer|IMG:af0aff7f601df9ed6d2d531d
+3c06c170-2044-423b-af95-556706f17695|Immortal|Kid Kudi|Apr 12, 2013|Mixing|Engineer|IMG:b9ab5cc935d2327a7d2bc629
+7763f4c3-db7f-4892-8434-62b7a59efbb9|ELECTROWAVEBABY|Kid Cudi|Jan 12, 2024|Engineer|IMG:bbf99eb282ff165289120b1e
+f88c91e1-5d7e-4ae9-8a47-f2ddf6e9acb2|The Void|Kid Cudi|Dec 11, 2020|Engineer|IMG:6ff25c2481eeaf6e7284d461
+f8c2e6d2-ecbe-46c3-a87d-665d0296d677|Sir (feat. Future)|Nicki Minaj,|Future|Aug 10, 2018|Assistant Engineer|Engineer|IMG:540ab7c149079184e8724dc4
+4e01e3a9-f2f5-46af-8c94-cbc88854b1fa|Unfuckwittable|Kid Cudi|Apr 12, 2013|Mixing|Engineer|IMG:b9ab5cc935d2327a7d2bc629
+12abda38-3ea7-42f6-b216-497c470a5b7f|Brothers|Kid Kudi,|King Chip,|A$AP Rocky|Apr 12, 2013|Mixing|Engineer|IMG:b9ab5cc935d2327a7d2bc629
+6be63fa8-db94-4ea5-83e9-f4686d79f85c|Love So Soft|Kelly Clarkson|Oct 27, 2017|Assistant Engineer|IMG:1b808f1c7fff4f3e81f79523
+7ac9b30d-f6ae-4774-a55a-7a988029fdc9|Girls|Kid Kudi,|Too $hort|Apr 12, 2013|Mixing|Engineer|IMG:b9ab5cc935d2327a7d2bc629
+bc476e0f-cc6e-4125-8369-d9450bf45f40|2012|Chris Brown|Jul 3, 2012|Assistant Engineer|IMG:781583ade2f00c2966a35965
+2e3d0add-6fe9-4428-9987-880d8bdf33a7|Heat|Kelly Clarkson|Oct 27, 2017|Engineer|IMG:1b808f1c7fff4f3e81f79523
+367d2e21-0c58-4153-81fd-267949c8f666|Red Eye|Kid Kudi,|HAIM|Apr 12, 2013|Mixing|Engineer|IMG:b9ab5cc935d2327a7d2bc629
+b550f624-efbd-4a0c-a0c5-b3a3108cf980|My Drug|Kid Cudi|Jan 1, 2022|Engineer|IMG:71cecf4c653a4bad539da13d
+1656a890-4cb4-4753-a44f-aa662a3aba5e|Young Lady|Kid Kudi,|Father John Misty|Apr 12, 2013|Mixing|Engineer|IMG:b9ab5cc935d2327a7d2bc629
+45355c53-9957-4313-9341-387948660a2a|Come Alive (with Years & Years and Jess Glynne)|Olly Alexander (Years & Years),|Jess Glynne|Nov 16, 2018|Engineer|IMG:828789ff08a16218b2ea9445
+6608ea63-02bf-492a-b10e-a856bcdeb90f|Hard White|Nicki Minaj|Aug 10, 2018|Assistant Engineer|Engineer|IMG:540ab7c149079184e8724dc4
+6ff2c7e9-9505-46da-95f3-8eab09b90181|PORSCHE TOPLESS|Kid Cudi|Jan 12, 2024|Engineer|IMG:820f2a56e4a57cc9a94672a8
+9044dfde-0fd7-4111-ad48-d65f17f78e81|Oh My Love|Chris Brown|Mar 22, 2011|Assistant Engineer|IMG:0a1d20ec09cab4bb17a36aab
+db807d13-33dd-4b57-a8dd-e9f5af03df73|Creepers|Kid Kudi|Jan 1, 2012|Engineer|IMG:3a2d2b9621ef645380c63c16
+e507d0c3-17c1-4e70-ae1a-8ac65cb25753|Too Bad I Have To Destroy You Now|Kid Cudi|Feb 25, 2014|Mixing|Engineer|IMG:7c0f6a5c2fa4cd12049aff7e
+2e624225-178f-48f9-bb86-709c847fe184|Till I Die (feat. Big Sean & Wiz Khalifa)|Chris Brown,|Big Sean,|Wiz Khalifa|Jul 3, 2012|Assistant Engineer|IMG:781583ade2f00c2966a35965
+66349e32-b715-43c8-9a89-93e8e6dcabf8|Elsie's Baby Boy (flashback)|Kid Cudi|Dec 11, 2020|Engineer|IMG:6ff25c2481eeaf6e7284d461
+74c184f8-1f96-4b84-8471-0ed06a1c7905|TOO DAMN HIGH (with Lil Yachty)|Kid Cudi,|Lil Yachty|Jan 12, 2024|Engineer|IMG:820f2a56e4a57cc9a94672a8
+91f9b4f8-614b-48ac-9fcf-c6ea021e34bd|Solo Dolo Part II|Kid Kudi,|Kendrick Lamar|Apr 12, 2013|Mixing|Engineer|IMG:b9ab5cc935d2327a7d2bc629
+a2ba77b0-bc63-42c9-93d7-ad6fc36b8859|FUNKY WIZARD SMOKE|Kid Cudi|Jan 12, 2024|Engineer|IMG:bbf99eb282ff165289120b1e
+e25390b9-c73b-4b4d-a1f4-fbf23a609232|BRB (feat. Pink Sweat$)|Mahalia,|David Bowden|Jul 24, 2020|Engineer|IMG:5946040bf783f65b8e4bc40e
+ed60de10-f971-48bf-ad21-79ba95bcedf8|Swish Swish - Valentino Khan Remix|Katy Perry,|Onika Maraj,|Valentino Khan|Jun 30, 2017|Assistant Engineer|IMG:eca29401e5fccbab49c7a48b
+1cfdd824-2853-4e08-aa63-e978bd870ad8|CUD LIFE|Kid Cudi|Jan 12, 2024|Engineer|IMG:820f2a56e4a57cc9a94672a8
+318d9dc1-7480-4457-a568-39b7c7b01f75|Mirage (feat. Nas)|Chris Brown,|Nas|Jul 3, 2012|Assistant Engineer|IMG:781583ade2f00c2966a35965
+7ead4190-e798-43b9-bdef-280c98eadd3c|Echoes of the Present|Kid Cudi|Aug 22, 2025|Engineer|IMG:81ca213ab5e53fee61517fdf
+d1520154-63b7-4d99-950b-ed1fb817e55a|I Can't Even Lie (feat. Future & Nicki Minaj)|DJ Khaled,|Nayvadius Wilburn,|Onika Maraj|Jun 22, 2017|Assistant Engineer|IMG:7a993075e27042a11896b8fb
+e2570a4e-f556-43ff-9fa5-3c88eee3c0fb|OFTEN, I HAVE THESE DREAMZ (with DJ Drama)|Kid Cudi,|DJ Drama|Jan 12, 2024|Engineer|IMG:bbf99eb282ff165289120b1e
+535c44bf-7552-4f50-84ef-bfa22514baef|Biggest Fan|Chris Brown|Jul 3, 2012|Assistant Engineer|IMG:781583ade2f00c2966a35965
+7864efa3-b6b0-44e4-a0d0-3450718cc630|KEEP BOUNCIN’|Kid Cudi|Jan 12, 2024|Engineer|IMG:820f2a56e4a57cc9a94672a8
+d637b9a0-caf1-4d4a-ac53-4b1e5d246785|4 Years Old|Chris Brown|Jul 3, 2012|Assistant Engineer|IMG:781583ade2f00c2966a35965
+d86cd3b9-6a68-4ccf-88e4-b053a24739a3|Mad Solar|Kid Kudi|Apr 12, 2013|Mixing|Engineer|IMG:b9ab5cc935d2327a7d2bc629
+0438c696-5590-4b2e-bf49-9cc7b3d7ac89|Champion|Brian Collins|Aug 23, 2019|Engineer|IMG:e5a08d644234d40ead2d77b1
+485880a2-6354-407a-970f-cd29da30b2a8|Stuck On Stupid|Chris Brown|Jul 3, 2012|Assistant Engineer|IMG:781583ade2f00c2966a35965
+62f40864-8777-4580-ac4a-050b2e7ab89d|GETCHA GONE|Kid Cudi|Jan 12, 2024|Engineer|IMG:820f2a56e4a57cc9a94672a8
+8be5b60d-5748-4cca-8eb4-f8886d61cfc9|Beez|Kid Kudi,|RZA|Apr 12, 2013|Mixing|Engineer|IMG:b9ab5cc935d2327a7d2bc629
+8d619ab9-14dd-4b68-8d7d-6223405389ee|Still|Maxo Kream|Jul 19, 2019|Engineer|IMG:697aed8a8b300b7e5818e6e3
+8f3868b7-3171-4773-9109-4cce2d0782a3|New York City Rage Fest|Kid Kudi|Apr 12, 2013|Mixing|Engineer|IMG:b9ab5cc935d2327a7d2bc629
+abe69099-3a27-4aaa-b515-cd2137d9f768|End Up|Sevyn Streeter|Sep 17, 2021|Engineer|IMG:603147ba60a721627e429c68
+41d3ab18-4d9e-49e1-be10-c2303c3af478|Cold Blooded|Kid Kudi|Apr 12, 2013|Mixing|Engineer|IMG:b9ab5cc935d2327a7d2bc629
+53f27cf2-5926-4c78-a1de-c8b90111f0ed|MOST AIN’T DENNIS|Kid Cudi|Jan 12, 2024|Engineer|IMG:820f2a56e4a57cc9a94672a8
+7d926a26-cd92-4ef0-88d3-5dc9ffb3b91e|SATELLITE FLIGHT|Kid Kudi|Feb 25, 2014|Mixing|Engineer|IMG:7c0f6a5c2fa4cd12049aff7e
+7f8a9f09-c54e-4643-ae20-3ce4acd30b79|Tomahawk|Brian Collins|Dec 14, 2018|Engineer|IMG:65477951f2d26c2385421d52
+ad080312-27b3-4386-9794-8c0c451e08cb|MR. COOLA|Kid Cudi|Jan 12, 2024|Engineer|IMG:820f2a56e4a57cc9a94672a8
+28037939-d804-4a36-ae2c-441ffd56ff37|Bassline|Chris Brown|Jul 3, 2012|Assistant Engineer|IMG:781583ade2f00c2966a35965
+a074bec8-9215-423b-888f-43770247736c|Burn Baby Burn|Kid Kudi|Apr 12, 2013|Mixing|Engineer|IMG:b9ab5cc935d2327a7d2bc629
+0a4c7380-8b87-40c6-aff5-61bf7257aeea|Pretty Little Gangster|Ella Isaacson|May 20, 2015|Composer|Lyricist|Producer|IMG:a7d13677a3433f7e395845d8
+0b61e1c7-939b-4415-91e0-2d4b4353a7a8|HEAVEN'S GALAXY|Kid Kudi|Oct 12, 2023|Engineer|IMG:c6680f3228175545ee9d2c26
+36661f11-5b80-4b9d-bfd1-17c7dac1c737|Afterwards (Bring Yo Friends)|Kid Kudi,|Michael Bolton,|King Chip|Apr 12, 2013|Mixing|Engineer|IMG:b9ab5cc935d2327a7d2bc629
+0866b78d-b46c-44b1-b329-d92097d8f259|Touch Me (feat. Sevyn)|Chris Brown,|Sevyn|Jul 3, 2012|Assistant Engineer|IMG:781583ade2f00c2966a35965
+10ec8b62-90e4-4d81-80b2-84e3fe0a5828|Wait For You|Chris Brown|Jul 3, 2012|Assistant Engineer|IMG:781583ade2f00c2966a35965
+7ff343fc-964d-4db1-879b-6164d362962b|Embers|Kid Kudi|Dec 4, 2015|Mixing|Engineer|IMG:a4ea8c76f78b72ce3bda7625
+83f96e96-95ae-4a57-b7f8-a57a978114b4|Stare (feat. Pharrell Williams & Wiz Khalifa)|Ty Dolla $ign,|Pharrell Williams,|Wiz Khalifa|Oct 27, 2017|Engineer|IMG:56f796c9039f52e90d015b4d
+aadc8578-8201-4615-9766-dc107ba8a33c|Internal Bleeding|Kid Kudi|Feb 25, 2014|Mixing|Engineer|IMG:7c0f6a5c2fa4cd12049aff7e
+be8ade55-0edc-4173-b7ce-3f485056b20f|Going To The Ceremony|Kid Kudi|Feb 25, 2014|Mixing|IMG:7c0f6a5c2fa4cd12049aff7e
+d61c74f2-5a81-425c-b710-c0f647f7ca44|Bissonnet|Maxo Kream|Jul 19, 2019|Engineer|IMG:697aed8a8b300b7e5818e6e3
+3760eec2-716d-46e2-bfa3-35d8e0b6f2bc|Say It With Me|Chris Brown|Mar 22, 2011|Assistant Engineer|IMG:0a1d20ec09cab4bb17a36aab
+6ff1eb11-d226-470a-911e-15a8404434ff|Lord Of The Sad And Lonely|Kid Kudi|Apr 12, 2013|Mixing|Engineer|IMG:b9ab5cc935d2327a7d2bc629
+8900fdd2-2939-4e2d-9200-d2872bd407da|Balmain Jeans|Kid Cudi,|Raphael Saadiq|Feb 25, 2014|Mixing|Engineer|IMG:7c0f6a5c2fa4cd12049aff7e
+8b159210-be5f-4b69-86ca-eac0c1df5444|The Resurrection Of Scott Mescudi|Kid Kudi|Apr 12, 2013|Mixing|Engineer|IMG:b9ab5cc935d2327a7d2bc629
+a90268fc-3a63-42eb-911e-d60ec8da92b0|8 Figures|Maxo Kream|Jul 19, 2019|Engineer|IMG:697aed8a8b300b7e5818e6e3
+ba46c7f1-cf20-4554-bc02-fa661a33fb3f|Do Me Wrong|Brian Collins|Dec 14, 2018|Engineer|IMG:65477951f2d26c2385421d52
+ca9102a6-457f-4869-bc03-1cd282f845de|Rollinem 7's|N.E.R.D,|André 3000,|Pharrell Williams|Dec 15, 2017|Engineer|IMG:be23f47224937c9b57a004b2
+0682eb23-f90b-40ee-a517-a91fbfbeb681|THE MOON MAN SURVIVES|Kid Cudi|Oct 23, 2024|Engineer|IMG:6d200856b1a5d930312871aa
+30e57c61-333c-41bb-a5da-63195355756f|About U (feat. DRAM)|Valee,|DRAM|Dec 21, 2018|Engineer|IMG:c22c93de76b686477bc82020
+33a1506b-ae02-40f2-b341-c4d7b4a41459|Bomb (feat. Wiz Khalifa)|Chris Brown,|Wiz Khalifa|Mar 22, 2011|Assistant Engineer|IMG:0a1d20ec09cab4bb17a36aab
+8676513f-287b-445f-b3ca-50a7fb43c839|MELTING|Kid Kudi|Dec 4, 2015|Mixing|IMG:a4ea8c76f78b72ce3bda7625
+d26928eb-3578-4978-9536-80d43d240706|Blinding My Vision|K. Roosevelt|Jul 27, 2018|Assistant Engineer|Mixing|IMG:cd089b1f54a33b64cb6c5344
+f49b5686-e926-4f40-a898-c178d7b1493f|Handle With Care|Kid Kudi|Dec 4, 2015|Engineer|IMG:a4ea8c76f78b72ce3bda7625
+91ea029c-dcdb-44d3-aa1c-e48b98c04a9d|Free Run|Chris Brown|Jul 3, 2012|Assistant Engineer|IMG:781583ade2f00c2966a35965
+b48fa6fe-f27a-4703-846d-0209b840a0c3|Remember My Name (feat. Sevyn)|Chris Brown,|Sevyn|Jul 3, 2012|Assistant Engineer|IMG:781583ade2f00c2966a35965
+f6450f82-db72-4942-b69b-38fbe43cd965|Brothers (feat. KCG Josh)|Maxo Kream,|KCG Josh|Jul 19, 2019|Engineer|IMG:697aed8a8b300b7e5818e6e3
+0f2ca7e4-dd8b-43ca-bb12-60a00f72cbe0|Turn It Up (feat. Usher)|Ciara,|USHER|Dec 10, 2010|Assistant Engineer|IMG:c59e4bb12982da4a9d13d8c3
+2d0307c8-6484-421f-85e8-c67a3510b565|Brenda|Maxo Kream|Jul 19, 2019|Engineer|IMG:697aed8a8b300b7e5818e6e3
+590998e7-319d-4fa1-b264-4c46ede9a468|Superstar - 2025|The LaFontaines|Apr 15, 2025|Composer|IMG:5d610f9cf29941ffeb66e1f6
+71f6d8f9-599f-46b8-b82a-c67a60281bf5|ELECTROWAVEBABY 2.0|Kid Kudi,|Steve Aoki|Feb 23, 2024|Engineer|IMG:2262b6b2b43a32ffa0705190
+b4b10cef-d42c-49e8-98dd-379147ed42a5|Alien Boy - Big Data Remix|Oliver Tree,|Big Data|Oct 5, 2018|Engineer|IMG:a715e17bc906a641d48bf0f5
+ca28ff67-418e-4ba2-a4a7-34d7c424f870|Fuchsia Butterflies|Kid Kudi|Dec 4, 2015|Mixing|IMG:a4ea8c76f78b72ce3bda7625
+fa867c70-efe0-492d-bdd0-c46134b2df65|The Flight Of The Moon Man|Kid Kudi|Apr 12, 2013|Mixing|Engineer|IMG:b9ab5cc935d2327a7d2bc629
+1cd8ca92-70f9-4549-abc0-ac75419f586c|Troubled Boy|Kid Kudi|Feb 25, 2014|Mixing|IMG:7c0f6a5c2fa4cd12049aff7e
+5cb051d7-ee8b-4680-8a3b-2c23d3449d76|Adventures|Kid Kudi|Dec 4, 2015|Engineer|Mixing|IMG:a4ea8c76f78b72ce3bda7625
+d9531e5f-3a6b-4b26-a7f4-acc1efe114d4|Dairy Ashford Bastard|Maxo Kream|Jul 19, 2019|Engineer|IMG:697aed8a8b300b7e5818e6e3
+40169cd1-e202-412f-b39a-1658a80e2543|Love The Girls (feat. Eva Simons)|Chris Brown,|Eva Simons|Mar 22, 2011|Assistant Engineer|IMG:0a1d20ec09cab4bb17a36aab
+68170fac-bb76-4638-b49b-8ab57a325d0a|Under the Storm|The LaFontaines|Jun 8, 2015|Composer|Lyricist|IMG:898f6b8a01b48be0d144cd55
+73fcbea6-5271-46a0-8a86-1d4be4f6f959|Feelings Don't Change|K. Roosevelt|Jul 27, 2018|Assistant Engineer|IMG:cd089b1f54a33b64cb6c5344
+9f9cdfcc-e048-4cac-842d-1e323daeb898|Rake It Up - Y2K Remix|Yo Gotti,|Y2K,|Onika Maraj|Oct 26, 2017|Assistant Engineer|IMG:c22743a3b6727fb2f0634e21
+bc1ba9a8-9a94-40ee-811d-85f55e7b4a98|Man In The Night|Kid Kudi|Dec 4, 2015|Engineer|IMG:a4ea8c76f78b72ce3bda7625
+c1a83f8b-34c0-4b8e-aeff-affe6233f71a|Screwed|Kid Kudi|Dec 4, 2015|Mixing|Engineer|IMG:a4ea8c76f78b72ce3bda7625
+d3a60881-361f-41f1-bd91-66f9349572ad|Return Of The Moon Man - Original Score|Kid Kudi|Feb 25, 2014|Mixing|Engineer|IMG:7c0f6a5c2fa4cd12049aff7e
+08fbbff6-ed3b-41d1-8667-6249c08a8c56|Wedding Tux|Kid Kudi|Dec 4, 2015|Mixing|IMG:a4ea8c76f78b72ce3bda7625
+29d2a86c-8cd0-4042-a155-bb281b888eaa|Adrenaline|K. Roosevelt|Jul 27, 2018|Assistant Engineer|IMG:cd089b1f54a33b64cb6c5344
+b40e7dd7-a34e-44c7-8406-ac21ee2d57fe|Don't You Pretend|Kelly Clarkson|Oct 27, 2017|Assistant Engineer|IMG:1b808f1c7fff4f3e81f79523
+e0da85cd-9b01-46bb-9a78-ecdb0e32c44b|Copernicus Landing|Kid Kudi|Feb 25, 2014|Mixing|Engineer|IMG:7c0f6a5c2fa4cd12049aff7e
+35d80cde-9db9-492a-9a2e-08394ecf1b09|The Nothing|Kid Kudi|Dec 4, 2015|Mixing|IMG:a4ea8c76f78b72ce3bda7625
+450e4956-1a13-4230-ada3-8cadd5950ec4|Release the Hounds|The LaFontaines|Oct 27, 2017|Composer|IMG:e05da54dc555382246a1409e
+6302ba62-2731-4d3c-b60c-bee8d612e540|Fairy Tale Remains|Kid Kudi|Dec 4, 2015|Engineer|Mixing|IMG:a4ea8c76f78b72ce3bda7625
+ac46666b-3deb-47fb-a0c4-67b2d97162bc|Countdown|Tauheed Epps,|Chris Brown|Jan 1, 2012|Assistant Engineer|IMG:0bcccf7c7e65f294c2430f9b
+cbb391e0-42b0-4a7d-8876-ac72b29f4f90|Trauma|Kid Kudi|Dec 4, 2015|Engineer|IMG:a4ea8c76f78b72ce3bda7625
+2196c5e1-a839-4112-9e86-e7bb4663a822|Don't Wake Me Up - Panic City Remix Radio Edit|Chris Brown,|Panic City|May 18, 2012|Assistant Engineer|IMG:7a5b84268d6f9315ffd81b7a
+28933124-e8b4-44ff-8558-18cbd0591fc9|Angered Kids|Kid Kudi|Dec 4, 2015|Mixing|IMG:a4ea8c76f78b72ce3bda7625
+3ad76e91-ccf9-40ed-9095-d7715cd2196a|Hangover|K. Roosevelt|Jul 27, 2018|Assistant Engineer|IMG:cd089b1f54a33b64cb6c5344
+96c04664-fdcc-4fac-a764-d81dae7807e4|Judgmental C**t|Kid Kudi|Dec 4, 2015|Engineer|IMG:a4ea8c76f78b72ce3bda7625
+dcfc4be1-2f3c-40fc-9e77-552a8dd2ba74|Insides Out|Kid Kudi|Dec 4, 2015|Engineer|IMG:a4ea8c76f78b72ce3bda7625
+ee125e60-5cdb-4482-a420-69ba592d5e69|Destination: Mother Moon|Kid Kudi|Feb 25, 2014|Mixing|Engineer|Programmer|IMG:7c0f6a5c2fa4cd12049aff7e
+049adda4-3f5d-47f1-9076-8ec28a2d575d|Out On The Road|K. Roosevelt|Jul 27, 2018|Assistant Engineer|IMG:cd089b1f54a33b64cb6c5344
+5dd5731d-11a9-4e43-8eb1-181ecb78c46a|Worth|Kid Kudi|Dec 4, 2015|Engineer|IMG:a4ea8c76f78b72ce3bda7625
+feb959b5-4633-4ec4-b9ef-a9de7038e9d9|Ready|Chaz French,|GoldLink|Dec 11, 2015|Mixing|IMG:f8bba04b41c57c2f375e441d
+0a073de5-6f4d-4245-9f30-c93403d576e5|Rake It Up - The White Panda Remix|Yo Gotti,|White Panda,|Onika Maraj|Oct 26, 2017|Assistant Engineer|IMG:63cbe0c84fdc0b0d894daa3f
+29ca4f20-877b-4b23-9e12-7e848e01d902|In My Dreams 2015|Kid Kudi|Feb 25, 2014|Mixing|Engineer|IMG:7c0f6a5c2fa4cd12049aff7e
+bd03409c-1e4d-40c6-bec9-0a2590dbda00|Fade 2 Red|Kid Kudi|Dec 4, 2015|Mixing|Engineer|IMG:a4ea8c76f78b72ce3bda7625
+e1402e25-0367-498f-b706-01f5701f1faa|Lighthouse|Joe Jonas|Oct 11, 2011|Assistant Engineer|IMG:c66df247b6e1e096d8307769
+2074fb85-3e8e-4093-87e9-7fb6935d1d0e|VVS|Derek ,|Black Fortune|Jan 29, 2021|Composer|Lyricist|IMG:c4de4527d933f74083072f7d
+27fc57cc-c574-40fa-a22d-c5cd9bb460c3|Don't Wake Me Up - Free School / William Orbit Mix|Chris Brown,|Free School,|William Orbit|May 18, 2012|Assistant Engineer|IMG:7a5b84268d6f9315ffd81b7a
+b2db9504-bc8b-404e-916d-3e30ab80a000|Paper Chase|The LaFontaines|Jun 8, 2015|Composer|Lyricist|IMG:898f6b8a01b48be0d144cd55
+b6d8420b-f0ec-47ba-adc0-9ed9df21f0aa|Liquid Courage|Sevyn Streeter|Sep 17, 2021|Engineer|IMG:603147ba60a721627e429c68
+189679b8-dafb-4b34-b5ea-c6734c62099b|Vault|Keyshia Cole|Oct 20, 2017|Engineer|IMG:f2f8d7bc039f66592b5c0fdb
+43512693-3226-4b8d-9910-9a375d771657|Red Sabbath|Kid Kudi|Dec 4, 2015|Engineer|IMG:a4ea8c76f78b72ce3bda7625
+5ccec5a3-3c70-42b6-b629-7b55cd85c5b2|King (feat. Luke Prebble, Michael Sparks)|The LaFontaines,|Luke Prebble,|Michael Sparks|Jun 8, 2015|Composer|Lyricist|IMG:898f6b8a01b48be0d144cd55
+bc3f3bc9-8cc2-447c-9fcb-4bd2809a62dd|Bad Habit|Brian Collins|Oct 6, 2017|Mixing|Engineer|IMG:e25a044d4141b17bd594dff8
+16691fd4-9cfd-4cd5-aad8-3566fe1a870c|Séance Chaos|Kid Kudi|Dec 4, 2015|Mixing|IMG:a4ea8c76f78b72ce3bda7625
+44864c19-ec25-41d9-8e87-3d7de8f13aa0|One Night Stand|K. Roosevelt|Dec 7, 2018|Assistant Engineer|IMG:06c67746f2de5062aef37297
+4e4b32be-4952-43c7-a741-9635699a5334|WAIT! - Rehearsal Demo|Kid Kudi|Dec 4, 2015|Engineer|IMG:a4ea8c76f78b72ce3bda7625
+a001f3b1-65cf-4a57-8997-0918cb232513|Lob (feat. Rory Fresco & Juliann Alexander)|Brian Collins,|Rory Fresco,|Juliann Alexander|Dec 14, 2018|Engineer|IMG:65477951f2d26c2385421d52
+523baf0d-e938-44ec-ab0b-96d403033302|Junior Dragon|The LaFontaines|Jun 8, 2015|Composer|Lyricist|IMG:898f6b8a01b48be0d144cd55
+6d325809-5ad3-4981-8b08-c3359d42df68|VVS Charm (feat. Kid Ink)|Rory Fresco,|Kid Ink|Sep 20, 2019|Composer|Lyricist|IMG:22e7c08260dd99a5b3a51248
+ca4615ac-6c4c-4504-9717-302894c24842|Triple Threat|Chris Travis|Sep 23, 2016|Mixing|IMG:88007f51bec5fd195de0e681
+19d44781-2a78-4fe9-b149-a92cdb9157a4|Heat - Niko the Kid Remix|Kelly Clarkson,|Niko The Kid|Dec 14, 2018|Engineer|IMG:081d3d7d063eeca6fe60f467
+b77b45d5-45f6-447f-b8c4-5682dd349700|Heat - Easy Star All-Stars & Michael Goldwasser Reggae Remix|Kelly Clarkson,|Easy Star All-Stars,|Michael Goldwasser|Jan 4, 2019|Engineer|IMG:27e41f9949f32d54cd36208e
+d1a8201e-9784-441a-8350-258e734fae3d|Love So Soft - Dave Aude Remix|Kelly Clarkson,|Dave on HD Accel at Audacious|Oct 25, 2017|Assistant Engineer|IMG:250b261d8db487bc558bdb86
+00d13186-ac89-488c-a719-553b3dffd042|Don't Wake Me Up - TheFatRat Remix|Chris Brown,|TheFatRat|May 18, 2012|Assistant Engineer|IMG:7a5b84268d6f9315ffd81b7a
+0e4abbda-7571-4eca-a42c-f38bc6775135|Beautiful People (feat. Benny Benassi) - Ultimate High Radio Remix|Chris Brown,|Benny Benasi,|Ultimate High|Mar 11, 2011|Assistant Engineer|IMG:d61b3cd84c9f23749e7fd065
+777cf234-e9e3-44c7-a6c1-f4079ff70d2a|Don't Wake Me Up - DJ White Shadow Remix|Chris Brown,|DJ White Shadow|May 18, 2012|Assistant Engineer|IMG:7a5b84268d6f9315ffd81b7a
+aa1a34a8-76f9-43de-bb45-f16945c1f680|Cakin'|YOGI,|DRAM,|Lady Leshurr|Dec 1, 2017|Engineer|IMG:35d64310f17fb0521773da2e
+b744cd63-b025-4cf2-82ff-f0a5f6146854|Slow Elvis|The LaFontaines|Jun 8, 2015|Composer|Lyricist|IMG:898f6b8a01b48be0d144cd55
+1c482e03-7b52-47db-a4a3-13cfec155afa|Castles|The LaFontaines|Jun 8, 2015|Composer|Lyricist|IMG:898f6b8a01b48be0d144cd55
+e7759655-990e-4410-8fd4-e846034f3351|Take Me There|SK8|Jan 17, 2020|Engineer|IMG:bc93d45630b39ecb4a7148b2
+f5385442-d8db-424b-9103-b64442ca7375|Class|The LaFontaines|Jun 8, 2015|Composer|Lyricist|IMG:898f6b8a01b48be0d144cd55
+1cca1977-11fe-4b7e-8140-79b937807863|Unf***wittable - Edited Version|Kid Kudi|Jan 1, 2013|Mixing|Engineer|IMG:f5556862e851548d4ca31a7c
+655085cb-20f1-41c0-99dc-d1b8fad568a8|Beautiful People (feat. Benny Benassi) - Cosmic Dawn Club Remix|Chris Brown,|Benny Benasi,|Cosmic Dawn|Mar 11, 2011|Assistant Engineer|IMG:d39eee66479a8564c0192704
+8eb647ec-adb7-45d5-ab3e-2085d643485e|Love So Soft - Mark Knight & Ben Remember Remix|Kelly Clarkson,|Ben Remember,|Mark Kight|Oct 25, 2017|Assistant Engineer|IMG:1b27b12134c55fa11c374848
+9e2b7173-3eee-40a9-95d2-fc5d929aab19|All She Knows|The LaFontaines|Jun 8, 2015|Composer|Lyricist|IMG:898f6b8a01b48be0d144cd55
+c8cd3657-2ec2-436c-b03f-dd05f7b08cb9|Love So Soft - Cedric Gervais Remix|Kelly Clarkson,|Cedric Gervais|Oct 25, 2017|Assistant Engineer|IMG:1a7433b488b7932824a6d5b6
+d12f724f-c807-443d-a1f0-46936a944403|Don't Wake Me Up - dBerrie Remix|Chris Brown,|dBerrie|May 18, 2012|Assistant Engineer|IMG:7a5b84268d6f9315ffd81b7a
+30f2eda3-9fcd-417d-9c2b-f6ab1e12b52e|Don't Wake Me Up - Clinton Sparks Remix|Chris Brown,|Clinton Sparks|May 18, 2012|Assistant Engineer|IMG:7a5b84268d6f9315ffd81b7a
+46ddd3fe-aa89-4f35-b52d-23562a04ee97|Seen A Ghost|Chris Travis|Sep 23, 2016|Mixing|IMG:88007f51bec5fd195de0e681
+c2ffc73b-3878-4ff2-82d3-346bb4ffb377|Light up the Background|The LaFontaines|Jun 25, 2012|Composer|IMG:41e79e38624ae74dd5d87a13
+c57a7039-06cd-479e-bb43-1329bbba7b0e|Wrapped in Fashion|The LaFontaines|Jun 25, 2012|Composer|IMG:41e79e38624ae74dd5d87a13
+cf6882ea-88d8-4f79-82cc-1591cfb69e14|The Movement [Intro]|Chris Travis|Sep 23, 2016|Mixing|IMG:88007f51bec5fd195de0e681
+dfb3221b-15dc-403c-b2af-bbf91a87d1e0|Beautiful People (feat. Benny Benassi) - Felix Cartal Club Remix|Chris Brown,|Benny Benasi|Mar 11, 2011|Assistant Engineer|IMG:d39eee66479a8564c0192704
+4b41eb61-04c1-4447-805d-e36466f071da|So Long|K. Roosevelt|Jul 27, 2018|Assistant Engineer|IMG:cd089b1f54a33b64cb6c5344
+63ded1bd-c002-4f3d-a575-d6cbc3fc1e99|Lemon Water|Chris Travis|Sep 23, 2016|Mixing|IMG:88007f51bec5fd195de0e681
+7931b36b-c607-472e-9ae2-8ccfb5115b78|The Scene|K. Roosevelt|Jul 27, 2018|Assistant Engineer|IMG:cd089b1f54a33b64cb6c5344
+9ee99e7d-9774-4d3d-82d9-38e9eed20fd2|Heat - BYNON Remix|Kelly Clarkson,|BYNON|Jan 18, 2019|Engineer|IMG:dab83ddeaa76adb5b0c634a6
+2af3a066-63cd-4f51-ba29-52a3f37b1fb5|Here For You [Interlude]|Chris Travis|Sep 23, 2016|Mixing|IMG:88007f51bec5fd195de0e681
+3ce368f2-5fc2-46ad-84d8-624033e542c1|Back At It|Chris Travis|Sep 23, 2016|Mixing|IMG:88007f51bec5fd195de0e681
+8b76acaf-62b9-40fb-8c7a-bfd8d61fe8ac|Heat - Lokii Remix|Kelly Clarkson,|Lokii|Feb 15, 2019|Engineer|IMG:f2bb4cdd340ba6ecac44e605
+a5b91d8d-f3ce-4dad-b039-c839d31ca751|Love So Soft - Mr. Collipark Remix|Kelly Clarkson,|Mr. Collipark|Oct 25, 2017|Assistant Engineer|IMG:352a5c017db115bdc2029cf5
+ab294324-95e7-411b-a6c0-400ab378d6cd|Window Seat|The LaFontaines|Jun 8, 2015|Composer|Lyricist|IMG:898f6b8a01b48be0d144cd55
+e74b04de-17ba-4fdc-a89c-8c3512b580f8|Voices|Jasiah|Dec 6, 2019|Composer|IMG:0bdc50a5c72903afe929e6e5
+2f57ffbe-58df-4036-92bc-f13133746b9b|All Gone|The LaFontaines|Jun 8, 2015|Composer|Lyricist|IMG:898f6b8a01b48be0d144cd55
+600398f3-c93e-46af-8e9a-d09d32186924|Eyes Closed|Bryan Roberts,|Joy Léone|Nov 12, 2024|Composer|Lyricist|IMG:dcdc5973a1836aaac8137208
+838d15f6-962d-4323-8d7f-d7a558639d08|Rake It Up - Niko The Kid Remix|Yo Gotti,|Niko The Kid,|Onika Maraj|Oct 26, 2017|Assistant Engineer|IMG:3390aa6e8a87c2a39f76f4f3
+93ad2646-8d63-4a2b-a532-38888f354934|Every Second|Chris Travis|Sep 23, 2016|Mixing|IMG:88007f51bec5fd195de0e681
+a4dde72b-019a-4de5-8636-50d8d33baaed|Pull Me Back|The LaFontaines|Jun 8, 2015|Composer|Lyricist|IMG:898f6b8a01b48be0d144cd55
+b24c8939-5593-40e0-8085-5191cb4235e3|Free|SK8|Jan 17, 2020|Engineer|IMG:bc93d45630b39ecb4a7148b2
+0e31ad18-30b0-4e0a-93c3-f04dc8b0a5c2|I Need You|Jesse Boykins III|Dec 8, 2017|Mixing|IMG:0a8df2e6cc1fd067f0d48510
+19c36be8-68f2-4c30-a163-c9628825d989|Remember|Chaz French|Dec 11, 2015|Mixing|IMG:f8bba04b41c57c2f375e441d
+edc35685-297a-4037-9342-25b5ddf3907f|Questions|Chaz French|Dec 11, 2015|Mixing|IMG:f8bba04b41c57c2f375e441d
+0f54aaf4-01ae-4d27-9bd5-9acc94df803d|L.O.C.O.|The LaFontaines|Apr 27, 2014|Composer|Lyricist|IMG:5ccb830fc1e83e3d58eb8142
+da078178-a5f2-4838-8aee-38e602cb1404|Heat - Luke Solomon Remix|Kelly Clarkson,|Luke Solomon|Jul 27, 2018|Engineer|IMG:a3c6f6c39e523705d4fdaffe
+07da5d39-5a7f-4788-a609-84f2baf72477|Beautiful People (feat. Benny Benassi) - Lenny B Radio Mix|Chris Brown,|Benny Benasi,|LENNY B|Mar 11, 2011|Assistant Engineer|IMG:d61b3cd84c9f23749e7fd065
+213948a2-00c7-4442-9614-30cf3e6a8f1b|Heat - Kokiri Remix|Kelly Clarkson,|Kokiri|Feb 1, 2019|Engineer|IMG:0928305d7aad2b95281dee6b
+81cd8f82-36d3-4f96-8861-7a7bfa70909f|These Things Take Time|Chaz French|Dec 11, 2015|Mixing|IMG:f8bba04b41c57c2f375e441d
+d8602ee8-0221-44ea-ab8f-05e945011452|Beautiful People (feat. Benny Benassi) - Cosmic Dawn Radio Remix|Chris Brown,|Benny Benasi,|Cosmic Dawn|Mar 11, 2011|Assistant Engineer|IMG:d61b3cd84c9f23749e7fd065
+0b84619b-bec3-4b9d-b43b-06426b26a6f3|It's Over|Chaz French,|Saba,|Eddie Vanz|Dec 11, 2015|Mixing|IMG:f8bba04b41c57c2f375e441d
+5ef24f24-79ff-4c12-80b3-9188fdcea27c|Intro|K. Roosevelt|Jul 27, 2018|Assistant Engineer|IMG:cd089b1f54a33b64cb6c5344
+6bd7980f-faa6-4b3f-86f9-8f762ceb65b8|Malcolm Tucker|The LaFontaines|Apr 27, 2014|Composer|Lyricist|IMG:5ccb830fc1e83e3d58eb8142
+cad36cd1-24b8-427e-b79d-27c8b83e2552|Beautiful People (feat. Benny Benassi) - Tonal Radio Remix|Chris Brown,|Benny Benasi|Mar 11, 2011|Assistant Engineer|IMG:d61b3cd84c9f23749e7fd065
+f7bc424f-1c6d-49a6-b5f4-4eb180ca6995|Countdown - Chopped Not Slopped|Tauheed Epps,|Chris Brown|Aug 14, 2012|Assistant Engineer|IMG:6ed45d22bbff123fc4025920
+25ac894c-2509-4189-adb7-dd5c7d9a6708|Beautiful People (feat. Benny Benassi) - The Knocks Club Remix|Chris Brown,|Benny Benasi,|The Knocks|Mar 11, 2011|Assistant Engineer|IMG:d39eee66479a8564c0192704
+5a6ab87b-338a-4d49-b3ce-8ac24307f16a|Beautiful People (feat. Benny Benassi) - Mike D Bass Mix|Chris Brown,|Benny Benasi|Mar 11, 2011|Assistant Engineer|IMG:d61b3cd84c9f23749e7fd065
+c53a37b5-a706-4a5a-8cd8-ae74e7ba00ef|Songs For Us|Chaz French|Dec 11, 2015|Mixing|IMG:f8bba04b41c57c2f375e441d
+c784c25b-cff4-48f8-b056-c56a764824ce|2 Good 2 Be True|Chaz French|Dec 11, 2015|Mixing|IMG:f8bba04b41c57c2f375e441d
+d0828c8a-75b9-4133-9305-dbaaebf29f3b|Beautiful People (feat. Benny Benassi) - Mike D Remix|Chris Brown,|Benny Benasi|Mar 11, 2011|Assistant Engineer|IMG:d39eee66479a8564c0192704
+e16b0b87-c985-438b-ab55-e4e4eb7368cc|Let God|Chaz French,|Eddie Vanz,|Lito Walker|Dec 11, 2015|Mixing|IMG:f8bba04b41c57c2f375e441d
+e4aa0834-78b8-48ab-910d-dd428ac0c0ea|Sometimes|Chaz French,|Phil Adé|Dec 11, 2015|Mixing|IMG:f8bba04b41c57c2f375e441d
+400ffef9-1f13-4350-bde1-4d99edff0931|IDK|Chaz French|Dec 11, 2015|Mixing|IMG:f8bba04b41c57c2f375e441d
+5595cf61-a8e0-4fa8-8911-7aa9543fc6be|Pull Up|Chaz French|Dec 11, 2015|Mixing|IMG:f8bba04b41c57c2f375e441d
+b8084412-50f3-4b21-b700-e8335a9100e0|Beautiful People (feat. Benny Benassi) - Lenny B Club Mix|Chris Brown,|Benny Benasi,|LENNY B|Mar 11, 2011|Assistant Engineer|IMG:d39eee66479a8564c0192704
+b98c463e-8bde-4314-83bf-68c9351e80aa|Mind To It|Chaz French|Dec 11, 2015|Mixing|IMG:f8bba04b41c57c2f375e441d
+bc00b22c-b081-4076-a87c-8ad06f9c68c3|Beautiful People (feat. Benny Benassi) - The Knocks Radio Mix|Chris Brown,|Benny Benasi,|The Knocks|Mar 11, 2011|Assistant Engineer|IMG:d61b3cd84c9f23749e7fd065
+c8bc9e45-1abb-4eb2-be4f-9c8256372936|Beautiful People (feat. Benny Benassi) - Tonal Club Remix|Chris Brown,|Benny Benasi|Mar 11, 2011|Assistant Engineer|IMG:d39eee66479a8564c0192704
+d01e87c0-803f-47f7-b5c5-ebad0079ac79|Heat - Wolves by Night Remix|Kelly Clarkson,|Wolves By Night|Jan 18, 2019|Engineer|IMG:56eb6b77d84d8835fce3f7cb
+4fa824a2-a09e-467a-8afd-3bfa186031d6|Beautiful People (feat. Benny Benassi) - Ultimate High Club Remix|Chris Brown,|Benny Benasi,|Ultimate High|Mar 11, 2011|Assistant Engineer|IMG:d39eee66479a8564c0192704
+50323114-06b1-4ce9-af21-5f346d7bb9b6|My Yo-Yo|The LaFontaines|Oct 27, 2013|Composer|Lyricist|IMG:7e1e06d9041e0be21e57bcd2
+63067f05-7546-41de-9942-be2b12b2bb98|DAZE|Bryan Roberts|Apr 7, 2025|Mixing|Mastering|IMG:705ae51caa1da3d7a5c5610f
+74050785-602c-48ca-b302-7c524b7bfc79|All She Knows - Acoustic|The LaFontaines|Oct 27, 2013|Composer|Lyricist|IMG:7e1e06d9041e0be21e57bcd2
+94705169-37be-4c81-92ab-554e69eed9af|Heat - Paul Morrell Remix|Kelly Clarkson,|Paul Morrell|Jan 4, 2019|Engineer|IMG:66fb53c32da575eaec4c4081
+b4cade35-21f2-4287-9ca2-019e00b97eb2|Don't Forget About Me|Chaz French|Dec 11, 2015|Mixing|IMG:f8bba04b41c57c2f375e441d
+e011f8e3-55be-43ed-8dc5-9892af8d1fcd|We Made It|Chaz French|Dec 11, 2015|Mixing|IMG:f8bba04b41c57c2f375e441d
+4edf90e2-6a48-4c3d-93e9-6b976ceee5df|Heat - Luke Solomon Fire Dub|Kelly Clarkson,|Luke Solomon|Jul 27, 2018|Engineer|IMG:a3c6f6c39e523705d4fdaffe
+5785a585-e9fe-43d9-bdb7-a2aa0db5ff08|Champion (feat. Chris Brown) - Ready for the Weekend Remix|Chip,|Chris Brown,|Perempay & Dee|Feb 20, 2011|Assistant Engineer|IMG:8410a66da1f98f287da44e5d
+7b048b87-9b81-4c22-bdc0-c28900e39e38|Under the Storm - DJ Big Al Skite Club Remix|The LaFontaines|Apr 27, 2014|Composer|Lyricist|IMG:5ccb830fc1e83e3d58eb8142
+f3315c35-8e73-48c2-bc29-2e1994b7b301|LLOOVVEE|Wyld Ruse|Jul 12, 2022|Producer|IMG:aae9488cc0352c9d29909e14
+b585b3ed-e989-4a46-8fc5-04503b5d93c3|Under the Storm - Radio Edit|The LaFontaines|Apr 27, 2014|Composer|Lyricist|IMG:5ccb830fc1e83e3d58eb8142
+c391a6a2-a0b3-47ad-92a6-9b6aae42f865|Bloodmoon|Rory Fresco|Apr 12, 2019|Producer|IMG:ca1776f7a8a90f22cdd4a9d1
+e351ddfb-da1a-4522-a955-e7262dadcbfe|Release the Hounds|The Bastard Sons|Aug 7, 2015|Composer|IMG:00bf3b24357fb45556b31a3b
+1706f61b-8d81-459c-80dd-deb6ff2823b5|Stuck In This Dream|Bryan Roberts|May 14, 2021|Mixing|IMG:2e318c2bbe3054d09ed8e889
+6aba01d0-277b-4303-84fb-8e9707e36e0b|All She Knows - Prides Remix|The LaFontaines|Oct 27, 2013|Composer|Lyricist|IMG:7e1e06d9041e0be21e57bcd2
+84d14e4f-1871-4c62-a303-28aad5702f38|Light up the Background (Bovine Edit)|The LaFontaines|Jun 25, 2012|Composer|IMG:41e79e38624ae74dd5d87a13
+8fefabc8-46ea-4e43-9dd2-beefd853a3fe|Ghetto Disco|Bryan Roberts,|PISCEE|Nov 12, 2024|Composer|Lyricist|IMG:dcdc5973a1836aaac8137208
+e1d16713-2849-49e9-9cf5-8759e4fd481f|With You|Bryan Roberts|Nov 12, 2024|Composer|Lyricist|Mastering|Mixing|IMG:dcdc5973a1836aaac8137208
+00f67953-c197-44af-9265-6b6a7256a5c2|Release the Hounds|Nix & The Control Zeds|Aug 1, 2009|Composer|IMG:def1036783947a24cf97382e
+0d7cb924-a9a5-4930-82e2-99398237d524|Close|Wyld Ruse|Oct 6, 2020|Composer|IMG:8700e51c94064b5bdee31c87
+0fe34bfc-cf2c-4b9d-b24d-40000d9423b2|Dynamite Intro|Bryan Roberts|Nov 12, 2024|Composer|Lyricist|Mastering|Mixing|IMG:dcdc5973a1836aaac8137208
+24e864d5-fc04-48e4-8c24-3e5cd9172223|No way (#4)|Bryan Roberts|Nov 12, 2024|Composer|Lyricist|Mastering|Mixing|IMG:dcdc5973a1836aaac8137208
+2ec97cec-d1e1-44fc-9dd3-51e9d647b21c|Release the Hounds|Release the Hounds|Oct 31, 2022|Composer|IMG:a728e912c189854837c480ca
+2fa24484-d1e5-4a57-8e23-29332b6577cd|ELECTROWAVEBABY 2.0|Kid Kudi|Feb 23, 2024|Engineer|IMG:https://resources.tidal.com/images/2aa1c419/30b5/4b6b/a902/09b5a61d1400/640x640.jpg
+a59e03be-e341-4d28-baa6-ada0ed51d08d|Back Here Yelling|Matthew Leeb|Jun 21, 2019|Engineer|IMG:eba9530adabd6a9eed6fd64d
+b0859b00-73b3-4a88-ad60-14bc8be45970|Release the Hounds|The Control Zeds,|Nix|Aug 1, 2009|Composer|IMG:3d6233f1b2ff7315b563cda3
+b28c61ce-9744-486c-b309-a15c2a3ea363|Lost on Purpose|Zoo Legacy|Aug 12, 2020|Mixing|IMG:842ce351cdfb080e43a13929
+c1fe8bc0-a00c-43ad-bbfd-4c9632adc2a6|Drought|Wyld Ruse|Aug 17, 2022|Producer|IMG:4237fb5ccd3c1f9cc54df8e4
+d158bc0e-9147-4d87-8b9a-2e65e2b7caed|Feel That (sugar when it's nice out)|Bryan Roberts|May 14, 2021|Mixing|IMG:2e318c2bbe3054d09ed8e889
+d7e941c2-8e98-4403-b19a-c3ac03fb87de|Fireman / Come To Life|Duane Something|Apr 30, 2021|Co-Producer|IMG:b31a649721618438ad9d8034
+f0bbffae-ebc9-42d4-b119-116ee17b955c|Forever|Wyld Ruse|Oct 6, 2020|Composer|IMG:8700e51c94064b5bdee31c87
+f4cd6a53-e93a-43cb-b37d-c737b40eb28e|Release the Hounds|Release the Hounds|Apr 20, 2018|Composer|IMG:095aad73441deb3405974a7a
+f5bbb67a-f90c-41c9-9624-5d7e4a5aada7|Divine Time|Bryan Roberts|May 14, 2021|Mixing|IMG:2e318c2bbe3054d09ed8e889

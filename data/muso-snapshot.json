@@ -1,0 +1,4026 @@
+{
+  "source": "https://muso.ai/profile/fb595b26-5c7a-422a-8e1a-fac8ca9971e2/credits?sort=popularity&direction=DESC",
+  "capturedAt": "2026-11-05T02:35:51.723Z",
+  "note": "Every credit on the public Muso.ai profile, in Muso popularity order. Covers are the release artwork Muso links to each credit. Regenerate with npm run import:muso.",
+  "totalCount": 257,
+  "items": [
+    {
+      "rank": 1,
+      "musoTrackId": "638eb1e3-ff6d-4959-8066-1f0a9a23a15d",
+      "title": "Feels (feat. Pharrell Williams, Katy Perry & Big Sean)",
+      "artists": [
+        "Calvin Harris",
+        "Pharrell Williams",
+        "Katy Perry",
+        "Big Sean",
+        "Funk Wav"
+      ],
+      "album": "Funk Wav Bounces Vol.1",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2734d3fa5ce7ba599f4fd7803ef",
+      "releaseDate": "2017-06-30",
+      "year": 2017,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 2,
+      "musoTrackId": "a0552c42-7bea-4810-b761-05f32ad6f0fa",
+      "title": "Look At Me Now (feat. Lil' Wayne & Busta Rhymes)",
+      "artists": [
+        "Chris Brown",
+        "Lil Wayne",
+        "Busta Rhymes"
+      ],
+      "album": "F.A.M.E. (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2730a1d20ec09cab4bb17a36aab",
+      "releaseDate": "2011-03-22",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 3,
+      "musoTrackId": "38ea1261-9429-4550-9ef8-bf56efa185a1",
+      "title": "Wet The Bed (feat. Ludacris)",
+      "artists": [
+        "Chris Brown",
+        "Ludacris"
+      ],
+      "album": "F.A.M.E. (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2730a1d20ec09cab4bb17a36aab",
+      "releaseDate": "2011-03-22",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 4,
+      "musoTrackId": "1add89ac-4484-4c4e-ae9a-69995abb364f",
+      "title": "Don't Judge Me",
+      "artists": [
+        "Chris Brown"
+      ],
+      "album": "Fortune (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273781583ade2f00c2966a35965",
+      "releaseDate": "2012-07-03",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 5,
+      "musoTrackId": "2707b34d-c2a6-4192-870a-1aec992490f2",
+      "title": "AT THE PARTY (feat. Pharrell Williams & Travis Scott)",
+      "artists": [
+        "Kid Cudi",
+        "Pharrell Williams",
+        "Travis Scott"
+      ],
+      "album": "INSANO",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273bbf99eb282ff165289120b1e",
+      "releaseDate": "2024-01-12",
+      "year": 2024,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 6,
+      "musoTrackId": "98c29935-93f6-4559-91f3-dcd5a3948482",
+      "title": "REAL ONES NEVER DIE",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "HAVE U BN 2 HEAVEN @ NITE?",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273eedc04a9294e9fedb40432ec",
+      "releaseDate": "2026-03-19",
+      "year": 2026,
+      "roles": [
+        "Mastering Engineer"
+      ]
+    },
+    {
+      "rank": 7,
+      "musoTrackId": "2751a823-3a2e-407e-85d1-dd8f8749dfd4",
+      "title": "Just What I Am",
+      "artists": [
+        "Kid Cudi",
+        "King Chip"
+      ],
+      "album": "Indicud",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b9ab5cc935d2327a7d2bc629",
+      "releaseDate": "2013-04-12",
+      "year": 2013,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 8,
+      "musoTrackId": "b72fb294-6568-457c-a837-d2f3be6f4bf1",
+      "title": "sweetener",
+      "artists": [
+        "Ariana Grande"
+      ],
+      "album": "Sweetener",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273c3af0c2355c24ed7023cd394",
+      "releaseDate": "2018-08-17",
+      "year": 2018,
+      "roles": [
+        "Assistant Engineer",
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 9,
+      "musoTrackId": "bee5ac6f-0b39-4e56-87fa-bac7d644b731",
+      "title": "love.",
+      "artists": [
+        "Kid Cudi"
+      ],
+      "album": "The Boy Who Flew To The Moon (Vol. 1)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273ef3b5a279ee075749b67e0a7",
+      "releaseDate": "2022-07-08",
+      "year": 2022,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 10,
+      "musoTrackId": "c41a72e2-6b6f-4df7-8828-b4b9d01eb32e",
+      "title": "She Ain't You",
+      "artists": [
+        "Chris Brown"
+      ],
+      "album": "F.A.M.E. (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2730a1d20ec09cab4bb17a36aab",
+      "releaseDate": "2011-03-22",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 11,
+      "musoTrackId": "37d1e786-6909-42f7-8d5e-6bef3b1fcb80",
+      "title": "Turn Up the Music",
+      "artists": [
+        "Chris Brown"
+      ],
+      "album": "Fortune (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273781583ade2f00c2966a35965",
+      "releaseDate": "2012-07-03",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 12,
+      "musoTrackId": "368e32fa-15c5-4492-b5be-e64e12ba43b0",
+      "title": "Rake It Up (feat. Nicki Minaj)",
+      "artists": [
+        "Yo Gotti",
+        "Onika Maraj"
+      ],
+      "album": "I Still Am",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2732cc72b6f465812679b803638",
+      "releaseDate": "2017-10-27",
+      "year": 2017,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 13,
+      "musoTrackId": "f8eede8c-e87c-47b6-9d2c-85c263aa13ca",
+      "title": "Swish Swish",
+      "artists": [
+        "Katy Perry",
+        "Onika Maraj"
+      ],
+      "album": "Witness (Deluxe)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273cce6bab1f59b165133175d88",
+      "releaseDate": "2017-06-09",
+      "year": 2017,
+      "roles": [
+        "Assistant Engineer",
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 14,
+      "musoTrackId": "df61d1d3-38a2-4588-b093-978923dfec1b",
+      "title": "Alien Boy",
+      "artists": [
+        "Oliver Tree"
+      ],
+      "album": "Ugly is Beautiful",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273bf5af474b6ed745faf53f508",
+      "releaseDate": "2020-07-17",
+      "year": 2020,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 15,
+      "musoTrackId": "d5716ff9-e5b1-434f-9e87-627a0b29a58f",
+      "title": "Beautiful People",
+      "artists": [
+        "Chris Brown",
+        "Benny Benassi"
+      ],
+      "album": "F.A.M.E. (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2730a1d20ec09cab4bb17a36aab",
+      "releaseDate": "2011-03-22",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 16,
+      "musoTrackId": "1cd169e9-af07-4eed-9876-654e9a272917",
+      "title": "GET OFF ME (with Travis Scott)",
+      "artists": [
+        "Kid Cudi",
+        "Travis Scott"
+      ],
+      "album": "INSANO",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273bbf99eb282ff165289120b1e",
+      "releaseDate": "2024-01-12",
+      "year": 2024,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 17,
+      "musoTrackId": "fb5dc618-88d1-4a62-b6fa-831e88e7353c",
+      "title": "DROWN",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "HAVE U BN 2 HEAVEN @ NITE?",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273eedc04a9294e9fedb40432ec",
+      "releaseDate": "2026-03-19",
+      "year": 2026,
+      "roles": [
+        "Mastering Engineer"
+      ]
+    },
+    {
+      "rank": 18,
+      "musoTrackId": "08f1e17a-338e-41d0-af8f-f4f433971fe7",
+      "title": "BLUE SKY",
+      "artists": [
+        "Kid Cudi"
+      ],
+      "album": "INSANO",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273bbf99eb282ff165289120b1e",
+      "releaseDate": "2024-01-12",
+      "year": 2024,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 19,
+      "musoTrackId": "645ea636-d785-422b-99e9-75911752c122",
+      "title": "HALOS ON ANGELS",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "HAVE U BN 2 HEAVEN @ NITE?",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273eedc04a9294e9fedb40432ec",
+      "releaseDate": "2026-03-19",
+      "year": 2026,
+      "roles": [
+        "Mastering Engineer"
+      ]
+    },
+    {
+      "rank": 20,
+      "musoTrackId": "821ff191-89a8-4e06-ae6f-d1aa5f1365c4",
+      "title": "Don't Wake Me Up",
+      "artists": [
+        "Chris Brown"
+      ],
+      "album": "Fortune (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273781583ade2f00c2966a35965",
+      "releaseDate": "2012-07-03",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 21,
+      "musoTrackId": "bfac6728-25a4-41ad-b94d-ce720512d1f9",
+      "title": "Beg For It",
+      "artists": [
+        "Chris Brown"
+      ],
+      "album": "F.A.M.E. (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2730a1d20ec09cab4bb17a36aab",
+      "releaseDate": "2011-03-22",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 22,
+      "musoTrackId": "db079759-bf5b-4d9b-a8d1-2fda7337c0ed",
+      "title": "Rake It Up - Diplo & Party Favor Remix",
+      "artists": [
+        "Yo Gotti",
+        "Diplo",
+        "Party Favor",
+        "Onika Maraj"
+      ],
+      "album": "Rake It Up (Diplo & Party Favor Remix)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273ccb8c3d258935e9447b9aca4",
+      "releaseDate": "2017-10-26",
+      "year": 2017,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 23,
+      "musoTrackId": "a5dcf955-df19-44ca-a60c-bf0c8bca8b87",
+      "title": "RIDE RIDE",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "HAVE U BN 2 HEAVEN @ NITE?",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273eedc04a9294e9fedb40432ec",
+      "releaseDate": "2026-03-19",
+      "year": 2026,
+      "roles": [
+        "Mastering Engineer"
+      ]
+    },
+    {
+      "rank": 24,
+      "musoTrackId": "c903dcd6-b8d0-4346-9f2c-1768e00fa53a",
+      "title": "'97",
+      "artists": [
+        "Sevyn Streeter"
+      ],
+      "album": "'97",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27354af704660da237389843021",
+      "releaseDate": "2025-12-19",
+      "year": 2025,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 25,
+      "musoTrackId": "ed196f8e-14ee-4daa-976c-32059f089609",
+      "title": "Should've Kissed You",
+      "artists": [
+        "Chris Brown"
+      ],
+      "album": "F.A.M.E. (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2730a1d20ec09cab4bb17a36aab",
+      "releaseDate": "2011-03-22",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 26,
+      "musoTrackId": "f2cfea5c-93bb-40b4-9c75-9d7a66aba4f6",
+      "title": "King Wizard",
+      "artists": [
+        "Kid Cudi"
+      ],
+      "album": "Indicud",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b9ab5cc935d2327a7d2bc629",
+      "releaseDate": "2013-04-12",
+      "year": 2013,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 27,
+      "musoTrackId": "39c54b99-4765-46c5-8faa-1f6096bfdecb",
+      "title": "Christmas Eve",
+      "artists": [
+        "Justin Bieber"
+      ],
+      "album": "Under The Mistletoe (Deluxe Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273af0aff7f601df9ed6d2d531d",
+      "releaseDate": "2011-01-01",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer",
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 28,
+      "musoTrackId": "3c06c170-2044-423b-af95-556706f17695",
+      "title": "Immortal",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "Indicud",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b9ab5cc935d2327a7d2bc629",
+      "releaseDate": "2013-04-12",
+      "year": 2013,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 29,
+      "musoTrackId": "7763f4c3-db7f-4892-8434-62b7a59efbb9",
+      "title": "ELECTROWAVEBABY",
+      "artists": [
+        "Kid Cudi"
+      ],
+      "album": "INSANO",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273bbf99eb282ff165289120b1e",
+      "releaseDate": "2024-01-12",
+      "year": 2024,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 30,
+      "musoTrackId": "f88c91e1-5d7e-4ae9-8a47-f2ddf6e9acb2",
+      "title": "The Void",
+      "artists": [
+        "Kid Cudi"
+      ],
+      "album": "Man On The Moon III: The Chosen",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2736ff25c2481eeaf6e7284d461",
+      "releaseDate": "2020-12-11",
+      "year": 2020,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 31,
+      "musoTrackId": "f8c2e6d2-ecbe-46c3-a87d-665d0296d677",
+      "title": "Sir (feat. Future)",
+      "artists": [
+        "Nicki Minaj",
+        "Future"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273540ab7c149079184e8724dc4",
+      "releaseDate": "2018-08-10",
+      "year": 2018,
+      "roles": [
+        "Assistant Engineer",
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 32,
+      "musoTrackId": "4e01e3a9-f2f5-46af-8c94-cbc88854b1fa",
+      "title": "Unfuckwittable",
+      "artists": [
+        "Kid Cudi"
+      ],
+      "album": "Indicud",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b9ab5cc935d2327a7d2bc629",
+      "releaseDate": "2013-04-12",
+      "year": 2013,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 33,
+      "musoTrackId": "12abda38-3ea7-42f6-b216-497c470a5b7f",
+      "title": "Brothers",
+      "artists": [
+        "Kid Kudi",
+        "King Chip",
+        "A$AP Rocky"
+      ],
+      "album": "Indicud",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b9ab5cc935d2327a7d2bc629",
+      "releaseDate": "2013-04-12",
+      "year": 2013,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 34,
+      "musoTrackId": "6be63fa8-db94-4ea5-83e9-f4686d79f85c",
+      "title": "Love So Soft",
+      "artists": [
+        "Kelly Clarkson"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2731b808f1c7fff4f3e81f79523",
+      "releaseDate": "2017-10-27",
+      "year": 2017,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 35,
+      "musoTrackId": "7ac9b30d-f6ae-4774-a55a-7a988029fdc9",
+      "title": "Girls",
+      "artists": [
+        "Kid Kudi",
+        "Too $hort"
+      ],
+      "album": "Indicud",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b9ab5cc935d2327a7d2bc629",
+      "releaseDate": "2013-04-12",
+      "year": 2013,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 36,
+      "musoTrackId": "bc476e0f-cc6e-4125-8369-d9450bf45f40",
+      "title": "2012",
+      "artists": [
+        "Chris Brown"
+      ],
+      "album": "Fortune (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273781583ade2f00c2966a35965",
+      "releaseDate": "2012-07-03",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 37,
+      "musoTrackId": "2e3d0add-6fe9-4428-9987-880d8bdf33a7",
+      "title": "Heat",
+      "artists": [
+        "Kelly Clarkson"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2731b808f1c7fff4f3e81f79523",
+      "releaseDate": "2017-10-27",
+      "year": 2017,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 38,
+      "musoTrackId": "367d2e21-0c58-4153-81fd-267949c8f666",
+      "title": "Red Eye",
+      "artists": [
+        "Kid Kudi",
+        "HAIM"
+      ],
+      "album": "Indicud",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b9ab5cc935d2327a7d2bc629",
+      "releaseDate": "2013-04-12",
+      "year": 2013,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 39,
+      "musoTrackId": "b550f624-efbd-4a0c-a0c5-b3a3108cf980",
+      "title": "My Drug",
+      "artists": [
+        "Kid Cudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27371cecf4c653a4bad539da13d",
+      "releaseDate": "2022-01-01",
+      "year": 2022,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 40,
+      "musoTrackId": "1656a890-4cb4-4753-a44f-aa662a3aba5e",
+      "title": "Young Lady",
+      "artists": [
+        "Kid Kudi",
+        "Father John Misty"
+      ],
+      "album": "Indicud",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b9ab5cc935d2327a7d2bc629",
+      "releaseDate": "2013-04-12",
+      "year": 2013,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 41,
+      "musoTrackId": "45355c53-9957-4313-9341-387948660a2a",
+      "title": "Come Alive (with Years & Years and Jess Glynne)",
+      "artists": [
+        "Olly Alexander (Years & Years)",
+        "Jess Glynne"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273828789ff08a16218b2ea9445",
+      "releaseDate": "2018-11-16",
+      "year": 2018,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 42,
+      "musoTrackId": "6608ea63-02bf-492a-b10e-a856bcdeb90f",
+      "title": "Hard White",
+      "artists": [
+        "Nicki Minaj"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273540ab7c149079184e8724dc4",
+      "releaseDate": "2018-08-10",
+      "year": 2018,
+      "roles": [
+        "Assistant Engineer",
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 43,
+      "musoTrackId": "6ff2c7e9-9505-46da-95f3-8eab09b90181",
+      "title": "PORSCHE TOPLESS",
+      "artists": [
+        "Kid Cudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273820f2a56e4a57cc9a94672a8",
+      "releaseDate": "2024-01-12",
+      "year": 2024,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 44,
+      "musoTrackId": "9044dfde-0fd7-4111-ad48-d65f17f78e81",
+      "title": "Oh My Love",
+      "artists": [
+        "Chris Brown"
+      ],
+      "album": "F.A.M.E. (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2730a1d20ec09cab4bb17a36aab",
+      "releaseDate": "2011-03-22",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 45,
+      "musoTrackId": "db807d13-33dd-4b57-a8dd-e9f5af03df73",
+      "title": "Creepers",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2733a2d2b9621ef645380c63c16",
+      "releaseDate": "2012-01-01",
+      "year": 2012,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 46,
+      "musoTrackId": "e507d0c3-17c1-4e70-ae1a-8ac65cb25753",
+      "title": "Too Bad I Have To Destroy You Now",
+      "artists": [
+        "Kid Cudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737c0f6a5c2fa4cd12049aff7e",
+      "releaseDate": "2014-02-25",
+      "year": 2014,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 47,
+      "musoTrackId": "2e624225-178f-48f9-bb86-709c847fe184",
+      "title": "Till I Die (feat. Big Sean & Wiz Khalifa)",
+      "artists": [
+        "Chris Brown",
+        "Big Sean",
+        "Wiz Khalifa"
+      ],
+      "album": "Fortune (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273781583ade2f00c2966a35965",
+      "releaseDate": "2012-07-03",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 48,
+      "musoTrackId": "66349e32-b715-43c8-9a89-93e8e6dcabf8",
+      "title": "Elsie's Baby Boy (flashback)",
+      "artists": [
+        "Kid Cudi"
+      ],
+      "album": "Man On The Moon III: The Chosen",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2736ff25c2481eeaf6e7284d461",
+      "releaseDate": "2020-12-11",
+      "year": 2020,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 49,
+      "musoTrackId": "74c184f8-1f96-4b84-8471-0ed06a1c7905",
+      "title": "TOO DAMN HIGH (with Lil Yachty)",
+      "artists": [
+        "Kid Cudi",
+        "Lil Yachty"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273820f2a56e4a57cc9a94672a8",
+      "releaseDate": "2024-01-12",
+      "year": 2024,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 50,
+      "musoTrackId": "91f9b4f8-614b-48ac-9fcf-c6ea021e34bd",
+      "title": "Solo Dolo Part II",
+      "artists": [
+        "Kid Kudi",
+        "Kendrick Lamar"
+      ],
+      "album": "Indicud",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b9ab5cc935d2327a7d2bc629",
+      "releaseDate": "2013-04-12",
+      "year": 2013,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 51,
+      "musoTrackId": "a2ba77b0-bc63-42c9-93d7-ad6fc36b8859",
+      "title": "FUNKY WIZARD SMOKE",
+      "artists": [
+        "Kid Cudi"
+      ],
+      "album": "INSANO",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273bbf99eb282ff165289120b1e",
+      "releaseDate": "2024-01-12",
+      "year": 2024,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 52,
+      "musoTrackId": "e25390b9-c73b-4b4d-a1f4-fbf23a609232",
+      "title": "BRB (feat. Pink Sweat$)",
+      "artists": [
+        "Mahalia",
+        "David Bowden"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2735946040bf783f65b8e4bc40e",
+      "releaseDate": "2020-07-24",
+      "year": 2020,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 53,
+      "musoTrackId": "ed60de10-f971-48bf-ad21-79ba95bcedf8",
+      "title": "Swish Swish - Valentino Khan Remix",
+      "artists": [
+        "Katy Perry",
+        "Onika Maraj",
+        "Valentino Khan"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273eca29401e5fccbab49c7a48b",
+      "releaseDate": "2017-06-30",
+      "year": 2017,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 54,
+      "musoTrackId": "1cfdd824-2853-4e08-aa63-e978bd870ad8",
+      "title": "CUD LIFE",
+      "artists": [
+        "Kid Cudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273820f2a56e4a57cc9a94672a8",
+      "releaseDate": "2024-01-12",
+      "year": 2024,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 55,
+      "musoTrackId": "318d9dc1-7480-4457-a568-39b7c7b01f75",
+      "title": "Mirage (feat. Nas)",
+      "artists": [
+        "Chris Brown",
+        "Nas"
+      ],
+      "album": "Fortune (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273781583ade2f00c2966a35965",
+      "releaseDate": "2012-07-03",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 56,
+      "musoTrackId": "7ead4190-e798-43b9-bdef-280c98eadd3c",
+      "title": "Echoes of the Present",
+      "artists": [
+        "Kid Cudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27381ca213ab5e53fee61517fdf",
+      "releaseDate": "2025-08-22",
+      "year": 2025,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 57,
+      "musoTrackId": "d1520154-63b7-4d99-950b-ed1fb817e55a",
+      "title": "I Can't Even Lie (feat. Future & Nicki Minaj)",
+      "artists": [
+        "DJ Khaled",
+        "Nayvadius Wilburn",
+        "Onika Maraj"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737a993075e27042a11896b8fb",
+      "releaseDate": "2017-06-22",
+      "year": 2017,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 58,
+      "musoTrackId": "e2570a4e-f556-43ff-9fa5-3c88eee3c0fb",
+      "title": "OFTEN, I HAVE THESE DREAMZ (with DJ Drama)",
+      "artists": [
+        "Kid Cudi",
+        "DJ Drama"
+      ],
+      "album": "INSANO",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273bbf99eb282ff165289120b1e",
+      "releaseDate": "2024-01-12",
+      "year": 2024,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 59,
+      "musoTrackId": "535c44bf-7552-4f50-84ef-bfa22514baef",
+      "title": "Biggest Fan",
+      "artists": [
+        "Chris Brown"
+      ],
+      "album": "Fortune (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273781583ade2f00c2966a35965",
+      "releaseDate": "2012-07-03",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 60,
+      "musoTrackId": "7864efa3-b6b0-44e4-a0d0-3450718cc630",
+      "title": "KEEP BOUNCIN’",
+      "artists": [
+        "Kid Cudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273820f2a56e4a57cc9a94672a8",
+      "releaseDate": "2024-01-12",
+      "year": 2024,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 61,
+      "musoTrackId": "d637b9a0-caf1-4d4a-ac53-4b1e5d246785",
+      "title": "4 Years Old",
+      "artists": [
+        "Chris Brown"
+      ],
+      "album": "Fortune (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273781583ade2f00c2966a35965",
+      "releaseDate": "2012-07-03",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 62,
+      "musoTrackId": "d86cd3b9-6a68-4ccf-88e4-b053a24739a3",
+      "title": "Mad Solar",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "Indicud",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b9ab5cc935d2327a7d2bc629",
+      "releaseDate": "2013-04-12",
+      "year": 2013,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 63,
+      "musoTrackId": "0438c696-5590-4b2e-bf49-9cc7b3d7ac89",
+      "title": "Champion",
+      "artists": [
+        "Brian Collins"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e5a08d644234d40ead2d77b1",
+      "releaseDate": "2019-08-23",
+      "year": 2019,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 64,
+      "musoTrackId": "485880a2-6354-407a-970f-cd29da30b2a8",
+      "title": "Stuck On Stupid",
+      "artists": [
+        "Chris Brown"
+      ],
+      "album": "Fortune (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273781583ade2f00c2966a35965",
+      "releaseDate": "2012-07-03",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 65,
+      "musoTrackId": "62f40864-8777-4580-ac4a-050b2e7ab89d",
+      "title": "GETCHA GONE",
+      "artists": [
+        "Kid Cudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273820f2a56e4a57cc9a94672a8",
+      "releaseDate": "2024-01-12",
+      "year": 2024,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 66,
+      "musoTrackId": "8be5b60d-5748-4cca-8eb4-f8886d61cfc9",
+      "title": "Beez",
+      "artists": [
+        "Kid Kudi",
+        "RZA"
+      ],
+      "album": "Indicud",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b9ab5cc935d2327a7d2bc629",
+      "releaseDate": "2013-04-12",
+      "year": 2013,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 67,
+      "musoTrackId": "8d619ab9-14dd-4b68-8d7d-6223405389ee",
+      "title": "Still",
+      "artists": [
+        "Maxo Kream"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273697aed8a8b300b7e5818e6e3",
+      "releaseDate": "2019-07-19",
+      "year": 2019,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 68,
+      "musoTrackId": "8f3868b7-3171-4773-9109-4cce2d0782a3",
+      "title": "New York City Rage Fest",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "Indicud",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b9ab5cc935d2327a7d2bc629",
+      "releaseDate": "2013-04-12",
+      "year": 2013,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 69,
+      "musoTrackId": "abe69099-3a27-4aaa-b515-cd2137d9f768",
+      "title": "End Up",
+      "artists": [
+        "Sevyn Streeter"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273603147ba60a721627e429c68",
+      "releaseDate": "2021-09-17",
+      "year": 2021,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 70,
+      "musoTrackId": "41d3ab18-4d9e-49e1-be10-c2303c3af478",
+      "title": "Cold Blooded",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "Indicud",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b9ab5cc935d2327a7d2bc629",
+      "releaseDate": "2013-04-12",
+      "year": 2013,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 71,
+      "musoTrackId": "53f27cf2-5926-4c78-a1de-c8b90111f0ed",
+      "title": "MOST AIN’T DENNIS",
+      "artists": [
+        "Kid Cudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273820f2a56e4a57cc9a94672a8",
+      "releaseDate": "2024-01-12",
+      "year": 2024,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 72,
+      "musoTrackId": "7d926a26-cd92-4ef0-88d3-5dc9ffb3b91e",
+      "title": "SATELLITE FLIGHT",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737c0f6a5c2fa4cd12049aff7e",
+      "releaseDate": "2014-02-25",
+      "year": 2014,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 73,
+      "musoTrackId": "7f8a9f09-c54e-4643-ae20-3ce4acd30b79",
+      "title": "Tomahawk",
+      "artists": [
+        "Brian Collins"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27365477951f2d26c2385421d52",
+      "releaseDate": "2018-12-14",
+      "year": 2018,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 74,
+      "musoTrackId": "ad080312-27b3-4386-9794-8c0c451e08cb",
+      "title": "MR. COOLA",
+      "artists": [
+        "Kid Cudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273820f2a56e4a57cc9a94672a8",
+      "releaseDate": "2024-01-12",
+      "year": 2024,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 75,
+      "musoTrackId": "28037939-d804-4a36-ae2c-441ffd56ff37",
+      "title": "Bassline",
+      "artists": [
+        "Chris Brown"
+      ],
+      "album": "Fortune (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273781583ade2f00c2966a35965",
+      "releaseDate": "2012-07-03",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 76,
+      "musoTrackId": "a074bec8-9215-423b-888f-43770247736c",
+      "title": "Burn Baby Burn",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "Indicud",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b9ab5cc935d2327a7d2bc629",
+      "releaseDate": "2013-04-12",
+      "year": 2013,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 77,
+      "musoTrackId": "0a4c7380-8b87-40c6-aff5-61bf7257aeea",
+      "title": "Pretty Little Gangster",
+      "artists": [
+        "Ella Isaacson"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a7d13677a3433f7e395845d8",
+      "releaseDate": "2015-05-20",
+      "year": 2015,
+      "roles": [
+        "Composer",
+        "Lyricist",
+        "Producer"
+      ]
+    },
+    {
+      "rank": 78,
+      "musoTrackId": "0b61e1c7-939b-4415-91e0-2d4b4353a7a8",
+      "title": "HEAVEN'S GALAXY",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273c6680f3228175545ee9d2c26",
+      "releaseDate": "2023-10-12",
+      "year": 2023,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 79,
+      "musoTrackId": "36661f11-5b80-4b9d-bfd1-17c7dac1c737",
+      "title": "Afterwards (Bring Yo Friends)",
+      "artists": [
+        "Kid Kudi",
+        "Michael Bolton",
+        "King Chip"
+      ],
+      "album": "Indicud",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b9ab5cc935d2327a7d2bc629",
+      "releaseDate": "2013-04-12",
+      "year": 2013,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 80,
+      "musoTrackId": "0866b78d-b46c-44b1-b329-d92097d8f259",
+      "title": "Touch Me (feat. Sevyn)",
+      "artists": [
+        "Chris Brown",
+        "Sevyn"
+      ],
+      "album": "Fortune (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273781583ade2f00c2966a35965",
+      "releaseDate": "2012-07-03",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 81,
+      "musoTrackId": "10ec8b62-90e4-4d81-80b2-84e3fe0a5828",
+      "title": "Wait For You",
+      "artists": [
+        "Chris Brown"
+      ],
+      "album": "Fortune (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273781583ade2f00c2966a35965",
+      "releaseDate": "2012-07-03",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 82,
+      "musoTrackId": "7ff343fc-964d-4db1-879b-6164d362962b",
+      "title": "Embers",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a4ea8c76f78b72ce3bda7625",
+      "releaseDate": "2015-12-04",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 83,
+      "musoTrackId": "83f96e96-95ae-4a57-b7f8-a57a978114b4",
+      "title": "Stare (feat. Pharrell Williams & Wiz Khalifa)",
+      "artists": [
+        "Ty Dolla $ign",
+        "Pharrell Williams",
+        "Wiz Khalifa"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27356f796c9039f52e90d015b4d",
+      "releaseDate": "2017-10-27",
+      "year": 2017,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 84,
+      "musoTrackId": "aadc8578-8201-4615-9766-dc107ba8a33c",
+      "title": "Internal Bleeding",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737c0f6a5c2fa4cd12049aff7e",
+      "releaseDate": "2014-02-25",
+      "year": 2014,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 85,
+      "musoTrackId": "be8ade55-0edc-4173-b7ce-3f485056b20f",
+      "title": "Going To The Ceremony",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737c0f6a5c2fa4cd12049aff7e",
+      "releaseDate": "2014-02-25",
+      "year": 2014,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 86,
+      "musoTrackId": "d61c74f2-5a81-425c-b710-c0f647f7ca44",
+      "title": "Bissonnet",
+      "artists": [
+        "Maxo Kream"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273697aed8a8b300b7e5818e6e3",
+      "releaseDate": "2019-07-19",
+      "year": 2019,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 87,
+      "musoTrackId": "3760eec2-716d-46e2-bfa3-35d8e0b6f2bc",
+      "title": "Say It With Me",
+      "artists": [
+        "Chris Brown"
+      ],
+      "album": "F.A.M.E. (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2730a1d20ec09cab4bb17a36aab",
+      "releaseDate": "2011-03-22",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 88,
+      "musoTrackId": "6ff1eb11-d226-470a-911e-15a8404434ff",
+      "title": "Lord Of The Sad And Lonely",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "Indicud",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b9ab5cc935d2327a7d2bc629",
+      "releaseDate": "2013-04-12",
+      "year": 2013,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 89,
+      "musoTrackId": "8900fdd2-2939-4e2d-9200-d2872bd407da",
+      "title": "Balmain Jeans",
+      "artists": [
+        "Kid Cudi",
+        "Raphael Saadiq"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737c0f6a5c2fa4cd12049aff7e",
+      "releaseDate": "2014-02-25",
+      "year": 2014,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 90,
+      "musoTrackId": "8b159210-be5f-4b69-86ca-eac0c1df5444",
+      "title": "The Resurrection Of Scott Mescudi",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "Indicud",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b9ab5cc935d2327a7d2bc629",
+      "releaseDate": "2013-04-12",
+      "year": 2013,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 91,
+      "musoTrackId": "a90268fc-3a63-42eb-911e-d60ec8da92b0",
+      "title": "8 Figures",
+      "artists": [
+        "Maxo Kream"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273697aed8a8b300b7e5818e6e3",
+      "releaseDate": "2019-07-19",
+      "year": 2019,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 92,
+      "musoTrackId": "ba46c7f1-cf20-4554-bc02-fa661a33fb3f",
+      "title": "Do Me Wrong",
+      "artists": [
+        "Brian Collins"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27365477951f2d26c2385421d52",
+      "releaseDate": "2018-12-14",
+      "year": 2018,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 93,
+      "musoTrackId": "ca9102a6-457f-4869-bc03-1cd282f845de",
+      "title": "Rollinem 7's",
+      "artists": [
+        "N.E.R.D",
+        "André 3000",
+        "Pharrell Williams"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273be23f47224937c9b57a004b2",
+      "releaseDate": "2017-12-15",
+      "year": 2017,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 94,
+      "musoTrackId": "0682eb23-f90b-40ee-a517-a91fbfbeb681",
+      "title": "THE MOON MAN SURVIVES",
+      "artists": [
+        "Kid Cudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2736d200856b1a5d930312871aa",
+      "releaseDate": "2024-10-23",
+      "year": 2024,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 95,
+      "musoTrackId": "30e57c61-333c-41bb-a5da-63195355756f",
+      "title": "About U (feat. DRAM)",
+      "artists": [
+        "Valee",
+        "DRAM"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273c22c93de76b686477bc82020",
+      "releaseDate": "2018-12-21",
+      "year": 2018,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 96,
+      "musoTrackId": "33a1506b-ae02-40f2-b341-c4d7b4a41459",
+      "title": "Bomb (feat. Wiz Khalifa)",
+      "artists": [
+        "Chris Brown",
+        "Wiz Khalifa"
+      ],
+      "album": "F.A.M.E. (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2730a1d20ec09cab4bb17a36aab",
+      "releaseDate": "2011-03-22",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 97,
+      "musoTrackId": "8676513f-287b-445f-b3ca-50a7fb43c839",
+      "title": "MELTING",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a4ea8c76f78b72ce3bda7625",
+      "releaseDate": "2015-12-04",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 98,
+      "musoTrackId": "d26928eb-3578-4978-9536-80d43d240706",
+      "title": "Blinding My Vision",
+      "artists": [
+        "K. Roosevelt"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273cd089b1f54a33b64cb6c5344",
+      "releaseDate": "2018-07-27",
+      "year": 2018,
+      "roles": [
+        "Assistant Engineer",
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 99,
+      "musoTrackId": "f49b5686-e926-4f40-a898-c178d7b1493f",
+      "title": "Handle With Care",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a4ea8c76f78b72ce3bda7625",
+      "releaseDate": "2015-12-04",
+      "year": 2015,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 100,
+      "musoTrackId": "91ea029c-dcdb-44d3-aa1c-e48b98c04a9d",
+      "title": "Free Run",
+      "artists": [
+        "Chris Brown"
+      ],
+      "album": "Fortune (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273781583ade2f00c2966a35965",
+      "releaseDate": "2012-07-03",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 101,
+      "musoTrackId": "b48fa6fe-f27a-4703-846d-0209b840a0c3",
+      "title": "Remember My Name (feat. Sevyn)",
+      "artists": [
+        "Chris Brown",
+        "Sevyn"
+      ],
+      "album": "Fortune (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273781583ade2f00c2966a35965",
+      "releaseDate": "2012-07-03",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 102,
+      "musoTrackId": "f6450f82-db72-4942-b69b-38fbe43cd965",
+      "title": "Brothers (feat. KCG Josh)",
+      "artists": [
+        "Maxo Kream",
+        "KCG Josh"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273697aed8a8b300b7e5818e6e3",
+      "releaseDate": "2019-07-19",
+      "year": 2019,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 103,
+      "musoTrackId": "0f2ca7e4-dd8b-43ca-bb12-60a00f72cbe0",
+      "title": "Turn It Up (feat. Usher)",
+      "artists": [
+        "Ciara",
+        "USHER"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273c59e4bb12982da4a9d13d8c3",
+      "releaseDate": "2010-12-10",
+      "year": 2010,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 104,
+      "musoTrackId": "2d0307c8-6484-421f-85e8-c67a3510b565",
+      "title": "Brenda",
+      "artists": [
+        "Maxo Kream"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273697aed8a8b300b7e5818e6e3",
+      "releaseDate": "2019-07-19",
+      "year": 2019,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 105,
+      "musoTrackId": "590998e7-319d-4fa1-b264-4c46ede9a468",
+      "title": "Superstar - 2025",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2735d610f9cf29941ffeb66e1f6",
+      "releaseDate": "2025-04-15",
+      "year": 2025,
+      "roles": [
+        "Composer"
+      ]
+    },
+    {
+      "rank": 106,
+      "musoTrackId": "71f6d8f9-599f-46b8-b82a-c67a60281bf5",
+      "title": "ELECTROWAVEBABY 2.0",
+      "artists": [
+        "Kid Kudi",
+        "Steve Aoki"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2732262b6b2b43a32ffa0705190",
+      "releaseDate": "2024-02-23",
+      "year": 2024,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 107,
+      "musoTrackId": "b4b10cef-d42c-49e8-98dd-379147ed42a5",
+      "title": "Alien Boy - Big Data Remix",
+      "artists": [
+        "Oliver Tree",
+        "Big Data"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a715e17bc906a641d48bf0f5",
+      "releaseDate": "2018-10-05",
+      "year": 2018,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 108,
+      "musoTrackId": "ca28ff67-418e-4ba2-a4a7-34d7c424f870",
+      "title": "Fuchsia Butterflies",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a4ea8c76f78b72ce3bda7625",
+      "releaseDate": "2015-12-04",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 109,
+      "musoTrackId": "fa867c70-efe0-492d-bdd0-c46134b2df65",
+      "title": "The Flight Of The Moon Man",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "Indicud",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b9ab5cc935d2327a7d2bc629",
+      "releaseDate": "2013-04-12",
+      "year": 2013,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 110,
+      "musoTrackId": "1cd8ca92-70f9-4549-abc0-ac75419f586c",
+      "title": "Troubled Boy",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737c0f6a5c2fa4cd12049aff7e",
+      "releaseDate": "2014-02-25",
+      "year": 2014,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 111,
+      "musoTrackId": "5cb051d7-ee8b-4680-8a3b-2c23d3449d76",
+      "title": "Adventures",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a4ea8c76f78b72ce3bda7625",
+      "releaseDate": "2015-12-04",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 112,
+      "musoTrackId": "d9531e5f-3a6b-4b26-a7f4-acc1efe114d4",
+      "title": "Dairy Ashford Bastard",
+      "artists": [
+        "Maxo Kream"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273697aed8a8b300b7e5818e6e3",
+      "releaseDate": "2019-07-19",
+      "year": 2019,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 113,
+      "musoTrackId": "40169cd1-e202-412f-b39a-1658a80e2543",
+      "title": "Love The Girls (feat. Eva Simons)",
+      "artists": [
+        "Chris Brown",
+        "Eva Simons"
+      ],
+      "album": "F.A.M.E. (Expanded Edition)",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2730a1d20ec09cab4bb17a36aab",
+      "releaseDate": "2011-03-22",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 114,
+      "musoTrackId": "68170fac-bb76-4638-b49b-8ab57a325d0a",
+      "title": "Under the Storm",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273898f6b8a01b48be0d144cd55",
+      "releaseDate": "2015-06-08",
+      "year": 2015,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 115,
+      "musoTrackId": "73fcbea6-5271-46a0-8a86-1d4be4f6f959",
+      "title": "Feelings Don't Change",
+      "artists": [
+        "K. Roosevelt"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273cd089b1f54a33b64cb6c5344",
+      "releaseDate": "2018-07-27",
+      "year": 2018,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 116,
+      "musoTrackId": "9f9cdfcc-e048-4cac-842d-1e323daeb898",
+      "title": "Rake It Up - Y2K Remix",
+      "artists": [
+        "Yo Gotti",
+        "Y2K",
+        "Onika Maraj"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273c22743a3b6727fb2f0634e21",
+      "releaseDate": "2017-10-26",
+      "year": 2017,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 117,
+      "musoTrackId": "bc1ba9a8-9a94-40ee-811d-85f55e7b4a98",
+      "title": "Man In The Night",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a4ea8c76f78b72ce3bda7625",
+      "releaseDate": "2015-12-04",
+      "year": 2015,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 118,
+      "musoTrackId": "c1a83f8b-34c0-4b8e-aeff-affe6233f71a",
+      "title": "Screwed",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a4ea8c76f78b72ce3bda7625",
+      "releaseDate": "2015-12-04",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 119,
+      "musoTrackId": "d3a60881-361f-41f1-bd91-66f9349572ad",
+      "title": "Return Of The Moon Man - Original Score",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737c0f6a5c2fa4cd12049aff7e",
+      "releaseDate": "2014-02-25",
+      "year": 2014,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 120,
+      "musoTrackId": "08fbbff6-ed3b-41d1-8667-6249c08a8c56",
+      "title": "Wedding Tux",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a4ea8c76f78b72ce3bda7625",
+      "releaseDate": "2015-12-04",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 121,
+      "musoTrackId": "29d2a86c-8cd0-4042-a155-bb281b888eaa",
+      "title": "Adrenaline",
+      "artists": [
+        "K. Roosevelt"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273cd089b1f54a33b64cb6c5344",
+      "releaseDate": "2018-07-27",
+      "year": 2018,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 122,
+      "musoTrackId": "b40e7dd7-a34e-44c7-8406-ac21ee2d57fe",
+      "title": "Don't You Pretend",
+      "artists": [
+        "Kelly Clarkson"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2731b808f1c7fff4f3e81f79523",
+      "releaseDate": "2017-10-27",
+      "year": 2017,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 123,
+      "musoTrackId": "e0da85cd-9b01-46bb-9a78-ecdb0e32c44b",
+      "title": "Copernicus Landing",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737c0f6a5c2fa4cd12049aff7e",
+      "releaseDate": "2014-02-25",
+      "year": 2014,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 124,
+      "musoTrackId": "35d80cde-9db9-492a-9a2e-08394ecf1b09",
+      "title": "The Nothing",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a4ea8c76f78b72ce3bda7625",
+      "releaseDate": "2015-12-04",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 125,
+      "musoTrackId": "450e4956-1a13-4230-ada3-8cadd5950ec4",
+      "title": "Release the Hounds",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e05da54dc555382246a1409e",
+      "releaseDate": "2017-10-27",
+      "year": 2017,
+      "roles": [
+        "Composer"
+      ]
+    },
+    {
+      "rank": 126,
+      "musoTrackId": "6302ba62-2731-4d3c-b60c-bee8d612e540",
+      "title": "Fairy Tale Remains",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a4ea8c76f78b72ce3bda7625",
+      "releaseDate": "2015-12-04",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 127,
+      "musoTrackId": "ac46666b-3deb-47fb-a0c4-67b2d97162bc",
+      "title": "Countdown",
+      "artists": [
+        "Tauheed Epps",
+        "Chris Brown"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2730bcccf7c7e65f294c2430f9b",
+      "releaseDate": "2012-01-01",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 128,
+      "musoTrackId": "cbb391e0-42b0-4a7d-8876-ac72b29f4f90",
+      "title": "Trauma",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a4ea8c76f78b72ce3bda7625",
+      "releaseDate": "2015-12-04",
+      "year": 2015,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 129,
+      "musoTrackId": "2196c5e1-a839-4112-9e86-e7bb4663a822",
+      "title": "Don't Wake Me Up - Panic City Remix Radio Edit",
+      "artists": [
+        "Chris Brown",
+        "Panic City"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737a5b84268d6f9315ffd81b7a",
+      "releaseDate": "2012-05-18",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 130,
+      "musoTrackId": "28933124-e8b4-44ff-8558-18cbd0591fc9",
+      "title": "Angered Kids",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a4ea8c76f78b72ce3bda7625",
+      "releaseDate": "2015-12-04",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 131,
+      "musoTrackId": "3ad76e91-ccf9-40ed-9095-d7715cd2196a",
+      "title": "Hangover",
+      "artists": [
+        "K. Roosevelt"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273cd089b1f54a33b64cb6c5344",
+      "releaseDate": "2018-07-27",
+      "year": 2018,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 132,
+      "musoTrackId": "96c04664-fdcc-4fac-a764-d81dae7807e4",
+      "title": "Judgmental C**t",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a4ea8c76f78b72ce3bda7625",
+      "releaseDate": "2015-12-04",
+      "year": 2015,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 133,
+      "musoTrackId": "dcfc4be1-2f3c-40fc-9e77-552a8dd2ba74",
+      "title": "Insides Out",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a4ea8c76f78b72ce3bda7625",
+      "releaseDate": "2015-12-04",
+      "year": 2015,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 134,
+      "musoTrackId": "ee125e60-5cdb-4482-a420-69ba592d5e69",
+      "title": "Destination: Mother Moon",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737c0f6a5c2fa4cd12049aff7e",
+      "releaseDate": "2014-02-25",
+      "year": 2014,
+      "roles": [
+        "Mixing Engineer",
+        "Programmer"
+      ]
+    },
+    {
+      "rank": 135,
+      "musoTrackId": "049adda4-3f5d-47f1-9076-8ec28a2d575d",
+      "title": "Out On The Road",
+      "artists": [
+        "K. Roosevelt"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273cd089b1f54a33b64cb6c5344",
+      "releaseDate": "2018-07-27",
+      "year": 2018,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 136,
+      "musoTrackId": "5dd5731d-11a9-4e43-8eb1-181ecb78c46a",
+      "title": "Worth",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a4ea8c76f78b72ce3bda7625",
+      "releaseDate": "2015-12-04",
+      "year": 2015,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 137,
+      "musoTrackId": "feb959b5-4633-4ec4-b9ef-a9de7038e9d9",
+      "title": "Ready",
+      "artists": [
+        "Chaz French",
+        "GoldLink"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273f8bba04b41c57c2f375e441d",
+      "releaseDate": "2015-12-11",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 138,
+      "musoTrackId": "0a073de5-6f4d-4245-9f30-c93403d576e5",
+      "title": "Rake It Up - The White Panda Remix",
+      "artists": [
+        "Yo Gotti",
+        "White Panda",
+        "Onika Maraj"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27363cbe0c84fdc0b0d894daa3f",
+      "releaseDate": "2017-10-26",
+      "year": 2017,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 139,
+      "musoTrackId": "29ca4f20-877b-4b23-9e12-7e848e01d902",
+      "title": "In My Dreams 2015",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737c0f6a5c2fa4cd12049aff7e",
+      "releaseDate": "2014-02-25",
+      "year": 2014,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 140,
+      "musoTrackId": "bd03409c-1e4d-40c6-bec9-0a2590dbda00",
+      "title": "Fade 2 Red",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a4ea8c76f78b72ce3bda7625",
+      "releaseDate": "2015-12-04",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 141,
+      "musoTrackId": "e1402e25-0367-498f-b706-01f5701f1faa",
+      "title": "Lighthouse",
+      "artists": [
+        "Joe Jonas"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273c66df247b6e1e096d8307769",
+      "releaseDate": "2011-10-11",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 142,
+      "musoTrackId": "2074fb85-3e8e-4093-87e9-7fb6935d1d0e",
+      "title": "VVS",
+      "artists": [
+        "Derek",
+        "Black Fortune"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273c4de4527d933f74083072f7d",
+      "releaseDate": "2021-01-29",
+      "year": 2021,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 143,
+      "musoTrackId": "27fc57cc-c574-40fa-a22d-c5cd9bb460c3",
+      "title": "Don't Wake Me Up - Free School / William Orbit Mix",
+      "artists": [
+        "Chris Brown",
+        "Free School",
+        "William Orbit"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737a5b84268d6f9315ffd81b7a",
+      "releaseDate": "2012-05-18",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 144,
+      "musoTrackId": "b2db9504-bc8b-404e-916d-3e30ab80a000",
+      "title": "Paper Chase",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273898f6b8a01b48be0d144cd55",
+      "releaseDate": "2015-06-08",
+      "year": 2015,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 145,
+      "musoTrackId": "b6d8420b-f0ec-47ba-adc0-9ed9df21f0aa",
+      "title": "Liquid Courage",
+      "artists": [
+        "Sevyn Streeter"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273603147ba60a721627e429c68",
+      "releaseDate": "2021-09-17",
+      "year": 2021,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 146,
+      "musoTrackId": "189679b8-dafb-4b34-b5ea-c6734c62099b",
+      "title": "Vault",
+      "artists": [
+        "Keyshia Cole"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273f2f8d7bc039f66592b5c0fdb",
+      "releaseDate": "2017-10-20",
+      "year": 2017,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 147,
+      "musoTrackId": "43512693-3226-4b8d-9910-9a375d771657",
+      "title": "Red Sabbath",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a4ea8c76f78b72ce3bda7625",
+      "releaseDate": "2015-12-04",
+      "year": 2015,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 148,
+      "musoTrackId": "5ccec5a3-3c70-42b6-b629-7b55cd85c5b2",
+      "title": "King (feat. Luke Prebble, Michael Sparks)",
+      "artists": [
+        "The LaFontaines",
+        "Luke Prebble",
+        "Michael Sparks"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273898f6b8a01b48be0d144cd55",
+      "releaseDate": "2015-06-08",
+      "year": 2015,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 149,
+      "musoTrackId": "bc3f3bc9-8cc2-447c-9fcb-4bd2809a62dd",
+      "title": "Bad Habit",
+      "artists": [
+        "Brian Collins"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273e25a044d4141b17bd594dff8",
+      "releaseDate": "2017-10-06",
+      "year": 2017,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 150,
+      "musoTrackId": "16691fd4-9cfd-4cd5-aad8-3566fe1a870c",
+      "title": "Séance Chaos",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a4ea8c76f78b72ce3bda7625",
+      "releaseDate": "2015-12-04",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 151,
+      "musoTrackId": "44864c19-ec25-41d9-8e87-3d7de8f13aa0",
+      "title": "One Night Stand",
+      "artists": [
+        "K. Roosevelt"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27306c67746f2de5062aef37297",
+      "releaseDate": "2018-12-07",
+      "year": 2018,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 152,
+      "musoTrackId": "4e4b32be-4952-43c7-a741-9635699a5334",
+      "title": "WAIT! - Rehearsal Demo",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a4ea8c76f78b72ce3bda7625",
+      "releaseDate": "2015-12-04",
+      "year": 2015,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 153,
+      "musoTrackId": "a001f3b1-65cf-4a57-8997-0918cb232513",
+      "title": "Lob (feat. Rory Fresco & Juliann Alexander)",
+      "artists": [
+        "Brian Collins",
+        "Rory Fresco",
+        "Juliann Alexander"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27365477951f2d26c2385421d52",
+      "releaseDate": "2018-12-14",
+      "year": 2018,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 154,
+      "musoTrackId": "523baf0d-e938-44ec-ab0b-96d403033302",
+      "title": "Junior Dragon",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273898f6b8a01b48be0d144cd55",
+      "releaseDate": "2015-06-08",
+      "year": 2015,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 155,
+      "musoTrackId": "6d325809-5ad3-4981-8b08-c3359d42df68",
+      "title": "VVS Charm (feat. Kid Ink)",
+      "artists": [
+        "Rory Fresco",
+        "Kid Ink"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27322e7c08260dd99a5b3a51248",
+      "releaseDate": "2019-09-20",
+      "year": 2019,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 156,
+      "musoTrackId": "ca4615ac-6c4c-4504-9717-302894c24842",
+      "title": "Triple Threat",
+      "artists": [
+        "Chris Travis"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27388007f51bec5fd195de0e681",
+      "releaseDate": "2016-09-23",
+      "year": 2016,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 157,
+      "musoTrackId": "19d44781-2a78-4fe9-b149-a92cdb9157a4",
+      "title": "Heat - Niko the Kid Remix",
+      "artists": [
+        "Kelly Clarkson",
+        "Niko The Kid"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273081d3d7d063eeca6fe60f467",
+      "releaseDate": "2018-12-14",
+      "year": 2018,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 158,
+      "musoTrackId": "b77b45d5-45f6-447f-b8c4-5682dd349700",
+      "title": "Heat - Easy Star All-Stars & Michael Goldwasser Reggae Remix",
+      "artists": [
+        "Kelly Clarkson",
+        "Easy Star All-Stars",
+        "Michael Goldwasser"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27327e41f9949f32d54cd36208e",
+      "releaseDate": "2019-01-04",
+      "year": 2019,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 159,
+      "musoTrackId": "d1a8201e-9784-441a-8350-258e734fae3d",
+      "title": "Love So Soft - Dave Aude Remix",
+      "artists": [
+        "Kelly Clarkson",
+        "Dave on HD Accel at Audacious"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273250b261d8db487bc558bdb86",
+      "releaseDate": "2017-10-25",
+      "year": 2017,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 160,
+      "musoTrackId": "00d13186-ac89-488c-a719-553b3dffd042",
+      "title": "Don't Wake Me Up - TheFatRat Remix",
+      "artists": [
+        "Chris Brown",
+        "TheFatRat"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737a5b84268d6f9315ffd81b7a",
+      "releaseDate": "2012-05-18",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 161,
+      "musoTrackId": "0e4abbda-7571-4eca-a42c-f38bc6775135",
+      "title": "Beautiful People (feat. Benny Benassi) - Ultimate High Radio Remix",
+      "artists": [
+        "Chris Brown",
+        "Benny Benasi",
+        "Ultimate High"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273d61b3cd84c9f23749e7fd065",
+      "releaseDate": "2011-03-11",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 162,
+      "musoTrackId": "777cf234-e9e3-44c7-a6c1-f4079ff70d2a",
+      "title": "Don't Wake Me Up - DJ White Shadow Remix",
+      "artists": [
+        "Chris Brown",
+        "DJ White Shadow"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737a5b84268d6f9315ffd81b7a",
+      "releaseDate": "2012-05-18",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 163,
+      "musoTrackId": "aa1a34a8-76f9-43de-bb45-f16945c1f680",
+      "title": "Cakin'",
+      "artists": [
+        "YOGI",
+        "DRAM",
+        "Lady Leshurr"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27335d64310f17fb0521773da2e",
+      "releaseDate": "2017-12-01",
+      "year": 2017,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 164,
+      "musoTrackId": "b744cd63-b025-4cf2-82ff-f0a5f6146854",
+      "title": "Slow Elvis",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273898f6b8a01b48be0d144cd55",
+      "releaseDate": "2015-06-08",
+      "year": 2015,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 165,
+      "musoTrackId": "1c482e03-7b52-47db-a4a3-13cfec155afa",
+      "title": "Castles",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273898f6b8a01b48be0d144cd55",
+      "releaseDate": "2015-06-08",
+      "year": 2015,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 166,
+      "musoTrackId": "e7759655-990e-4410-8fd4-e846034f3351",
+      "title": "Take Me There",
+      "artists": [
+        "SK8"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273bc93d45630b39ecb4a7148b2",
+      "releaseDate": "2020-01-17",
+      "year": 2020,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 167,
+      "musoTrackId": "f5385442-d8db-424b-9103-b64442ca7375",
+      "title": "Class",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273898f6b8a01b48be0d144cd55",
+      "releaseDate": "2015-06-08",
+      "year": 2015,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 168,
+      "musoTrackId": "1cca1977-11fe-4b7e-8140-79b937807863",
+      "title": "Unf***wittable - Edited Version",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273f5556862e851548d4ca31a7c",
+      "releaseDate": "2013-01-01",
+      "year": 2013,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 169,
+      "musoTrackId": "655085cb-20f1-41c0-99dc-d1b8fad568a8",
+      "title": "Beautiful People (feat. Benny Benassi) - Cosmic Dawn Club Remix",
+      "artists": [
+        "Chris Brown",
+        "Benny Benasi",
+        "Cosmic Dawn"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273d39eee66479a8564c0192704",
+      "releaseDate": "2011-03-11",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 170,
+      "musoTrackId": "8eb647ec-adb7-45d5-ab3e-2085d643485e",
+      "title": "Love So Soft - Mark Knight & Ben Remember Remix",
+      "artists": [
+        "Kelly Clarkson",
+        "Ben Remember",
+        "Mark Kight"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2731b27b12134c55fa11c374848",
+      "releaseDate": "2017-10-25",
+      "year": 2017,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 171,
+      "musoTrackId": "9e2b7173-3eee-40a9-95d2-fc5d929aab19",
+      "title": "All She Knows",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273898f6b8a01b48be0d144cd55",
+      "releaseDate": "2015-06-08",
+      "year": 2015,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 172,
+      "musoTrackId": "c8cd3657-2ec2-436c-b03f-dd05f7b08cb9",
+      "title": "Love So Soft - Cedric Gervais Remix",
+      "artists": [
+        "Kelly Clarkson",
+        "Cedric Gervais"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2731a7433b488b7932824a6d5b6",
+      "releaseDate": "2017-10-25",
+      "year": 2017,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 173,
+      "musoTrackId": "d12f724f-c807-443d-a1f0-46936a944403",
+      "title": "Don't Wake Me Up - dBerrie Remix",
+      "artists": [
+        "Chris Brown",
+        "dBerrie"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737a5b84268d6f9315ffd81b7a",
+      "releaseDate": "2012-05-18",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 174,
+      "musoTrackId": "30f2eda3-9fcd-417d-9c2b-f6ab1e12b52e",
+      "title": "Don't Wake Me Up - Clinton Sparks Remix",
+      "artists": [
+        "Chris Brown",
+        "Clinton Sparks"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737a5b84268d6f9315ffd81b7a",
+      "releaseDate": "2012-05-18",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 175,
+      "musoTrackId": "46ddd3fe-aa89-4f35-b52d-23562a04ee97",
+      "title": "Seen A Ghost",
+      "artists": [
+        "Chris Travis"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27388007f51bec5fd195de0e681",
+      "releaseDate": "2016-09-23",
+      "year": 2016,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 176,
+      "musoTrackId": "c2ffc73b-3878-4ff2-82d3-346bb4ffb377",
+      "title": "Light up the Background",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27341e79e38624ae74dd5d87a13",
+      "releaseDate": "2012-06-25",
+      "year": 2012,
+      "roles": [
+        "Composer"
+      ]
+    },
+    {
+      "rank": 177,
+      "musoTrackId": "c57a7039-06cd-479e-bb43-1329bbba7b0e",
+      "title": "Wrapped in Fashion",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27341e79e38624ae74dd5d87a13",
+      "releaseDate": "2012-06-25",
+      "year": 2012,
+      "roles": [
+        "Composer"
+      ]
+    },
+    {
+      "rank": 178,
+      "musoTrackId": "cf6882ea-88d8-4f79-82cc-1591cfb69e14",
+      "title": "The Movement [Intro]",
+      "artists": [
+        "Chris Travis"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27388007f51bec5fd195de0e681",
+      "releaseDate": "2016-09-23",
+      "year": 2016,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 179,
+      "musoTrackId": "dfb3221b-15dc-403c-b2af-bbf91a87d1e0",
+      "title": "Beautiful People (feat. Benny Benassi) - Felix Cartal Club Remix",
+      "artists": [
+        "Chris Brown",
+        "Benny Benasi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273d39eee66479a8564c0192704",
+      "releaseDate": "2011-03-11",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 180,
+      "musoTrackId": "4b41eb61-04c1-4447-805d-e36466f071da",
+      "title": "So Long",
+      "artists": [
+        "K. Roosevelt"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273cd089b1f54a33b64cb6c5344",
+      "releaseDate": "2018-07-27",
+      "year": 2018,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 181,
+      "musoTrackId": "63ded1bd-c002-4f3d-a575-d6cbc3fc1e99",
+      "title": "Lemon Water",
+      "artists": [
+        "Chris Travis"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27388007f51bec5fd195de0e681",
+      "releaseDate": "2016-09-23",
+      "year": 2016,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 182,
+      "musoTrackId": "7931b36b-c607-472e-9ae2-8ccfb5115b78",
+      "title": "The Scene",
+      "artists": [
+        "K. Roosevelt"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273cd089b1f54a33b64cb6c5344",
+      "releaseDate": "2018-07-27",
+      "year": 2018,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 183,
+      "musoTrackId": "9ee99e7d-9774-4d3d-82d9-38e9eed20fd2",
+      "title": "Heat - BYNON Remix",
+      "artists": [
+        "Kelly Clarkson",
+        "BYNON"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273dab83ddeaa76adb5b0c634a6",
+      "releaseDate": "2019-01-18",
+      "year": 2019,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 184,
+      "musoTrackId": "2af3a066-63cd-4f51-ba29-52a3f37b1fb5",
+      "title": "Here For You [Interlude]",
+      "artists": [
+        "Chris Travis"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27388007f51bec5fd195de0e681",
+      "releaseDate": "2016-09-23",
+      "year": 2016,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 185,
+      "musoTrackId": "3ce368f2-5fc2-46ad-84d8-624033e542c1",
+      "title": "Back At It",
+      "artists": [
+        "Chris Travis"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27388007f51bec5fd195de0e681",
+      "releaseDate": "2016-09-23",
+      "year": 2016,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 186,
+      "musoTrackId": "8b76acaf-62b9-40fb-8c7a-bfd8d61fe8ac",
+      "title": "Heat - Lokii Remix",
+      "artists": [
+        "Kelly Clarkson",
+        "Lokii"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273f2bb4cdd340ba6ecac44e605",
+      "releaseDate": "2019-02-15",
+      "year": 2019,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 187,
+      "musoTrackId": "a5b91d8d-f3ce-4dad-b039-c839d31ca751",
+      "title": "Love So Soft - Mr. Collipark Remix",
+      "artists": [
+        "Kelly Clarkson",
+        "Mr. Collipark"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273352a5c017db115bdc2029cf5",
+      "releaseDate": "2017-10-25",
+      "year": 2017,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 188,
+      "musoTrackId": "ab294324-95e7-411b-a6c0-400ab378d6cd",
+      "title": "Window Seat",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273898f6b8a01b48be0d144cd55",
+      "releaseDate": "2015-06-08",
+      "year": 2015,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 189,
+      "musoTrackId": "e74b04de-17ba-4fdc-a89c-8c3512b580f8",
+      "title": "Voices",
+      "artists": [
+        "Jasiah"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2730bdc50a5c72903afe929e6e5",
+      "releaseDate": "2019-12-06",
+      "year": 2019,
+      "roles": [
+        "Composer"
+      ]
+    },
+    {
+      "rank": 190,
+      "musoTrackId": "2f57ffbe-58df-4036-92bc-f13133746b9b",
+      "title": "All Gone",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273898f6b8a01b48be0d144cd55",
+      "releaseDate": "2015-06-08",
+      "year": 2015,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 191,
+      "musoTrackId": "600398f3-c93e-46af-8e9a-d09d32186924",
+      "title": "Eyes Closed",
+      "artists": [
+        "Bryan Roberts",
+        "Joy Léone"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273dcdc5973a1836aaac8137208",
+      "releaseDate": "2024-11-12",
+      "year": 2024,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 192,
+      "musoTrackId": "838d15f6-962d-4323-8d7f-d7a558639d08",
+      "title": "Rake It Up - Niko The Kid Remix",
+      "artists": [
+        "Yo Gotti",
+        "Niko The Kid",
+        "Onika Maraj"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2733390aa6e8a87c2a39f76f4f3",
+      "releaseDate": "2017-10-26",
+      "year": 2017,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 193,
+      "musoTrackId": "93ad2646-8d63-4a2b-a532-38888f354934",
+      "title": "Every Second",
+      "artists": [
+        "Chris Travis"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27388007f51bec5fd195de0e681",
+      "releaseDate": "2016-09-23",
+      "year": 2016,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 194,
+      "musoTrackId": "a4dde72b-019a-4de5-8636-50d8d33baaed",
+      "title": "Pull Me Back",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273898f6b8a01b48be0d144cd55",
+      "releaseDate": "2015-06-08",
+      "year": 2015,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 195,
+      "musoTrackId": "b24c8939-5593-40e0-8085-5191cb4235e3",
+      "title": "Free",
+      "artists": [
+        "SK8"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273bc93d45630b39ecb4a7148b2",
+      "releaseDate": "2020-01-17",
+      "year": 2020,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 196,
+      "musoTrackId": "0e31ad18-30b0-4e0a-93c3-f04dc8b0a5c2",
+      "title": "I Need You",
+      "artists": [
+        "Jesse Boykins III"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2730a8df2e6cc1fd067f0d48510",
+      "releaseDate": "2017-12-08",
+      "year": 2017,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 197,
+      "musoTrackId": "19c36be8-68f2-4c30-a163-c9628825d989",
+      "title": "Remember",
+      "artists": [
+        "Chaz French"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273f8bba04b41c57c2f375e441d",
+      "releaseDate": "2015-12-11",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 198,
+      "musoTrackId": "edc35685-297a-4037-9342-25b5ddf3907f",
+      "title": "Questions",
+      "artists": [
+        "Chaz French"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273f8bba04b41c57c2f375e441d",
+      "releaseDate": "2015-12-11",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 199,
+      "musoTrackId": "0f54aaf4-01ae-4d27-9bd5-9acc94df803d",
+      "title": "L.O.C.O.",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2735ccb830fc1e83e3d58eb8142",
+      "releaseDate": "2014-04-27",
+      "year": 2014,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 200,
+      "musoTrackId": "da078178-a5f2-4838-8aee-38e602cb1404",
+      "title": "Heat - Luke Solomon Remix",
+      "artists": [
+        "Kelly Clarkson",
+        "Luke Solomon"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a3c6f6c39e523705d4fdaffe",
+      "releaseDate": "2018-07-27",
+      "year": 2018,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 201,
+      "musoTrackId": "07da5d39-5a7f-4788-a609-84f2baf72477",
+      "title": "Beautiful People (feat. Benny Benassi) - Lenny B Radio Mix",
+      "artists": [
+        "Chris Brown",
+        "Benny Benasi",
+        "LENNY B"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273d61b3cd84c9f23749e7fd065",
+      "releaseDate": "2011-03-11",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 202,
+      "musoTrackId": "213948a2-00c7-4442-9614-30cf3e6a8f1b",
+      "title": "Heat - Kokiri Remix",
+      "artists": [
+        "Kelly Clarkson",
+        "Kokiri"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2730928305d7aad2b95281dee6b",
+      "releaseDate": "2019-02-01",
+      "year": 2019,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 203,
+      "musoTrackId": "81cd8f82-36d3-4f96-8861-7a7bfa70909f",
+      "title": "These Things Take Time",
+      "artists": [
+        "Chaz French"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273f8bba04b41c57c2f375e441d",
+      "releaseDate": "2015-12-11",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 204,
+      "musoTrackId": "d8602ee8-0221-44ea-ab8f-05e945011452",
+      "title": "Beautiful People (feat. Benny Benassi) - Cosmic Dawn Radio Remix",
+      "artists": [
+        "Chris Brown",
+        "Benny Benasi",
+        "Cosmic Dawn"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273d61b3cd84c9f23749e7fd065",
+      "releaseDate": "2011-03-11",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 205,
+      "musoTrackId": "0b84619b-bec3-4b9d-b43b-06426b26a6f3",
+      "title": "It's Over",
+      "artists": [
+        "Chaz French",
+        "Saba",
+        "Eddie Vanz"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273f8bba04b41c57c2f375e441d",
+      "releaseDate": "2015-12-11",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 206,
+      "musoTrackId": "5ef24f24-79ff-4c12-80b3-9188fdcea27c",
+      "title": "Intro",
+      "artists": [
+        "K. Roosevelt"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273cd089b1f54a33b64cb6c5344",
+      "releaseDate": "2018-07-27",
+      "year": 2018,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 207,
+      "musoTrackId": "6bd7980f-faa6-4b3f-86f9-8f762ceb65b8",
+      "title": "Malcolm Tucker",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2735ccb830fc1e83e3d58eb8142",
+      "releaseDate": "2014-04-27",
+      "year": 2014,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 208,
+      "musoTrackId": "cad36cd1-24b8-427e-b79d-27c8b83e2552",
+      "title": "Beautiful People (feat. Benny Benassi) - Tonal Radio Remix",
+      "artists": [
+        "Chris Brown",
+        "Benny Benasi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273d61b3cd84c9f23749e7fd065",
+      "releaseDate": "2011-03-11",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 209,
+      "musoTrackId": "f7bc424f-1c6d-49a6-b5f4-4eb180ca6995",
+      "title": "Countdown - Chopped Not Slopped",
+      "artists": [
+        "Tauheed Epps",
+        "Chris Brown"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2736ed45d22bbff123fc4025920",
+      "releaseDate": "2012-08-14",
+      "year": 2012,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 210,
+      "musoTrackId": "25ac894c-2509-4189-adb7-dd5c7d9a6708",
+      "title": "Beautiful People (feat. Benny Benassi) - The Knocks Club Remix",
+      "artists": [
+        "Chris Brown",
+        "Benny Benasi",
+        "The Knocks"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273d39eee66479a8564c0192704",
+      "releaseDate": "2011-03-11",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 211,
+      "musoTrackId": "5a6ab87b-338a-4d49-b3ce-8ac24307f16a",
+      "title": "Beautiful People (feat. Benny Benassi) - Mike D Bass Mix",
+      "artists": [
+        "Chris Brown",
+        "Benny Benasi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273d61b3cd84c9f23749e7fd065",
+      "releaseDate": "2011-03-11",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 212,
+      "musoTrackId": "c53a37b5-a706-4a5a-8cd8-ae74e7ba00ef",
+      "title": "Songs For Us",
+      "artists": [
+        "Chaz French"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273f8bba04b41c57c2f375e441d",
+      "releaseDate": "2015-12-11",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 213,
+      "musoTrackId": "c784c25b-cff4-48f8-b056-c56a764824ce",
+      "title": "2 Good 2 Be True",
+      "artists": [
+        "Chaz French"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273f8bba04b41c57c2f375e441d",
+      "releaseDate": "2015-12-11",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 214,
+      "musoTrackId": "d0828c8a-75b9-4133-9305-dbaaebf29f3b",
+      "title": "Beautiful People (feat. Benny Benassi) - Mike D Remix",
+      "artists": [
+        "Chris Brown",
+        "Benny Benasi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273d39eee66479a8564c0192704",
+      "releaseDate": "2011-03-11",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 215,
+      "musoTrackId": "e16b0b87-c985-438b-ab55-e4e4eb7368cc",
+      "title": "Let God",
+      "artists": [
+        "Chaz French",
+        "Eddie Vanz",
+        "Lito Walker"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273f8bba04b41c57c2f375e441d",
+      "releaseDate": "2015-12-11",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 216,
+      "musoTrackId": "e4aa0834-78b8-48ab-910d-dd428ac0c0ea",
+      "title": "Sometimes",
+      "artists": [
+        "Chaz French",
+        "Phil Adé"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273f8bba04b41c57c2f375e441d",
+      "releaseDate": "2015-12-11",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 217,
+      "musoTrackId": "400ffef9-1f13-4350-bde1-4d99edff0931",
+      "title": "IDK",
+      "artists": [
+        "Chaz French"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273f8bba04b41c57c2f375e441d",
+      "releaseDate": "2015-12-11",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 218,
+      "musoTrackId": "5595cf61-a8e0-4fa8-8911-7aa9543fc6be",
+      "title": "Pull Up",
+      "artists": [
+        "Chaz French"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273f8bba04b41c57c2f375e441d",
+      "releaseDate": "2015-12-11",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 219,
+      "musoTrackId": "b8084412-50f3-4b21-b700-e8335a9100e0",
+      "title": "Beautiful People (feat. Benny Benassi) - Lenny B Club Mix",
+      "artists": [
+        "Chris Brown",
+        "Benny Benasi",
+        "LENNY B"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273d39eee66479a8564c0192704",
+      "releaseDate": "2011-03-11",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 220,
+      "musoTrackId": "b98c463e-8bde-4314-83bf-68c9351e80aa",
+      "title": "Mind To It",
+      "artists": [
+        "Chaz French"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273f8bba04b41c57c2f375e441d",
+      "releaseDate": "2015-12-11",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 221,
+      "musoTrackId": "bc00b22c-b081-4076-a87c-8ad06f9c68c3",
+      "title": "Beautiful People (feat. Benny Benassi) - The Knocks Radio Mix",
+      "artists": [
+        "Chris Brown",
+        "Benny Benasi",
+        "The Knocks"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273d61b3cd84c9f23749e7fd065",
+      "releaseDate": "2011-03-11",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 222,
+      "musoTrackId": "c8bc9e45-1abb-4eb2-be4f-9c8256372936",
+      "title": "Beautiful People (feat. Benny Benassi) - Tonal Club Remix",
+      "artists": [
+        "Chris Brown",
+        "Benny Benasi"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273d39eee66479a8564c0192704",
+      "releaseDate": "2011-03-11",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 223,
+      "musoTrackId": "d01e87c0-803f-47f7-b5c5-ebad0079ac79",
+      "title": "Heat - Wolves by Night Remix",
+      "artists": [
+        "Kelly Clarkson",
+        "Wolves By Night"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27356eb6b77d84d8835fce3f7cb",
+      "releaseDate": "2019-01-18",
+      "year": 2019,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 224,
+      "musoTrackId": "4fa824a2-a09e-467a-8afd-3bfa186031d6",
+      "title": "Beautiful People (feat. Benny Benassi) - Ultimate High Club Remix",
+      "artists": [
+        "Chris Brown",
+        "Benny Benasi",
+        "Ultimate High"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273d39eee66479a8564c0192704",
+      "releaseDate": "2011-03-11",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 225,
+      "musoTrackId": "50323114-06b1-4ce9-af21-5f346d7bb9b6",
+      "title": "My Yo-Yo",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737e1e06d9041e0be21e57bcd2",
+      "releaseDate": "2013-10-27",
+      "year": 2013,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 226,
+      "musoTrackId": "63067f05-7546-41de-9942-be2b12b2bb98",
+      "title": "DAZE",
+      "artists": [
+        "Bryan Roberts"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273705ae51caa1da3d7a5c5610f",
+      "releaseDate": "2025-04-07",
+      "year": 2025,
+      "roles": [
+        "Mixing Engineer",
+        "Mastering Engineer"
+      ]
+    },
+    {
+      "rank": 227,
+      "musoTrackId": "74050785-602c-48ca-b302-7c524b7bfc79",
+      "title": "All She Knows - Acoustic",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737e1e06d9041e0be21e57bcd2",
+      "releaseDate": "2013-10-27",
+      "year": 2013,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 228,
+      "musoTrackId": "94705169-37be-4c81-92ab-554e69eed9af",
+      "title": "Heat - Paul Morrell Remix",
+      "artists": [
+        "Kelly Clarkson",
+        "Paul Morrell"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27366fb53c32da575eaec4c4081",
+      "releaseDate": "2019-01-04",
+      "year": 2019,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 229,
+      "musoTrackId": "b4cade35-21f2-4287-9ca2-019e00b97eb2",
+      "title": "Don't Forget About Me",
+      "artists": [
+        "Chaz French"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273f8bba04b41c57c2f375e441d",
+      "releaseDate": "2015-12-11",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 230,
+      "musoTrackId": "e011f8e3-55be-43ed-8dc5-9892af8d1fcd",
+      "title": "We Made It",
+      "artists": [
+        "Chaz French"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273f8bba04b41c57c2f375e441d",
+      "releaseDate": "2015-12-11",
+      "year": 2015,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 231,
+      "musoTrackId": "4edf90e2-6a48-4c3d-93e9-6b976ceee5df",
+      "title": "Heat - Luke Solomon Fire Dub",
+      "artists": [
+        "Kelly Clarkson",
+        "Luke Solomon"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a3c6f6c39e523705d4fdaffe",
+      "releaseDate": "2018-07-27",
+      "year": 2018,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 232,
+      "musoTrackId": "5785a585-e9fe-43d9-bdb7-a2aa0db5ff08",
+      "title": "Champion (feat. Chris Brown) - Ready for the Weekend Remix",
+      "artists": [
+        "Chip",
+        "Chris Brown",
+        "Perempay & Dee"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2738410a66da1f98f287da44e5d",
+      "releaseDate": "2011-02-20",
+      "year": 2011,
+      "roles": [
+        "Assistant Engineer"
+      ]
+    },
+    {
+      "rank": 233,
+      "musoTrackId": "7b048b87-9b81-4c22-bdc0-c28900e39e38",
+      "title": "Under the Storm - DJ Big Al Skite Club Remix",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2735ccb830fc1e83e3d58eb8142",
+      "releaseDate": "2014-04-27",
+      "year": 2014,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 234,
+      "musoTrackId": "f3315c35-8e73-48c2-bc29-2e1994b7b301",
+      "title": "LLOOVVEE",
+      "artists": [
+        "Wyld Ruse"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273aae9488cc0352c9d29909e14",
+      "releaseDate": "2022-07-12",
+      "year": 2022,
+      "roles": [
+        "Producer"
+      ]
+    },
+    {
+      "rank": 235,
+      "musoTrackId": "b585b3ed-e989-4a46-8fc5-04503b5d93c3",
+      "title": "Under the Storm - Radio Edit",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2735ccb830fc1e83e3d58eb8142",
+      "releaseDate": "2014-04-27",
+      "year": 2014,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 236,
+      "musoTrackId": "c391a6a2-a0b3-47ad-92a6-9b6aae42f865",
+      "title": "Bloodmoon",
+      "artists": [
+        "Rory Fresco"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273ca1776f7a8a90f22cdd4a9d1",
+      "releaseDate": "2019-04-12",
+      "year": 2019,
+      "roles": [
+        "Producer"
+      ]
+    },
+    {
+      "rank": 237,
+      "musoTrackId": "e351ddfb-da1a-4522-a955-e7262dadcbfe",
+      "title": "Release the Hounds",
+      "artists": [
+        "The Bastard Sons"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27300bf3b24357fb45556b31a3b",
+      "releaseDate": "2015-08-07",
+      "year": 2015,
+      "roles": [
+        "Composer"
+      ]
+    },
+    {
+      "rank": 238,
+      "musoTrackId": "1706f61b-8d81-459c-80dd-deb6ff2823b5",
+      "title": "Stuck In This Dream",
+      "artists": [
+        "Bryan Roberts"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2732e318c2bbe3054d09ed8e889",
+      "releaseDate": "2021-05-14",
+      "year": 2021,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 239,
+      "musoTrackId": "6aba01d0-277b-4303-84fb-8e9707e36e0b",
+      "title": "All She Knows - Prides Remix",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2737e1e06d9041e0be21e57bcd2",
+      "releaseDate": "2013-10-27",
+      "year": 2013,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 240,
+      "musoTrackId": "84d14e4f-1871-4c62-a303-28aad5702f38",
+      "title": "Light up the Background (Bovine Edit)",
+      "artists": [
+        "The LaFontaines"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b27341e79e38624ae74dd5d87a13",
+      "releaseDate": "2012-06-25",
+      "year": 2012,
+      "roles": [
+        "Composer"
+      ]
+    },
+    {
+      "rank": 241,
+      "musoTrackId": "8fefabc8-46ea-4e43-9dd2-beefd853a3fe",
+      "title": "Ghetto Disco",
+      "artists": [
+        "Bryan Roberts",
+        "PISCEE"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273dcdc5973a1836aaac8137208",
+      "releaseDate": "2024-11-12",
+      "year": 2024,
+      "roles": [
+        "Composer",
+        "Lyricist"
+      ]
+    },
+    {
+      "rank": 242,
+      "musoTrackId": "e1d16713-2849-49e9-9cf5-8759e4fd481f",
+      "title": "With You",
+      "artists": [
+        "Bryan Roberts"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273dcdc5973a1836aaac8137208",
+      "releaseDate": "2024-11-12",
+      "year": 2024,
+      "roles": [
+        "Composer",
+        "Lyricist",
+        "Mastering Engineer",
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 243,
+      "musoTrackId": "00f67953-c197-44af-9265-6b6a7256a5c2",
+      "title": "Release the Hounds",
+      "artists": [
+        "Nix & The Control Zeds"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273def1036783947a24cf97382e",
+      "releaseDate": "2009-08-01",
+      "year": 2009,
+      "roles": [
+        "Composer"
+      ]
+    },
+    {
+      "rank": 244,
+      "musoTrackId": "0d7cb924-a9a5-4930-82e2-99398237d524",
+      "title": "Close",
+      "artists": [
+        "Wyld Ruse"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2738700e51c94064b5bdee31c87",
+      "releaseDate": "2020-10-06",
+      "year": 2020,
+      "roles": [
+        "Composer"
+      ]
+    },
+    {
+      "rank": 245,
+      "musoTrackId": "0fe34bfc-cf2c-4b9d-b24d-40000d9423b2",
+      "title": "Dynamite Intro",
+      "artists": [
+        "Bryan Roberts"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273dcdc5973a1836aaac8137208",
+      "releaseDate": "2024-11-12",
+      "year": 2024,
+      "roles": [
+        "Composer",
+        "Lyricist",
+        "Mastering Engineer",
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 246,
+      "musoTrackId": "24e864d5-fc04-48e4-8c24-3e5cd9172223",
+      "title": "No way (#4)",
+      "artists": [
+        "Bryan Roberts"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273dcdc5973a1836aaac8137208",
+      "releaseDate": "2024-11-12",
+      "year": 2024,
+      "roles": [
+        "Composer",
+        "Lyricist",
+        "Mastering Engineer",
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 247,
+      "musoTrackId": "2ec97cec-d1e1-44fc-9dd3-51e9d647b21c",
+      "title": "Release the Hounds",
+      "artists": [
+        "Release the Hounds"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273a728e912c189854837c480ca",
+      "releaseDate": "2022-10-31",
+      "year": 2022,
+      "roles": [
+        "Composer"
+      ]
+    },
+    {
+      "rank": 248,
+      "musoTrackId": "2fa24484-d1e5-4a57-8e23-29332b6577cd",
+      "title": "ELECTROWAVEBABY 2.0",
+      "artists": [
+        "Kid Kudi"
+      ],
+      "album": "",
+      "albumArt": "https://resources.tidal.com/images/2aa1c419/30b5/4b6b/a902/09b5a61d1400/640x640.jpg",
+      "releaseDate": "2024-02-23",
+      "year": 2024,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 249,
+      "musoTrackId": "a59e03be-e341-4d28-baa6-ada0ed51d08d",
+      "title": "Back Here Yelling",
+      "artists": [
+        "Matthew Leeb"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273eba9530adabd6a9eed6fd64d",
+      "releaseDate": "2019-06-21",
+      "year": 2019,
+      "roles": [
+        "Engineer"
+      ]
+    },
+    {
+      "rank": 250,
+      "musoTrackId": "b0859b00-73b3-4a88-ad60-14bc8be45970",
+      "title": "Release the Hounds",
+      "artists": [
+        "The Control Zeds",
+        "Nix"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2733d6233f1b2ff7315b563cda3",
+      "releaseDate": "2009-08-01",
+      "year": 2009,
+      "roles": [
+        "Composer"
+      ]
+    },
+    {
+      "rank": 251,
+      "musoTrackId": "b28c61ce-9744-486c-b309-a15c2a3ea363",
+      "title": "Lost on Purpose",
+      "artists": [
+        "Zoo Legacy"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273842ce351cdfb080e43a13929",
+      "releaseDate": "2020-08-12",
+      "year": 2020,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 252,
+      "musoTrackId": "c1fe8bc0-a00c-43ad-bbfd-4c9632adc2a6",
+      "title": "Drought",
+      "artists": [
+        "Wyld Ruse"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2734237fb5ccd3c1f9cc54df8e4",
+      "releaseDate": "2022-08-17",
+      "year": 2022,
+      "roles": [
+        "Producer"
+      ]
+    },
+    {
+      "rank": 253,
+      "musoTrackId": "d158bc0e-9147-4d87-8b9a-2e65e2b7caed",
+      "title": "Feel That (sugar when it's nice out)",
+      "artists": [
+        "Bryan Roberts"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2732e318c2bbe3054d09ed8e889",
+      "releaseDate": "2021-05-14",
+      "year": 2021,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    },
+    {
+      "rank": 254,
+      "musoTrackId": "d7e941c2-8e98-4403-b19a-c3ac03fb87de",
+      "title": "Fireman / Come To Life",
+      "artists": [
+        "Duane Something"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273b31a649721618438ad9d8034",
+      "releaseDate": "2021-04-30",
+      "year": 2021,
+      "roles": [
+        "Co-Producer"
+      ]
+    },
+    {
+      "rank": 255,
+      "musoTrackId": "f0bbffae-ebc9-42d4-b119-116ee17b955c",
+      "title": "Forever",
+      "artists": [
+        "Wyld Ruse"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2738700e51c94064b5bdee31c87",
+      "releaseDate": "2020-10-06",
+      "year": 2020,
+      "roles": [
+        "Composer"
+      ]
+    },
+    {
+      "rank": 256,
+      "musoTrackId": "f4cd6a53-e93a-43cb-b37d-c737b40eb28e",
+      "title": "Release the Hounds",
+      "artists": [
+        "Release the Hounds"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b273095aad73441deb3405974a7a",
+      "releaseDate": "2018-04-20",
+      "year": 2018,
+      "roles": [
+        "Composer"
+      ]
+    },
+    {
+      "rank": 257,
+      "musoTrackId": "f5bbb67a-f90c-41c9-9624-5d7e4a5aada7",
+      "title": "Divine Time",
+      "artists": [
+        "Bryan Roberts"
+      ],
+      "album": "",
+      "albumArt": "https://i.scdn.co/image/ab67616d0000b2732e318c2bbe3054d09ed8e889",
+      "releaseDate": "2021-05-14",
+      "year": 2021,
+      "roles": [
+        "Mixing Engineer"
+      ]
+    }
+  ]
+}

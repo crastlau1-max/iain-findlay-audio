@@ -1,0 +1,14 @@
+# Render Blueprint: free test deployment. Runs in preview mode (no Stripe, Twitch or email keys).
+services:
+  - type: web
+    name: iain-findlay
+    runtime: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ADMIN_PASSWORD
+        generateValue: true

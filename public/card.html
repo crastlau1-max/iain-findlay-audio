@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <title>Your card · Iain Findlay</title>
+  <meta name="theme-color" content="#09090C">
+  <link rel="icon" href="/assets/vinyl.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/site.css">
+  <style>
+    .card-page { min-height: 100svh; display: grid; place-items: center; padding: calc(var(--nav-h) + 32px) var(--gutter) 64px; }
+    .card-wrap { width: 100%; max-width: 620px; }
+    .card-wrap .punchcard { transform: none; max-width: none; }
+    .card-status { margin-top: 26px; display: grid; gap: 14px; }
+    .card-status .h { font-family: var(--serif); font-size: clamp(30px, 4vw, 42px); line-height: 1.05; }
+    .lock { border: 1px solid rgba(212,163,89,.45); background: var(--gold-wash); border-radius: var(--r-2); padding: 16px 18px; }
+    .lock strong { color: var(--gold-hi); }
+    .recent { list-style: none; margin: 8px 0 0; padding: 0; border-top: 1px solid var(--line); }
+    .recent li { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--line); font-size: 14.5px; color: var(--text-2); }
+    .recent li span:last-child { color: var(--muted); white-space: nowrap; }
+  </style>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="/"><span class="brand-name">Iain Findlay</span><span class="nav-subtitle">Recording, mixing and mastering</span></a>
+    <span></span>
+    <div class="nav-right"><a class="btn btn-gold btn-sm" href="/#book">Book direct</a></div>
+  </div>
+</header>
+<main class="card-page">
+  <div class="card-wrap" id="card-root">
+    <p class="label">Loading your card</p>
+  </div>
+</main>
+<script type="module" src="/js/card.js"></script>
+</body>
+</html>

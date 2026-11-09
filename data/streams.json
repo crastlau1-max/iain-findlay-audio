@@ -1,0 +1,121 @@
+{
+  "note": "Spotify play counts for credited tracks, summed from public kworb.net artist pages. The server re-checks once a day and only ever shows verified sums. Spotify only, so the true cross platform total is higher.",
+  "asOf": "2026-11-09",
+  "spotifyTotal": 6500832751,
+  "tracksCounted": 118,
+  "pages": [
+    {
+      "artist": "Chris Brown",
+      "url": "https://kworb.net/spotify/artist/7bXgB6jMjp9ATFy66eO08Z_songs.html"
+    },
+    {
+      "artist": "Kid Cudi",
+      "url": "https://kworb.net/spotify/artist/0fA0VVWsXO9YnASrzqfmYu_songs.html"
+    },
+    {
+      "artist": "Calvin Harris",
+      "url": "https://kworb.net/spotify/artist/7CajNmpbOovFoOoasH2HaY_songs.html"
+    },
+    {
+      "artist": "Yo Gotti",
+      "url": "https://kworb.net/spotify/artist/6Ha4aES39QiVjR0L2lwuwq_songs.html"
+    },
+    {
+      "artist": "Katy Perry",
+      "url": "https://kworb.net/spotify/artist/6jJ0s89eD6GaHleKKya26X_songs.html"
+    },
+    {
+      "artist": "Kelly Clarkson",
+      "url": "https://kworb.net/spotify/artist/3BmGtnKgCSGYIUhmivXKWX_songs.html"
+    },
+    {
+      "artist": "Ariana Grande",
+      "url": "https://kworb.net/spotify/artist/66CXWjxzNUsdJxJ2JdwvnR_songs.html"
+    },
+    {
+      "artist": "Nicki Minaj",
+      "url": "https://kworb.net/spotify/artist/0hCNtLu0JehylgoiP8L4Gh_songs.html"
+    },
+    {
+      "artist": "Oliver Tree",
+      "url": "https://kworb.net/spotify/artist/6TLwD7HPWuiOzvXEa3oCNe_songs.html"
+    },
+    {
+      "artist": "Justin Bieber",
+      "url": "https://kworb.net/spotify/artist/1uNFoZAHBGtllmzznpCI3s_songs.html"
+    },
+    {
+      "artist": "DJ Khaled",
+      "url": "https://kworb.net/spotify/artist/0QHgL1lAIqAw0HtD7YldmP_songs.html"
+    }
+  ],
+  "perArtist": {
+    "Chris Brown": {
+      "streams": 1946707413,
+      "daily": 457835,
+      "matched": 20,
+      "at": "2026-11-09T03:46:53.302Z"
+    },
+    "Kid Cudi": {
+      "streams": 1164311422,
+      "daily": 286492,
+      "matched": 73,
+      "at": "2026-11-09T03:46:55.392Z"
+    },
+    "Calvin Harris": {
+      "streams": 1475814017,
+      "daily": 411885,
+      "matched": 1,
+      "at": "2026-11-09T03:46:57.570Z"
+    },
+    "Yo Gotti": {
+      "streams": 459152897,
+      "daily": 45176,
+      "matched": 2,
+      "at": "2026-11-09T03:46:59.869Z"
+    },
+    "Katy Perry": {
+      "streams": 477758271,
+      "daily": 44918,
+      "matched": 2,
+      "at": "2026-11-09T03:47:01.770Z"
+    },
+    "Kelly Clarkson": {
+      "streams": 132262847,
+      "daily": 10304,
+      "matched": 13,
+      "at": "2026-11-09T03:47:03.669Z"
+    },
+    "Ariana Grande": {
+      "streams": 320966880,
+      "daily": 90236,
+      "matched": 1,
+      "at": "2026-11-09T03:47:05.575Z"
+    },
+    "Nicki Minaj": {
+      "streams": 73326170,
+      "daily": 12700,
+      "matched": 2,
+      "at": "2026-11-09T03:47:07.691Z"
+    },
+    "Oliver Tree": {
+      "streams": 380365899,
+      "daily": 124074,
+      "matched": 2,
+      "at": "2026-11-09T03:47:09.397Z"
+    },
+    "Justin Bieber": {
+      "streams": 58974623,
+      "daily": 27028,
+      "matched": 1,
+      "at": "2026-11-09T03:47:11.899Z"
+    },
+    "DJ Khaled": {
+      "streams": 11192312,
+      "daily": 1202,
+      "matched": 1,
+      "at": "2026-11-09T03:47:13.796Z"
+    }
+  },
+  "checkedAt": "2026-11-09T03:47:15.297Z"
+}

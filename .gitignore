@@ -1,0 +1,14 @@
+node_modules/
+.env
+data/muso-cache.json
+data/apple-cache.json
+data/covers-cache.json
+data/previews/
+data/audio-cache/
+data/.session-secret
+data/bookings.json
+data/clients.json
+_legacy/
+.DS_Store
+data/projects.json
+data/cover-cache/

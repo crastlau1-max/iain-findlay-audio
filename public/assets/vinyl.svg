@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#17161b"/><stop offset="1" stop-color="#0a0a0d"/></radialGradient>
+    <radialGradient id="rec" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#16161a"/><stop offset=".92" stop-color="#0b0b0e"/><stop offset="1" stop-color="#050506"/></radialGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1"><stop offset=".3" stop-color="#fff" stop-opacity="0"/><stop offset=".48" stop-color="#fff" stop-opacity=".07"/><stop offset=".56" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <radialGradient id="label" cx="45%" cy="40%" r="70%"><stop offset="0" stop-color="#e4b46c"/><stop offset=".7" stop-color="#c4914a"/><stop offset="1" stop-color="#8f6a36"/></radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <circle cx="200" cy="200" r="168" fill="url(#rec)"/>
+  <g fill="none" stroke="#fff" stroke-opacity=".045">
+    <circle cx="200" cy="200" r="158"/><circle cx="200" cy="200" r="148"/><circle cx="200" cy="200" r="139"/><circle cx="200" cy="200" r="129"/><circle cx="200" cy="200" r="120"/><circle cx="200" cy="200" r="110"/><circle cx="200" cy="200" r="101"/><circle cx="200" cy="200" r="92"/><circle cx="200" cy="200" r="83"/><circle cx="200" cy="200" r="74"/>
+  </g>
+  <circle cx="200" cy="200" r="168" fill="url(#sheen)"/>
+  <circle cx="200" cy="200" r="56" fill="url(#label)"/>
+  <circle cx="200" cy="200" r="56" fill="none" stroke="#000" stroke-opacity=".25"/>
+  <circle cx="200" cy="200" r="5" fill="#0a0a0d"/>
+</svg>

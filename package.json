@@ -1,0 +1,20 @@
+{
+  "name": "iain-findlay-audio",
+  "version": "2.0.0",
+  "description": "Portfolio, direct booking and live hub for Iain Findlay, Los Angeles",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/*.test.js",
+    "sync:credits": "node scripts/sync-credits.js",
+    "import:muso": "node scripts/import-muso.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=18.17"
+  }
+}
