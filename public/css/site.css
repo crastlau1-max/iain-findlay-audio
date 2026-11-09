@@ -20,7 +20,8 @@
   --live: #F0454B;
   --ok: #7FC19A;
 
-  --serif: "Instrument Serif", "Iowan Old Style", Georgia, serif;
+  /* display face: sharp, condensed, set in caps (see "display type" at the end) */
+  --serif: "Big Shoulders Display", "Oswald", "Arial Narrow", sans-serif;
   --sans: "Hanken Grotesk", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
 
@@ -193,7 +194,7 @@ h1, h2, h3 { font-weight: 400; margin: 0; letter-spacing: -0.01em; }
 .hero-kicker { display: flex; align-items: center; gap: 12px; color: var(--text-2); font-size: 14px; margin-bottom: 22px; }
 .hero-kicker .rule { width: 36px; height: 1px; background: var(--gold); }
 .hero h1 { font-size: clamp(64px, 9.6vw, 150px); }
-.hero h1 em { color: var(--gold); font-style: italic; }
+.hero h1 em { color: inherit; font-style: normal; }
 .hero .lede { margin: 26px 0 32px; }
 .hero-ctas { display: flex; gap: 12px; flex-wrap: wrap; }
 
@@ -673,3 +674,28 @@ body:not(.deck-open) .toast { bottom: 24px; }
 .rates ul { list-style: none; margin: 8px 0 12px; padding: 0; }
 .rates li span:last-child { color: var(--gold); }
 #request-form .included li { height: 30px; font-size: 13px; }
+
+/* ---------- display type: sharp, condensed, all caps ---------- */
+.display, .h2, .brand-name, .plaque.lead .t, .metric .v, .step-num, .summary-head .h3, .sum-total .v,
+.modal-head h3, .pc-title, .pc-mark, .mechanic .n, .offair .h, .prose h2,
+.a-head h1, .tile .v, .card-mini .big, .prop-preview .v, .pj-head h1, .prop-total .v {
+  font-weight: 800; text-transform: uppercase; letter-spacing: 0.005em; font-style: normal;
+}
+.display { line-height: 0.88; }
+.h2 { line-height: 0.95; }
+.brand-name { font-weight: 700; letter-spacing: 0.04em; font-size: 24px; }
+.hero h1 em, .page-head h1 em, .h2 .italic, .pc-mark { font-style: normal; }
+.plaque.lead .t { line-height: 1; }
+
+/* small type in caps to match: nav, buttons, kickers */
+.nav-links a, .mobile-menu a, .btn, .hero-kicker, .tab, .toc a, .footer nav a, .mobile-book {
+  text-transform: uppercase; letter-spacing: 0.08em;
+}
+.nav-links a { font-size: 13px; font-weight: 600; }
+.btn { font-size: 13.5px; font-weight: 700; }
+.btn-sm { font-size: 12.5px; }
+.hero-kicker { font-size: 12.5px; font-weight: 600; }
+.mobile-menu a { font-size: 16px; font-weight: 600; }
+.footer nav a { font-size: 12.5px; font-weight: 600; }
+.mobile-book { font-size: 12.5px; font-weight: 600; }
+.h3 { text-transform: uppercase; letter-spacing: 0.06em; font-size: 14.5px; font-weight: 700; }
