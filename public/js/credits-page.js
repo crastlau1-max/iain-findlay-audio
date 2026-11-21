@@ -10,4 +10,4 @@ root.addEventListener('catalog', e => {
   $('#sync-note').innerHTML = syncLine(e.detail, cfg.musoProfileUrl);
   $('#count').textContent = e.detail.totalCount;
 }, { once: true });
-mountConsole(root, { bounded: false });
+mountConsole(root, { bounded: false, perPage: 50 });

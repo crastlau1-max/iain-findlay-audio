@@ -41,8 +41,14 @@ const requireAdmin = auth.requireAdmin;
 // Seller side: /api/admin/* (login, clients, sessions, rate locks, bookings, settings)
 app.use('/api/admin', require('./lib/admin-routes'));
 
-// Client side projects: request, thread, proposal, payment (private token links).
+// Client accounts: sign up, sign in, profile, password, verification and reset.
+app.use('/api/account', require('./lib/account-routes'));
+
+// Client side projects: request, thread, proposal, payment, delivery, review.
 app.use('/api/projects', require('./lib/project-routes'));
+
+// Public reviews for the booking page.
+app.get('/api/reviews', (req, res) => res.json(require('./lib/reviews').publicList()));
 
 // Client side: private punch card by secret link. No lookup by email or name.
 app.get('/api/card/:token', (req, res) => {
@@ -184,6 +190,9 @@ app.post('/api/twitch/simulate', (req, res, next) => (isProd && !process.env.ALL
 app.use(express.static(PUBLIC, { extensions: ['html'], maxAge: isProd ? '1h' : 0 }));
 app.get('/credits', (req, res) => res.sendFile('credits.html', { root: PUBLIC }));
 app.get('/terms', (req, res) => res.sendFile('terms.html', { root: PUBLIC }));
+for (const page of ['book', 'course', 'live']) app.get(`/${page}`, (req, res) => res.sendFile(`${page}.html`, { root: PUBLIC }));
+app.get('/book/request', (req, res) => res.sendFile('request.html', { root: PUBLIC }));
+for (const page of ['signin', 'account']) app.get(`/${page}`, (req, res) => res.set('X-Robots-Tag', 'noindex').sendFile(`${page}.html`, { root: PUBLIC }));
 app.get('/admin', (req, res) => res.set('X-Robots-Tag', 'noindex').sendFile('admin.html', { root: PUBLIC }));
 app.get('/project/:token', (req, res) => res.set('X-Robots-Tag', 'noindex').set('Referrer-Policy', 'no-referrer').sendFile('project.html', { root: PUBLIC }));
 app.get('/card/:token', (req, res) => res.set('X-Robots-Tag', 'noindex').sendFile('card.html', { root: PUBLIC }));

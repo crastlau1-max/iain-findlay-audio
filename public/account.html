@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Account · Iain Findlay</title>
+  <meta name="description" content="Your projects and account settings.">
+  <meta name="theme-color" content="#09090C">
+  <link rel="icon" href="/assets/vinyl.svg" type="image/svg+xml">
+  <link rel="preload" as="font" type="font/woff2" href="/fonts/big-shoulders-display-latin-800-normal.woff2" crossorigin>
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="/" aria-label="Iain Findlay home"><span class="brand-name">Iain Findlay</span><span class="nav-subtitle">Recording, mixing and mastering</span></a>
+    <nav class="nav-links" aria-label="Primary"><a href="/credits">Credits</a><a href="/book">Book</a><a href="/course">Course</a><a href="/live">Live</a></nav>
+    <div class="nav-right">
+      <div class="status-slot"><a id="status-pill" class="status-pill" href="https://www.twitch.tv/alrightiain" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1"><span class="dot"></span><span class="txt">Off-Air</span></a></div>
+      <a class="btn btn-primary btn-sm nav-book" href="/book">Book</a>
+      <button id="menu-btn" class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mobile-menu"><svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4.5h12M2 8h12M2 11.5h12"/></svg></button>
+    </div>
+  </div>
+</header>
+<nav id="mobile-menu" class="mobile-menu" aria-label="Mobile"><a href="/">Home</a><a href="/credits">Credits</a><a href="/book">Book</a><a href="/course">Course</a><a href="/live">Live</a></nav>
+
+<main>
+  <section class="wrap acct">
+    <div class="acct-head">
+      <h1 class="acct-title">Account</h1>
+      <div class="acct-head-actions"><a class="btn btn-primary btn-sm" href="/book/request">New request</a><button id="signout" class="btn btn-sm" type="button">Sign out</button></div>
+    </div>
+    <div id="verify-banner" class="banner" hidden></div>
+    <div class="pf-tabs" role="tablist" aria-label="Account">
+      <button role="tab" type="button" data-tab="projects" aria-selected="true">Projects</button>
+      <button role="tab" type="button" data-tab="profile" aria-selected="false">Profile</button>
+      <button role="tab" type="button" data-tab="password" aria-selected="false">Password</button>
+    </div>
+    <div class="pf-panel" data-panel="projects"><ul id="proj-list" class="proj-list"><li class="label">Loading</li></ul></div>
+    <div class="pf-panel" data-panel="profile" hidden>
+      <form id="profile-form" class="acct-form">
+        <div class="field"><label for="p-email">Email</label><input id="p-email" class="input" disabled></div>
+        <div class="field"><label for="p-name">Name</label><input id="p-name" class="input" autocomplete="name" maxlength="120"></div>
+        <div class="field"><label for="p-artist">Artist name</label><input id="p-artist" class="input" maxlength="120"></div>
+        <button class="btn btn-primary" type="submit">Save</button>
+      </form>
+    </div>
+    <div class="pf-panel" data-panel="password" hidden>
+      <form id="pw-form" class="acct-form">
+        <div class="field"><label for="pw-cur">Current password</label><input id="pw-cur" class="input" type="password" autocomplete="current-password"></div>
+        <div class="field"><label for="pw-new">New password</label><input id="pw-new" class="input" type="password" autocomplete="new-password" placeholder="8 characters or more"></div>
+        <button class="btn btn-primary" type="submit">Change password</button>
+      </form>
+    </div>
+  </section>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-row">
+    <div><span class="brand-name">Iain Findlay</span><div style="margin-top:6px">Recording, mixing and mastering, Los Angeles</div></div>
+    <nav aria-label="Footer">
+      <a href="/credits">Credits</a>
+      <a href="/book">Book</a>
+      <a href="https://muso.ai/profile/fb595b26-5c7a-422a-8e1a-fac8ca9971e2" target="_blank" rel="noopener">Muso.ai</a>
+      <a data-soundbetter href="https://soundbetter.com/profiles/57541-iain-findlay" target="_blank" rel="noopener">SoundBetter</a>
+      <a href="https://www.twitch.tv/alrightiain" target="_blank" rel="noopener">Twitch</a>
+      <a href="/terms">Terms</a>
+    </nav>
+  </div>
+</footer>
+
+<script type="module" src="/js/account-page.js"></script>
+</body>
+</html>

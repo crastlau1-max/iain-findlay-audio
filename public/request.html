@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Request a Quote · Iain Findlay</title>
+  <meta name="description" content="Request a quote from Iain Findlay.">
+  <meta name="theme-color" content="#09090C">
+  <link rel="icon" href="/assets/vinyl.svg" type="image/svg+xml">
+  <link rel="preload" as="font" type="font/woff2" href="/fonts/big-shoulders-display-latin-800-normal.woff2" crossorigin>
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="/" aria-label="Iain Findlay home"><span class="brand-name">Iain Findlay</span><span class="nav-subtitle">Recording, mixing and mastering</span></a>
+    <nav class="nav-links" aria-label="Primary"><a href="/credits">Credits</a><a href="/book" aria-current="page">Book</a><a href="/course">Course</a><a href="/live">Live</a></nav>
+    <div class="nav-right">
+      <div class="status-slot"><a id="status-pill" class="status-pill" href="https://www.twitch.tv/alrightiain" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1"><span class="dot"></span><span class="txt">Off-Air</span></a></div>
+      <a class="btn btn-primary btn-sm nav-book" href="/book">Book</a>
+      <button id="menu-btn" class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mobile-menu"><svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4.5h12M2 8h12M2 11.5h12"/></svg></button>
+    </div>
+  </div>
+</header>
+<nav id="mobile-menu" class="mobile-menu" aria-label="Mobile"><a href="/">Home</a><a href="/credits">Credits</a><a href="/book" aria-current="page">Book</a><a href="/course">Course</a><a href="/live">Live</a></nav>
+
+<main>
+  <section class="wrap rq">
+    <a class="rq-back" href="/book">← Iain Findlay</a>
+    <h1 class="rq-title">Request a quote</h1>
+    <ol class="rq-steps" id="rq-steps">
+      <li class="now">Service</li><li>Project</li><li>Account</li><li>Review</li>
+    </ol>
+
+    <form id="rq-form" class="rq-card" novalidate>
+      <fieldset class="rq-step" data-step="0">
+        <legend class="h3">Service</legend>
+        <div id="svc-grid" class="choice-grid"></div>
+        <div class="inline-row rq-row">
+          <label class="h3" for="songs-input" style="font-size:14px">Songs</label>
+          <div id="songs-slot"></div>
+        </div>
+        <div id="addon-wrap"></div>
+      </fieldset>
+
+      <fieldset class="rq-step" data-step="1" hidden>
+        <legend class="h3">Project</legend>
+        <div class="form-grid">
+          <div class="field full"><label for="r-title">Title</label><input id="r-title" class="input" name="title" maxlength="160"></div>
+          <div class="field full"><label for="r-desc">Details</label><textarea id="r-desc" class="input" name="description" required maxlength="4000" placeholder="Genre, what's recorded, what you need"></textarea></div>
+          <div class="field full"><label for="r-refs">Reference tracks</label><input id="r-refs" class="input" name="references" maxlength="1000" placeholder="Links"></div>
+          <div class="field"><label for="r-deadline">Deadline</label><input id="r-deadline" class="input" name="deadline" type="date"></div>
+          <div class="field"><label for="r-budget">Budget</label><input id="r-budget" class="input" name="budget" maxlength="60" placeholder="Optional"></div>
+        </div>
+      </fieldset>
+
+      <fieldset class="rq-step" data-step="2" hidden>
+        <legend class="h3">Account</legend>
+        <div id="acct-signed" hidden><p class="rq-signed">Signed in as <strong id="acct-email"></strong>. <a href="#" id="acct-switch">Not you?</a></p></div>
+        <div id="acct-forms" hidden>
+          <div class="seg" role="tablist">
+            <button type="button" role="tab" data-mode="signup" aria-selected="true">Create account</button>
+            <button type="button" role="tab" data-mode="login" aria-selected="false">Sign in</button>
+          </div>
+          <div class="form-grid">
+            <div class="field" data-only="signup"><label for="a-name">Name</label><input id="a-name" class="input" autocomplete="name"></div>
+            <div class="field" data-only="signup"><label for="a-artist">Artist name</label><input id="a-artist" class="input" placeholder="Optional"></div>
+            <div class="field full"><label for="a-email">Email</label><input id="a-email" class="input" type="email" autocomplete="email"></div>
+            <div class="field full"><label for="a-pass">Password</label><input id="a-pass" class="input" type="password" autocomplete="new-password" minlength="8" placeholder="8 characters or more"></div>
+            <input type="text" id="a-website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px">
+          </div>
+          <p class="rq-fine" data-only="login"><a href="/signin?mode=forgot">Forgot password?</a></p>
+        </div>
+      </fieldset>
+
+      <fieldset class="rq-step" data-step="3" hidden>
+        <legend class="h3">Review</legend>
+        <dl id="rq-review" class="kv2"></dl>
+        <p class="rq-fine">No charge until you accept a proposal. <a href="/terms" target="_blank">Booking terms</a></p>
+      </fieldset>
+
+      <div id="form-error" class="form-error" role="alert"></div>
+      <div class="rq-nav">
+        <button type="button" class="btn" id="rq-prev" hidden>Back</button>
+        <button type="submit" class="btn btn-primary" id="rq-next">Continue</button>
+      </div>
+    </form>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-row">
+    <div><span class="brand-name">Iain Findlay</span><div style="margin-top:6px">Recording, mixing and mastering, Los Angeles</div></div>
+    <nav aria-label="Footer">
+      <a href="/credits">Credits</a>
+      <a href="/book">Book</a>
+      <a href="https://muso.ai/profile/fb595b26-5c7a-422a-8e1a-fac8ca9971e2" target="_blank" rel="noopener">Muso.ai</a>
+      <a data-soundbetter href="https://soundbetter.com/profiles/57541-iain-findlay" target="_blank" rel="noopener">SoundBetter</a>
+      <a href="https://www.twitch.tv/alrightiain" target="_blank" rel="noopener">Twitch</a>
+      <a href="/terms">Terms</a>
+    </nav>
+  </div>
+</footer>
+
+<script type="module" src="/js/request-page.js"></script>
+</body>
+</html>

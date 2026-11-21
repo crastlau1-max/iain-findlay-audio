@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book Iain Findlay · Mixing, Mastering, Production</title>
+  <meta name="description" content="Mixing, mastering and production by Iain Findlay, Los Angeles. Request a quote.">
+  <meta name="theme-color" content="#09090C">
+  <link rel="icon" href="/assets/vinyl.svg" type="image/svg+xml">
+  <link rel="preload" as="font" type="font/woff2" href="/fonts/big-shoulders-display-latin-800-normal.woff2" crossorigin>
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="/" aria-label="Iain Findlay home"><span class="brand-name">Iain Findlay</span><span class="nav-subtitle">Recording, mixing and mastering</span></a>
+    <nav class="nav-links" aria-label="Primary"><a href="/credits">Credits</a><a href="/book" aria-current="page">Book</a><a href="/course">Course</a><a href="/live">Live</a></nav>
+    <div class="nav-right">
+      <div class="status-slot"><a id="status-pill" class="status-pill" href="https://www.twitch.tv/alrightiain" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1"><span class="dot"></span><span class="txt">Off-Air</span></a></div>
+      <a class="btn btn-primary btn-sm nav-book" href="/book">Book</a>
+      <button id="menu-btn" class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mobile-menu"><svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4.5h12M2 8h12M2 11.5h12"/></svg></button>
+    </div>
+  </div>
+</header>
+<nav id="mobile-menu" class="mobile-menu" aria-label="Mobile"><a href="/">Home</a><a href="/credits">Credits</a><a href="/book" aria-current="page">Book</a><a href="/course">Course</a><a href="/live">Live</a></nav>
+
+<main>
+  <section class="pf-cover" aria-hidden="true"><img src="/assets/studio-room.jpg" alt=""></section>
+  <section class="wrap pf-head">
+    <div class="pf-avatar" aria-hidden="true">IF</div>
+    <div class="pf-id">
+      <h1 class="pf-name">Iain Findlay</h1>
+      <div class="pf-sub">Recording, mixing and mastering engineer · Los Angeles, CA</div>
+      <div id="pf-meta" class="pf-meta"></div>
+    </div>
+    <div class="pf-actions"><a class="btn btn-primary" href="/book/request">Request a quote</a></div>
+  </section>
+
+  <div class="wrap">
+    <div class="pf-tabs" role="tablist" aria-label="Profile">
+      <button role="tab" type="button" data-tab="services" aria-selected="true">Services</button>
+      <button role="tab" type="button" data-tab="overview" aria-selected="false">Overview</button>
+      <button role="tab" type="button" data-tab="samples" aria-selected="false">Samples</button>
+      <button role="tab" type="button" data-tab="reviews" aria-selected="false">Reviews <span id="rev-count" class="n"></span></button>
+      <button role="tab" type="button" data-tab="faq" aria-selected="false">FAQ</button>
+    </div>
+  </div>
+
+  <section class="wrap pf-grid">
+    <div class="pf-main">
+      <div class="pf-panel" data-panel="overview" hidden>
+        <dl id="pf-facts" class="pf-facts"></dl>
+        <h2 class="pf-h">Selected credits</h2>
+        <div id="pf-selected" class="pf-covers"></div>
+      </div>
+      <div class="pf-panel" data-panel="services"><div id="pf-services" class="pf-services"></div></div>
+      <div class="pf-panel" data-panel="samples" hidden>
+        <ul id="pf-samples" class="pf-samples"></ul>
+        <p class="pf-more"><a href="/credits">All credits</a></p>
+      </div>
+      <div class="pf-panel" data-panel="reviews" hidden><div id="pf-reviews"></div></div>
+      <div class="pf-panel" data-panel="faq" hidden><div id="pf-faq" class="pf-faq"></div></div>
+    </div>
+
+    <aside class="pf-side">
+      <div class="quote-card">
+        <h2 class="h3">Request a quote</h2>
+        <ul class="sum-lines" id="quote-lines"></ul>
+        <a class="btn btn-primary" href="/book/request">Request a quote</a>
+        <p class="quote-fine">No charge until you accept a proposal.</p>
+      </div>
+      <div class="quote-card quote-card-sm">
+        <h2 class="h3">Loyalty</h2>
+        <p><span data-loy="discountPercent">25</span>% off up to <span data-loy="projectLimit">3</span> projects for <span data-loy="windowDays">30</span> days after <span data-loy="bookingsRequired">10</span> paid bookings. <a href="/terms#loyalty">Terms</a></p>
+      </div>
+      <p class="quote-alt"><a data-soundbetter href="https://soundbetter.com/profiles/57541-iain-findlay" target="_blank" rel="noopener">Also on SoundBetter</a></p>
+    </aside>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-row">
+    <div><span class="brand-name">Iain Findlay</span><div style="margin-top:6px">Recording, mixing and mastering, Los Angeles</div></div>
+    <nav aria-label="Footer">
+      <a href="/credits">Credits</a>
+      <a href="/book">Book</a>
+      <a href="https://muso.ai/profile/fb595b26-5c7a-422a-8e1a-fac8ca9971e2" target="_blank" rel="noopener">Muso.ai</a>
+      <a data-soundbetter href="https://soundbetter.com/profiles/57541-iain-findlay" target="_blank" rel="noopener">SoundBetter</a>
+      <a href="https://www.twitch.tv/alrightiain" target="_blank" rel="noopener">Twitch</a>
+      <a href="/terms">Terms</a>
+    </nav>
+  </div>
+</footer>
+
+<script type="module" src="/js/book-page.js"></script>
+</body>
+</html>

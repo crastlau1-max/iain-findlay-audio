@@ -14,26 +14,20 @@
 <header class="nav">
   <div class="wrap nav-inner">
     <a class="brand" href="/" aria-label="Iain Findlay home"><span class="brand-name">Iain Findlay</span><span class="nav-subtitle">Recording, mixing and mastering</span></a>
-    <nav class="nav-links" aria-label="Primary">
-      <a href="/#work">Work</a><a href="/credits">Credits</a><a href="/#book">Book</a><a href="/#loyalty">Loyalty</a><a href="/#live">Studio Live</a>
-    </nav>
+    <nav class="nav-links" aria-label="Primary"><a href="/credits">Credits</a><a href="/book">Book</a><a href="/course">Course</a><a href="/live">Live</a></nav>
     <div class="nav-right">
       <div class="status-slot"><a id="status-pill" class="status-pill" href="https://www.twitch.tv/alrightiain" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1"><span class="dot"></span><span class="txt">Off-Air</span></a></div>
-      <a class="btn btn-gold btn-sm nav-book" href="/#book">Book direct</a>
+      <a class="btn btn-primary btn-sm nav-book" href="/book">Book</a>
       <button id="menu-btn" class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mobile-menu"><svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4.5h12M2 8h12M2 11.5h12"/></svg></button>
     </div>
   </div>
 </header>
-<nav id="mobile-menu" class="mobile-menu" aria-label="Mobile">
-  <a href="/#work">Work</a><a href="/credits">Credits</a><a href="/#book">Book direct</a><a href="/#loyalty">Loyalty</a><a href="/#live">Studio Live</a>
-</nav>
+<nav id="mobile-menu" class="mobile-menu" aria-label="Mobile"><a href="/">Home</a><a href="/credits">Credits</a><a href="/book">Book</a><a href="/course">Course</a><a href="/live">Live</a></nav>
 
 <main>
   <section class="page-head">
-    <div class="wrap" style="position:relative">
-      <div class="hero-kicker"><span class="rule"></span>Direct bookings</div>
-      <h1 class="display">Booking <em class="gold">terms</em></h1>
-      <p class="lede" style="margin-top:18px">These terms cover every project booked and paid directly through this site. Projects booked through SoundBetter follow SoundBetter's own terms.</p>
+    <div class="wrap">
+      <h1 class="display">Booking <em class="accent">terms</em></h1>
       <div class="toc">
         <a href="#payment">Payment</a><a href="#delivery">Deliverables</a><a href="#stems">Stem delivery</a><a href="#rights">Rights</a><a href="#loyalty">Loyalty program</a><a href="#privacy">Privacy</a>
       </div>
@@ -43,6 +37,7 @@
   <div class="wrap">
     <article class="prose">
       <p><strong>Last updated:</strong> November 4, 2026. "I", "me" and "Engineer" mean Iain Findlay, based in Los Angeles. "You" and "Client" mean the person or company named on the booking.</p>
+      <p>These terms cover projects booked and paid through this site. Projects booked through SoundBetter follow SoundBetter's terms.</p>
 
       <h2 id="payment">1. Booking and payment</h2>
       <h3>1.1 Payment options</h3>
@@ -118,15 +113,22 @@
 
       <h2>8. Governing law</h2>
       <p>These terms are governed by the laws of the State of California. Any dispute will be handled in Los Angeles County.</p>
-      <p style="margin-top:40px"><a class="btn btn-gold" href="/#book">Back to booking</a></p>
+      <p style="margin-top:40px"><a class="btn btn-primary" href="/book">Back to booking</a></p>
     </article>
   </div>
 </main>
 
 <footer class="footer">
   <div class="wrap footer-row">
-    <div><span class="brand-name">Iain Findlay</span><div style="margin-top:6px">Recording, mixing and mastering engineer, Los Angeles</div></div>
-    <nav aria-label="Footer"><a href="/credits">Credits</a><a href="https://soundbetter.com/profiles/57541-iain-findlay" target="_blank" rel="noopener">SoundBetter</a><a href="https://www.twitch.tv/alrightiain" target="_blank" rel="noopener">Twitch</a></nav>
+    <div><span class="brand-name">Iain Findlay</span><div style="margin-top:6px">Recording, mixing and mastering, Los Angeles</div></div>
+    <nav aria-label="Footer">
+      <a href="/credits">Credits</a>
+      <a href="/book">Book</a>
+      <a href="https://muso.ai/profile/fb595b26-5c7a-422a-8e1a-fac8ca9971e2" target="_blank" rel="noopener">Muso.ai</a>
+      <a data-soundbetter href="https://soundbetter.com/profiles/57541-iain-findlay" target="_blank" rel="noopener">SoundBetter</a>
+      <a href="https://www.twitch.tv/alrightiain" target="_blank" rel="noopener">Twitch</a>
+      <a href="/terms">Terms</a>
+    </nav>
   </div>
 </footer>
 <script type="module">import { initNav } from '/js/nav.js'; import { api } from '/js/lib.js'; initNav();

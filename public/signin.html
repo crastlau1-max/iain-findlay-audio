@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign In · Iain Findlay</title>
+  <meta name="description" content="Sign in to your account.">
+  <meta name="theme-color" content="#09090C">
+  <link rel="icon" href="/assets/vinyl.svg" type="image/svg+xml">
+  <link rel="preload" as="font" type="font/woff2" href="/fonts/big-shoulders-display-latin-800-normal.woff2" crossorigin>
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="/" aria-label="Iain Findlay home"><span class="brand-name">Iain Findlay</span><span class="nav-subtitle">Recording, mixing and mastering</span></a>
+    <nav class="nav-links" aria-label="Primary"><a href="/credits">Credits</a><a href="/book">Book</a><a href="/course">Course</a><a href="/live">Live</a></nav>
+    <div class="nav-right">
+      <div class="status-slot"><a id="status-pill" class="status-pill" href="https://www.twitch.tv/alrightiain" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1"><span class="dot"></span><span class="txt">Off-Air</span></a></div>
+      <a class="btn btn-primary btn-sm nav-book" href="/book">Book</a>
+      <button id="menu-btn" class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mobile-menu"><svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4.5h12M2 8h12M2 11.5h12"/></svg></button>
+    </div>
+  </div>
+</header>
+<nav id="mobile-menu" class="mobile-menu" aria-label="Mobile"><a href="/">Home</a><a href="/credits">Credits</a><a href="/book">Book</a><a href="/course">Course</a><a href="/live">Live</a></nav>
+
+<main>
+  <section class="wrap auth">
+    <form id="auth-form" class="auth-card" novalidate>
+      <h1 id="auth-title" class="auth-title">Sign in</h1>
+      <div class="form-grid">
+        <div class="field full" data-only="signup"><label for="f-name">Name</label><input id="f-name" class="input" autocomplete="name"></div>
+        <div class="field full" data-only="signup"><label for="f-artist">Artist name</label><input id="f-artist" class="input" placeholder="Optional"></div>
+        <div class="field full" data-only="signin signup forgot"><label for="f-email">Email</label><input id="f-email" class="input" type="email" autocomplete="email"></div>
+        <div class="field full" data-only="signin signup reset"><label for="f-pass" id="f-pass-label">Password</label><input id="f-pass" class="input" type="password" autocomplete="current-password"></div>
+        <input type="text" id="f-website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px">
+      </div>
+      <div id="form-error" class="form-error" role="alert"></div>
+      <div id="auth-ok" class="auth-ok" role="status" hidden></div>
+      <button id="auth-btn" class="btn btn-primary auth-btn" type="submit">Sign in</button>
+      <div class="auth-links">
+        <a href="?mode=signup" data-only="signin">Create an account</a>
+        <a href="?mode=forgot" data-only="signin">Forgot password?</a>
+        <a href="?mode=signin" data-only="signup forgot reset">Sign in instead</a>
+      </div>
+    </form>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-row">
+    <div><span class="brand-name">Iain Findlay</span><div style="margin-top:6px">Recording, mixing and mastering, Los Angeles</div></div>
+    <nav aria-label="Footer">
+      <a href="/credits">Credits</a>
+      <a href="/book">Book</a>
+      <a href="https://muso.ai/profile/fb595b26-5c7a-422a-8e1a-fac8ca9971e2" target="_blank" rel="noopener">Muso.ai</a>
+      <a data-soundbetter href="https://soundbetter.com/profiles/57541-iain-findlay" target="_blank" rel="noopener">SoundBetter</a>
+      <a href="https://www.twitch.tv/alrightiain" target="_blank" rel="noopener">Twitch</a>
+      <a href="/terms">Terms</a>
+    </nav>
+  </div>
+</footer>
+
+<script type="module" src="/js/signin-page.js"></script>
+</body>
+</html>

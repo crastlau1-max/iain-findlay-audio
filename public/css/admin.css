@@ -43,14 +43,14 @@ table.t { width: 100%; border-collapse: collapse; font-size: 14px; }
 .empty { padding: 28px 18px; color: var(--muted); text-align: center; font-size: 14px; }
 
 .dots { display: inline-flex; gap: 4px; vertical-align: middle; }
-.dots i { width: 9px; height: 9px; border-radius: 50%; border: 1px solid rgba(212,163,89,.5); }
-.dots i.on { background: var(--gold); border-color: var(--gold); }
+.dots i { width: 9px; height: 9px; border-radius: 50%; border: 1px solid rgba(224,83,61,.5); }
+.dots i.on { background: var(--accent); border-color: var(--accent); }
 .pill { display: inline-flex; align-items: center; height: 22px; padding: 0 8px; border-radius: var(--r-1); font-size: 12px; font-weight: 600; border: 1px solid var(--line-2); color: var(--text-2); white-space: nowrap; }
-.pill.gold { color: var(--gold-hi); border-color: rgba(212,163,89,.5); }
+.pill.gold { color: var(--accent-hi); border-color: rgba(224,83,61,.5); }
 .pill.green { color: #9be0b4; border-color: rgba(127,193,154,.45); }
 .pill.red { color: #ffb0b3; border-color: rgba(240,69,75,.45); }
 .pill.dim { color: var(--dim); }
-.src-direct { color: var(--gold-hi); }
+.src-direct { color: var(--accent-hi); }
 .src-soundbetter { color: #9cc7ff; }
 .src-manual { color: var(--text-2); }
 
@@ -59,15 +59,15 @@ table.t { width: 100%; border-collapse: collapse; font-size: 14px; }
 .field-sm label { display: block; font-size: 12.5px; color: var(--muted); margin-bottom: 5px; }
 .field-sm .input, .field-sm .select { height: 38px; font-size: 14px; width: 100%; min-width: 0; }
 .inline-check { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; color: var(--text-2); height: 38px; cursor: pointer; white-space: nowrap; }
-.inline-check input { accent-color: var(--gold); width: 16px; height: 16px; }
+.inline-check input { accent-color: var(--accent); width: 16px; height: 16px; }
 .mini-btn { height: 30px; padding: 0 10px; border: 1px solid var(--line-2); border-radius: var(--r-1); background: transparent; color: var(--text-2); font-size: 12.5px; white-space: nowrap; }
 .mini-btn:hover { color: var(--text); border-color: rgba(255,255,255,.25); }
 .mini-btn.danger:hover, .mini-btn.arming { color: #ffb0b3; border-color: rgba(240,69,75,.5); }
-.mini-btn.gold { color: var(--gold-hi); border-color: rgba(212,163,89,.45); }
+.mini-btn.gold { color: var(--accent-hi); border-color: rgba(224,83,61,.45); }
 .mini-input { height: 30px; padding: 0 8px; width: 64px; border: 1px solid var(--line-2); border-radius: var(--r-1); background: var(--bg-deep); font-size: 13px; }
 .mini-input.date { width: 150px; }
 
-.card-mini { border: 1px solid rgba(212,163,89,.3); border-radius: 8px; padding: 18px; background: radial-gradient(120% 90% at 0% 0%, rgba(212,163,89,.12), transparent 55%), #0f0e12; }
+.card-mini { border: 1px solid rgba(224,83,61,.3); border-radius: 8px; padding: 18px; background: radial-gradient(120% 90% at 0% 0%, rgba(224,83,61,.12), transparent 55%), #0f0e12; }
 .card-mini .big { font-family: var(--serif); font-size: 44px; line-height: 1; }
 .card-mini .punches { margin: 14px 0 6px; gap: 8px; }
 .card-mini .punch { font-size: 11px; }
@@ -85,7 +85,7 @@ table.t { width: 100%; border-collapse: collapse; font-size: 14px; }
 .back { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); font-size: 14px; margin-bottom: 10px; }
 .back:hover { color: var(--text); }
 
-.unread { display: inline-grid; place-items: center; min-width: 18px; height: 18px; padding: 0 5px; margin-left: 6px; border-radius: 9px; background: var(--gold); color: #140d03; font-size: 11px; font-weight: 700; vertical-align: 1px; }
+.unread { display: inline-grid; place-items: center; min-width: 18px; height: 18px; padding: 0 5px; margin-left: 6px; border-radius: 9px; background: var(--accent); color: #fff; font-size: 11px; font-weight: 700; vertical-align: 1px; }
 .filters { display: flex; gap: 4px; }
 .prop-builder .pl { display: grid; grid-template-columns: minmax(0, 1fr) 70px 130px 34px; gap: 8px; margin-bottom: 8px; align-items: end; }
 .prop-builder .pl .input { height: 38px; font-size: 14px; }

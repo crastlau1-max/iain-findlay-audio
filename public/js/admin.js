@@ -124,7 +124,7 @@ async function renderClients(q = '') {
   const add = el('form', { class: 'form-row', style: 'grid-template-columns: minmax(0,1fr) minmax(0,1fr) auto' },
     field('Email', el('input', { class: 'input', name: 'email', type: 'email', required: true, placeholder: 'client@email.com' })),
     field('Name', el('input', { class: 'input', name: 'name', placeholder: 'Artist or contact name' })),
-    el('button', { class: 'btn btn-gold btn-sm', type: 'submit' }, 'Add client'));
+    el('button', { class: 'btn btn-primary btn-sm', type: 'submit' }, 'Add client'));
   add.addEventListener('submit', async e => {
     e.preventDefault();
     const fd = new FormData(add);
@@ -194,7 +194,7 @@ async function renderClient(email) {
     field('Source', el('select', { class: 'select', name: 'source' }, Object.entries(SRC).map(([k, v]) => el('option', { value: k, selected: k === 'soundbetter' }, v)))),
     field('Amount', el('div', { class: 'money' }, el('span', {}, '$'), el('input', { class: 'input', name: 'amount', inputmode: 'decimal', placeholder: '0' }))),
     el('label', { class: 'inline-check' }, el('input', { type: 'checkbox', name: 'counts', checked: true }), 'Counts toward card'),
-    el('button', { class: 'btn btn-gold btn-sm', type: 'submit' }, 'Add session'));
+    el('button', { class: 'btn btn-primary btn-sm', type: 'submit' }, 'Add session'));
   addForm.addEventListener('submit', async e => {
     e.preventDefault();
     const fd = new FormData(addForm);
@@ -293,7 +293,7 @@ async function renderProject(id) {
     el('div', { class: `msg ${m.from === 'iain' ? 'me' : m.from === 'system' ? 'sys' : 'them'}` }, rich(m.body),
       m.from !== 'system' ? el('div', { class: 'meta' }, `${m.from === 'iain' ? 'You' : (p.client.name || 'Client')} · ${when(m.at)}`) : el('span', { class: 'meta' }, ` · ${when(m.at)}`))));
   const ta = el('textarea', { class: 'input', placeholder: 'Reply to the client. They get an email with a link back here.' });
-  const send = el('button', { class: 'btn btn-gold', type: 'button' }, 'Send');
+  const send = el('button', { class: 'btn btn-primary', type: 'button' }, 'Send');
   send.addEventListener('click', async () => { if (!ta.value.trim()) return; send.disabled = true; await call(`/projects/${p.id}/messages`, { method: 'POST', body: { body: ta.value } }).finally(() => send.disabled = false); renderProject(p.id); });
 
   // proposal builder, prefilled from the request and your rates
@@ -341,7 +341,7 @@ async function renderProject(id) {
     [dType, dValue, dNote].forEach(x => { const f = x.closest('.field-sm'); if (f) f.hidden = !custom; });
   }
   [dSource, dType, dValue, deposit].forEach(x => x.addEventListener('input', preview));
-  const sendProp = el('button', { class: 'btn btn-gold', type: 'button' }, last ? 'Send updated proposal' : 'Send proposal');
+  const sendProp = el('button', { class: 'btn btn-primary', type: 'button' }, last ? 'Send updated proposal' : 'Send proposal');
   sendProp.addEventListener('click', async () => {
     sendProp.disabled = true;
     try {
@@ -462,7 +462,7 @@ async function renderSettings() {
         field('Discounted projects per window', el('input', { class: 'input', name: 'loyalty.projectLimit', type: 'number', min: 1, value: s.loyalty.projectLimit }), 'field'),
         field('Discount percent', el('input', { class: 'input', name: 'loyalty.discountPercent', type: 'number', min: 1, max: 100, value: s.loyalty.discountPercent }), 'field')),
       el('p', { class: 'help' }, 'The punch card, the loyalty section and the terms page all update to match. Windows already open keep their original terms.'))),
-    el('div', { class: 'a-actions' }, el('button', { class: 'btn btn-gold', type: 'submit' }, 'Save settings')));
+    el('div', { class: 'a-actions' }, el('button', { class: 'btn btn-primary', type: 'submit' }, 'Save settings')));
   form.addEventListener('submit', async e => {
     e.preventDefault();
     const body = { services: {}, addOns: {}, loyalty: {} };

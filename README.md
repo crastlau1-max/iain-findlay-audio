@@ -10,9 +10,20 @@ npm test
 ```
 
 ## Pages
-- `/` hero with certified records, highlights marquee, discography console, booking, punch card, Studio Live
-- `/credits` full catalog
+- `/` hero, stats, services
+- `/credits` full catalog, 50 per page
+- `/book` booking profile: overview, services, samples, reviews, FAQ
+- `/book/request` four step quote request (service, project, account, review)
+- `/signin`, `/account` client accounts: projects, profile, password
+- `/project/:id` project thread, proposal, payment, delivery approval, revisions, review
+- `/course`, `/live`
 - `/terms` booking, deposit, stem delivery and loyalty terms
+
+## Accounts
+Clients sign up with email and password (scrypt hashes in `data/accounts.json`, signed `if_user` cookie, 30 days). A quote request needs an account. Confirmation and password reset links go out through Resend (see `lib/mail.js`); without email configured they're printed in the server log. A client sees projects they started while signed in, and, after confirming their email, older projects sent from that address. Old `/project/<token>` links keep working.
+
+## Reviews
+Clients can review a project once it's completed. Reviews live in `data/reviews.json` and show on `/book`. The admin API can add reviews from another platform (`POST /api/admin/reviews` with `name`, `stars`, `text`, `date`, `source`), hide them or add a reply (`PATCH /api/admin/reviews/:id`).
 
 ## Credits pipeline (`lib/catalog.js`)
 1. **Muso.ai, no API needed.** `data/muso-export.txt` holds every credit on the public Muso profile (257), read page by page from muso.ai: track id, title, artists, release date, roles and the release cover. `npm run import:muso` turns it into `data/muso-snapshot.json`, which the site serves. To refresh later, re-export the pages into that file and run the import again. If you ever add `MUSO_API_KEY`, the server syncs from the official API instead.
@@ -38,7 +49,7 @@ Also set `intake.dropboxUrl` in `config/studio.json` to your Dropbox file reques
 Ten bookings paid in full open a 30 day window with 3 projects at 25% off service rates (`config/studio.json → loyalty`). Progress is stored in `data/clients.json`, keyed by billing email, and applied privately at checkout. There is no public lookup.
 
 ## Twitch
-With `TWITCH_CLIENT_ID` and `TWITCH_CLIENT_SECRET`, live status and viewer count come from the Helix API. Without them, use the "Preview live state" switch in the Studio Live section to test the on air layout (hidden in production unless `ALLOW_STREAM_SIMULATION=1`).
+With `TWITCH_CLIENT_ID` and `TWITCH_CLIENT_SECRET`, live status and viewer count come from the Helix API. Without them, use the "Preview live state" switch in the Live page to test the on air layout (hidden in production unless `ALLOW_STREAM_SIMULATION=1`).
 
 ## Hero image
 `config/studio.json → heroImage`. Currently the studio room photo; drop a portrait into `public/assets/` and point this at it.

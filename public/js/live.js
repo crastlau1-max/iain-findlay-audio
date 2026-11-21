@@ -1,4 +1,4 @@
-// Studio Live: the Twitch player is always on the page. When the channel is offline,
+// Live page: the Twitch player is always on the page. When the channel is offline,
 // Twitch shows its own offline screen and past broadcasts.
 import { $, api } from './lib.js';
 import { onStatus, refreshStatus, renderPill } from './nav.js';

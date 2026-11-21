@@ -11,8 +11,8 @@ const TABS = [
   ['writing', 'Songwriting']
 ];
 
-export function mountConsole(root, { bounded = true, pageSize = null } = {}) {
-  const state = { category: 'all', q: '', sort: 'popularity', data: null, req: 0 };
+export function mountConsole(root, { bounded = true, pageSize = null, perPage = 0 } = {}) {
+  const state = { category: 'all', q: '', sort: 'popularity', data: null, req: 0, page: 0 };
   root.classList.add('console');
   if (!bounded) root.classList.add('unbounded');
   root.innerHTML = `
@@ -23,7 +23,7 @@ export function mountConsole(root, { bounded = true, pageSize = null } = {}) {
         <label class="field-search"><span class="sr-only">Search credits</span>${icons.search}<input class="input" type="search" placeholder="Search artist, song or album" autocomplete="off"></label>
         <label><span class="sr-only">Sort</span>
           <select class="select">
-            <option value="popularity">Sort: Muso.ai popularity</option>
+            <option value="popularity">Sort: Popular</option>
             <option value="certified">Sort: Certifications</option>
             <option value="recent">Sort: Newest</option>
             <option value="oldest">Sort: Oldest</option>
@@ -35,7 +35,8 @@ export function mountConsole(root, { bounded = true, pageSize = null } = {}) {
     </div>
     <div class="col-head" aria-hidden="true"><span>#</span><span></span><span>Title</span><span class="c-al">Release</span><span>Role</span><span>Year</span><span></span></div>
     </div>
-    <div class="console-scroll" tabindex="-1"><ul class="rows" aria-live="polite"></ul></div>`;
+    <div class="console-scroll" tabindex="-1"><ul class="rows" aria-live="polite"></ul></div>
+    <div class="pager" hidden></div>`;
 
   const tabs = $('.tabs', root);
   TABS.forEach(([id, label]) => {
@@ -60,7 +61,12 @@ export function mountConsole(root, { bounded = true, pageSize = null } = {}) {
     }
     const nowId = player.current().id;
     const nowPlaying = player.current().playing;
-    credits.forEach((c, i) => {
+    const pages = perPage ? Math.ceil(credits.length / perPage) : 1;
+    state.page = Math.min(state.page, pages - 1);
+    const from = perPage ? state.page * perPage : 0;
+    const shown = perPage ? credits.slice(from, from + perPage) : credits;
+    renderPager(pages, from, shown.length, credits.length);
+    shown.forEach((c, j) => { const i = from + j;
       const playing = c.id === nowId && nowPlaying;
       const row = el('li', { class: `row${playing ? ' is-playing' : ''}${c.hasPreview ? '' : ' no-preview'}`, dataset: { id: c.id }, tabindex: '0', 'aria-label': `${c.title} by ${c.artist}` },
         el('span', { class: 'idx' }, String(i + 1)),
@@ -77,6 +83,17 @@ export function mountConsole(root, { bounded = true, pageSize = null } = {}) {
     if (false) {
       list.append(el('li', { class: 'rows-foot', html: `Showing Muso.ai's top ${loadedCount} of ${totalCount} credits. <a href="${window.__musoUrl || '#'}" target="_blank" rel="noopener">See every credit on Muso.ai</a>` }));
     }
+  }
+
+  const pager = $('.pager', root);
+  function renderPager(pages, from, count, total) {
+    pager.hidden = pages <= 1;
+    if (pages <= 1) return;
+    const go = d => { state.page += d; render(); root.scrollIntoView({ block: 'start' }); };
+    pager.replaceChildren(
+      el('button', { class: 'btn btn-sm', type: 'button', disabled: state.page === 0, onclick: () => go(-1) }, 'Previous'),
+      el('span', {}, `${from + 1}–${from + count} of ${total}`),
+      el('button', { class: 'btn btn-sm', type: 'button', disabled: state.page >= pages - 1, onclick: () => go(1) }, 'Next'));
   }
 
   list.addEventListener('click', e => {
@@ -103,6 +120,7 @@ export function mountConsole(root, { bounded = true, pageSize = null } = {}) {
       const data = await api(`/api/credits?${params}`);
       if (req !== state.req) return;
       state.data = data;
+      state.page = 0;
       render();
       if (bounded) scroller.scrollTop = 0;
       root.dispatchEvent(new CustomEvent('catalog', { detail: data }));

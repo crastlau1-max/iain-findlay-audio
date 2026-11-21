@@ -1,15 +1,13 @@
-import { $, el, api, icons, artwork, badges, reveal, stableAnchors } from './lib.js';
+// Old one-page anchors now have their own pages.
+const moved = { '#book': '/book', '#loyalty': '/book#loyalty', '#course': '/course', '#live': '/live', '#work': '/credits' };
+if (moved[location.hash]) location.replace(moved[location.hash].replace(/(#.*)?$/, m => location.search + m));
+
+import { $, el, api, icons, artwork, badges } from './lib.js';
 import * as player from './player.js';
-const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 import { initNav } from './nav.js';
-import { mountConsole, syncLine } from './discography.js';
-import { mountMarquee } from './marquee.js';
-import { mountRequest } from './request.js';
-import { mountLive } from './live.js';
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 initNav();
-reveal();
-stableAnchors();
 
 const [cfg, stats, hl] = await Promise.all([
   api('/api/config'),
@@ -138,13 +136,6 @@ else {
 }
 // The stream total is the last verified sum; the server re-checks it daily.
 
-// ---------- artist strip ----------
-if (cfg.featuredArtists?.length) {
-  const strip = $('#artist-strip');
-  strip.append(el('span', { class: 'lbl' }, 'Credits with'));
-  cfg.featuredArtists.forEach((a, i) => { if (i) strip.append(el('span', { class: 'sep', 'aria-hidden': 'true' }, '/')); strip.append(a); });
-} else $('.artist-strip').remove();
-
 // ---------- plaque lighting ----------
 if (!reduceMotion && matchMedia('(hover: hover) and (pointer: fine)').matches) {
   wall.addEventListener('pointermove', e => {
@@ -161,59 +152,7 @@ if (!reduceMotion && matchMedia('(hover: hover) and (pointer: fine)').matches) {
   });
 }
 
-// ---------- mobile book bar: phones only, after the hero, hidden near the booking form ----------
-{
-  const bar = $('#mobile-book');
-  const hero = $('.hero'), book = $('#book');
-  let pastHero = false, nearBook = false;
-  const update = () => { const show = pastHero && !nearBook; bar.classList.toggle('show', show); bar.tabIndex = show ? 0 : -1; bar.setAttribute('aria-hidden', String(!show)); };
-  new IntersectionObserver(([e]) => { pastHero = !e.isIntersecting; update(); }).observe(hero);
-  new IntersectionObserver(([e]) => { nearBook = e.isIntersecting; update(); }, { rootMargin: '0px 0px -30% 0px' }).observe(book);
-}
-
-// ---------- marquee + console ----------
-mountMarquee($('#marquee'), hl.credits);
-const consoleRoot = $('#console');
-consoleRoot.addEventListener('catalog', e => { $('#sync-note').innerHTML = syncLine(e.detail, cfg.musoProfileUrl); }, { once: true });
-mountConsole(consoleRoot, { bounded: true });
-
-// ---------- booking, live ----------
-$$sb(cfg.soundbetterUrl);
-mountRequest(cfg);
-mountLive(cfg.twitchChannel);
-
-// loyalty copy follows the settings in admin
-{
-  const L = cfg.loyalty || {};
-  const words = ['zero','one','two','three','four','five','six','seven','eight','nine','ten','eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen','twenty'];
-  document.querySelectorAll('[data-loy]').forEach(n => { const v = L[n.dataset.loy]; if (v != null) n.textContent = v; });
-  document.querySelectorAll('[data-loy-words]').forEach(n => {
-    const v = L[n.dataset.loyWords]; if (v == null) return;
-    let w = words[v] || String(v);
-    if (n.hasAttribute('data-cap') || n === n.parentElement.firstChild || /^[A-Z]/.test(n.textContent)) w = w[0].toUpperCase() + w.slice(1);
-    n.textContent = w;
-  });
-  const grid = document.querySelector('#punchcard .punches');
-  const total = Math.max(2, Math.min(20, L.bookingsRequired || 10));
-  grid.style.gridTemplateColumns = `repeat(${Math.min(5, Math.ceil(total / 2)) > 5 ? 5 : Math.ceil(total / Math.ceil(total / 5))}, 1fr)`;
-  grid.replaceChildren(...Array.from({ length: total - 1 }, (_, i) => el('span', { class: 'punch' }, String(i + 1))),
-    el('span', { class: 'punch reward' }, `${L.discountPercent || 25}%`));
-}
-
-// punch card fills in when it scrolls into view
-const card = $('#punchcard');
-const punches = [...card.querySelectorAll('.punch:not(.reward)')];
-new IntersectionObserver((entries, io) => {
-  if (!entries[0].isIntersecting) return;
-  io.disconnect();
-  punches.forEach((p, i) => setTimeout(() => p.classList.add('on'), 250 + i * 160));
-  setTimeout(() => card.querySelector('.punch.reward').classList.add('lit'), 250 + punches.length * 160 + 200);
-}, { threshold: 0.5 }).observe(card);
-
-// course inquiries go through the same request form, labeled so they're easy to spot
-document.querySelector('[data-course-inquiry]')?.addEventListener('click', () => {
-  const d = $('#r-desc');
-  if (d && !d.value.trim()) d.value = 'I would like to inquire about enrolling in the Recording Engineering Course.';
-});
-
-function $$sb(url) { document.querySelectorAll('[data-soundbetter]').forEach(a => a.href = url); }
+// ---------- services ----------
+$('#svc-cards').replaceChildren(...cfg.services.map(sv => el('a', { class: 'card', href: '/book' },
+  el('h3', { class: 'h3' }, sv.name), el('p', {}, sv.summary), el('span', { class: 'more' }, 'Request a quote'))));
+document.querySelectorAll('[data-soundbetter]').forEach(a => a.href = cfg.soundbetterUrl);

@@ -12,3 +12,5 @@ _legacy/
 .DS_Store
 data/projects.json
 data/cover-cache/
+data/accounts.json
+data/reviews.json
