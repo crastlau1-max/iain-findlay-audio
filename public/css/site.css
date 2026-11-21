@@ -925,3 +925,25 @@ body > main { flex: 1 0 auto; }
 .field label.drop { display: grid; margin: 0; color: var(--text); }
 .drop span { display: block; }
 .drop-wrap { width: 100%; }
+
+/* ---------- course ---------- */
+.pf-head-plain { grid-template-columns: minmax(0, 1fr) auto; margin-top: 24px; }
+@media (max-width: 720px) { .pf-head-plain { grid-template-columns: 1fr; margin-top: 20px; } }
+.tbd { color: var(--dim); font-style: italic; }
+.c-days { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 860px) { .c-days { grid-template-columns: 1fr; } }
+.c-day { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 14px; padding: 18px; border: 1px solid var(--line-2); border-radius: var(--r-2); background: var(--surface); }
+.c-day-n { font-family: var(--serif); font-weight: 800; font-size: 40px; line-height: .9; color: var(--accent); }
+.c-day .label { margin-top: 2px; }
+.c-topics { list-style: none; margin: 12px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.c-topics li { font-size: 12.5px; padding: 4px 9px; border: 1px solid var(--line-2); border-radius: 999px; color: var(--text-2); background: var(--bg-deep); }
+.c-sessions { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.c-sessions li { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 14px; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.c-when { font-weight: 600; }
+.c-instructor { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 20px; align-items: start; }
+.c-avatar { width: 84px; height: 84px; font-size: 30px; border-color: var(--surface-3); }
+.c-artists { margin: 12px 0 0; font-size: 14px; color: var(--text-2); }
+.c-links { display: flex; gap: 18px; margin-top: 12px; font-size: 14px; }
+.c-links a { color: var(--accent); }
+.c-list { margin: 0; padding-left: 18px; color: var(--text-2); font-size: 14.5px; display: grid; gap: 6px; }
+@media (max-width: 520px) { .c-instructor { grid-template-columns: 1fr; } .c-sessions li { grid-template-columns: 1fr auto; } .c-sessions li .btn { grid-column: 1 / -1; } }

@@ -19,6 +19,9 @@ npm test
 - `/course`, `/live`
 - `/terms` booking, deposit, stem delivery and loyalty terms
 
+## Course page
+Everything on `/course` comes from `config/studio.json → course`: venue, address, parking, hours, the three days and their topics, `sessions` (each `{ "start": "2027-02-06", "end": "2027-02-08", "seatsLeft": 6, "full": false, "note": "" }`), requirements, what to bring, what's included, gear, policies and FAQ answers. Anything left as `null` or empty shows as "To be announced".
+
 ## Accounts
 Clients sign up with email and password (scrypt hashes in `data/accounts.json`, signed `if_user` cookie, 30 days). A quote request needs an account. Confirmation and password reset links go out through Resend (see `lib/mail.js`); without email configured they're printed in the server log. A client sees projects they started while signed in, and, after confirming their email, older projects sent from that address. Old `/project/<token>` links keep working.
 

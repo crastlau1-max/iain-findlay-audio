@@ -92,5 +92,77 @@
     "N.E.R.D",
     "DJ Khaled",
     "Ciara"
-  ]
+  ],
+  "course": {
+    "_note": "Fields left as null show as 'To be announced' on /course. Fill them in as details are set.",
+    "title": "Recording course",
+    "venue": "Glenwood Place Studios",
+    "city": "Burbank, CA",
+    "address": null,
+    "parking": null,
+    "lengthDays": 3,
+    "classSize": "8–10 students",
+    "priceCents": 150000,
+    "dailyHours": null,
+    "days": [
+      {
+        "title": "Day one",
+        "topics": [
+          "Signal flow",
+          "Console",
+          "Patchbay",
+          "Microphones"
+        ],
+        "hours": null
+      },
+      {
+        "title": "Day two",
+        "topics": [
+          "Live tracking session",
+          "Gain staging"
+        ],
+        "hours": null
+      },
+      {
+        "title": "Day three",
+        "topics": [
+          "Editing",
+          "Mixing",
+          "The business side of engineering"
+        ],
+        "hours": null
+      }
+    ],
+    "sessions": [],
+    "requirements": null,
+    "bring": null,
+    "included": null,
+    "gear": [],
+    "policies": [
+      "No recording during class.",
+      "Phones are collected during sessions."
+    ],
+    "faq": [
+      {
+        "q": "Do I need experience?",
+        "a": null
+      },
+      {
+        "q": "What should I bring?",
+        "a": null
+      },
+      {
+        "q": "How do I pay?",
+        "a": null
+      },
+      {
+        "q": "What if I have to cancel?",
+        "a": null
+      },
+      {
+        "q": "Is parking available?",
+        "a": null
+      }
+    ]
+  }
 }

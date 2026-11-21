@@ -26,37 +26,55 @@
 <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile"><a href="/">Home</a><a href="/credits">Credits</a><a href="/book">Book</a><a href="/course" aria-current="page">Course</a><a href="/live">Live</a></nav>
 
 <main>
-  <section class="page-head">
-    <div class="wrap">
-      <h1 class="display">Recording course</h1>
+  <section class="pf-cover" aria-hidden="true"><img src="/assets/studio-room.jpg" alt=""></section>
+  <section class="wrap pf-head pf-head-plain">
+    <div class="pf-id">
+      <h1 class="pf-name" id="c-title">Recording course</h1>
+      <div class="pf-sub" id="c-sub">Glenwood Place Studios · Burbank, CA</div>
+      <div class="pf-meta" id="c-meta"></div>
     </div>
+    <div class="pf-actions"><a class="btn btn-primary" href="/book/request?course=1">Enroll</a></div>
   </section>
-  <section class="page-body">
-    <div class="wrap book-grid">
-      <div>
-        <ul class="mechanic" style="margin-top:0">
-          <li><span class="n">1</span><div><h2 class="h3">Day one</h2><p>Signal flow, console, patchbay and microphones.</p></div></li>
-          <li><span class="n">2</span><div><h2 class="h3">Day two</h2><p>A live tracking session and gain staging.</p></div></li>
-          <li><span class="n">3</span><div><h2 class="h3">Day three</h2><p>Editing, mixing and the business side of engineering.</p></div></li>
-        </ul>
-        <p class="fine">No recording during class. Phones are collected.</p>
-      </div>
-      <aside class="summary" aria-label="Course details">
-        <div class="summary-head"><h2 class="h3">Details</h2></div>
-        <div class="summary-body">
-          <ul class="sum-lines">
-            <li><span>Length</span><span>3 days</span></li>
-            <li><span>Location</span><span>Glenwood Place Studios, Burbank</span></li>
-            <li><span>Class size</span><span>8–10 students</span></li>
-          </ul>
-          <div class="sum-total"><span>Price</span><span class="v">$1,500</span></div>
-          <div class="sum-due"><span>Per student</span></div>
-        </div>
-        <div class="summary-foot">
-          <a class="btn btn-primary" href="/book?course=1">Enroll</a>
-        </div>
-      </aside>
+
+  <div class="wrap">
+    <div class="pf-tabs" role="tablist" aria-label="Course">
+      <button role="tab" type="button" data-tab="schedule" aria-selected="true">Schedule</button>
+      <button role="tab" type="button" data-tab="dates" aria-selected="false">Dates</button>
+      <button role="tab" type="button" data-tab="instructor" aria-selected="false">Instructor</button>
+      <button role="tab" type="button" data-tab="location" aria-selected="false">Location</button>
+      <button role="tab" type="button" data-tab="faq" aria-selected="false">FAQ</button>
     </div>
+  </div>
+
+  <section class="wrap pf-grid">
+    <div class="pf-main">
+      <div class="pf-panel" data-panel="schedule">
+        <div id="c-days" class="c-days"></div>
+        <dl id="c-prep" class="pf-facts" style="margin-top:28px"></dl>
+      </div>
+      <div class="pf-panel" data-panel="dates" hidden><div id="c-dates"></div></div>
+      <div class="pf-panel" data-panel="instructor" hidden><div id="c-instructor"></div></div>
+      <div class="pf-panel" data-panel="location" hidden>
+        <dl id="c-location" class="pf-facts"></dl>
+        <h2 class="pf-h">Equipment</h2>
+        <div id="c-gear"></div>
+      </div>
+      <div class="pf-panel" data-panel="faq" hidden>
+        <div id="c-faq" class="pf-faq"></div>
+        <h2 class="pf-h">Policies</h2>
+        <ul id="c-policies" class="c-list"></ul>
+      </div>
+    </div>
+
+    <aside class="pf-side">
+      <div class="quote-card">
+        <h2 class="h3">Details</h2>
+        <ul class="sum-lines" id="c-details"></ul>
+        <div class="sum-total" style="padding-top:4px"><span>Price</span><span class="v" id="c-price">$1,500</span></div>
+        <div class="sum-due"><span>Per student</span></div>
+        <a class="btn btn-primary" href="/book/request?course=1">Enroll</a>
+      </div>
+    </aside>
   </section>
 </main>
 
@@ -74,6 +92,6 @@
   </div>
 </footer>
 
-<script type="module">import { initNav } from '/js/nav.js?v=5'; initNav();</script>
+<script type="module" src="/js/course-page.js?v=5"></script>
 </body>
 </html>
