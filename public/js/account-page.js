@@ -53,6 +53,7 @@ function render() {
   });
   $('#pw-form').addEventListener('submit', async e => {
     e.preventDefault();
+    if ($('#pw-new').value !== $('#pw-new2').value) return toast('Passwords don\'t match.');
     try { await api('/api/account/password', { method: 'POST', body: { current: $('#pw-cur').value, next: $('#pw-new').value } }); e.target.reset(); toast('Password changed.'); }
     catch (x) { toast(x.message); }
   });

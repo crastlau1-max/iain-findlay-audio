@@ -1,5 +1,5 @@
 // Quote request in four steps: service, project, account, review.
-import { $, $$, el, api, icons } from './lib.js';
+import { $, $$, el, api, icons, dropZone, uploadFile, bytes } from './lib.js';
 import { initNav, me } from './nav.js';
 
 initNav();
@@ -28,6 +28,10 @@ $('#songs-slot').append(el('div', { class: 'stepper' },
   el('button', { type: 'button', 'aria-label': 'Fewer songs', onclick: () => setSongs(+songs.value - 1) }, '−'), songs,
   el('button', { type: 'button', 'aria-label': 'More songs', onclick: () => setSongs(+songs.value + 1) }, '+')));
 if (q.has('course')) { $('#r-title').value = 'Recording course'; $('#r-desc').value = 'Enrollment in the recording course.'; }
+
+// ---------- step 2: files (reference tracks, stems, sessions) ----------
+const drop = dropZone({ label: 'Drop reference tracks or stems, or browse' });
+$('#file-slot').append(drop.node);
 
 // ---------- step 3: account ----------
 function paintAccount() {
@@ -64,6 +68,7 @@ function check(i) {
 
 async function ensureAccount() {
   if (user) return;
+  if (mode === 'signup' && $('#a-pass').value !== $('#a-pass2').value) { $('#a-pass2').focus(); throw new Error('Passwords don\'t match.'); }
   const body = { email: $('#a-email').value, password: $('#a-pass').value };
   if (mode === 'signup') Object.assign(body, { name: $('#a-name').value, artist: $('#a-artist').value, website: $('#a-website').value });
   const r = await api(`/api/account/${mode === 'signup' ? 'signup' : 'login'}`, { method: 'POST', body });
@@ -78,7 +83,8 @@ function review() {
     ['Services', d.services.map(name).join(', ')],
     ['Add-on', d.liveDrums ? drums?.name : null],
     ['Songs', d.songs], ['Title', d.title || 'Untitled project'], ['Details', d.description],
-    ['References', d.references], ['Deadline', d.deadline], ['Budget', d.budget], ['Account', user?.email]
+    ['Files', drop.files().map(f => `${f.name} (${bytes(f.size)})`).join('\n')],
+    ['Reference links', d.references], ['Deadline', d.deadline], ['Budget', d.budget], ['Account', user?.email]
   ].filter(([, v]) => v);
   $('#rq-review').replaceChildren(...rows.flatMap(([k, v]) => [el('dt', {}, k), el('dd', {}, String(v))]));
 }
@@ -105,10 +111,28 @@ form.addEventListener('submit', async e => {
     if (step === 2) await ensureAccount();
     if (step < steps.length - 1) { go(step + 1); return; }
     const r = await api('/api/projects', { method: 'POST', body: collect() });
+    await sendFiles(r.id);
     location.href = `/project/${r.id}?new=1`;
   } catch (x) {
     errBox.textContent = x.status === 401 && step === 3 ? 'Sign in again to send this request.' : x.message;
     if (x.status === 401 && step === 3) { user = null; paintAccount(); go(2); }
   } finally { next.disabled = false; }
 });
+// Files go up one at a time after the project exists. A failed file doesn't block the request.
+async function sendFiles(id) {
+  const list = drop.files();
+  if (!list.length) return;
+  const bar = $('#up-progress'), fill = bar.firstElementChild;
+  const total = list.reduce((s, f) => s + f.size, 0);
+  let done = 0, failed = [];
+  bar.hidden = false;
+  for (const [i, f] of list.entries()) {
+    next.textContent = `Uploading ${i + 1} of ${list.length}`;
+    try { await uploadFile(`/api/projects/${id}/files`, f, p => { fill.style.width = `${Math.round((done + f.size * p) / total * 100)}%`; }); }
+    catch (x) { failed.push(`${f.name}: ${x.message}`); }
+    done += f.size;
+  }
+  if (failed.length) sessionStorage.setItem('uploadErrors', failed.join('\n'));
+}
+
 go(0);

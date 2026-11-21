@@ -35,7 +35,7 @@
 
     <form id="rq-form" class="rq-card" novalidate>
       <fieldset class="rq-step" data-step="0">
-        <legend class="h3">Service</legend>
+        <legend class="h3 req">Service</legend>
         <div id="svc-grid" class="choice-grid"></div>
         <div class="inline-row rq-row">
           <label class="h3" for="songs-input" style="font-size:14px">Songs</label>
@@ -48,8 +48,9 @@
         <legend class="h3">Project</legend>
         <div class="form-grid">
           <div class="field full"><label for="r-title">Title</label><input id="r-title" class="input" name="title" maxlength="160"></div>
-          <div class="field full"><label for="r-desc">Details</label><textarea id="r-desc" class="input" name="description" required maxlength="4000" placeholder="Genre, what's recorded, what you need"></textarea></div>
-          <div class="field full"><label for="r-refs">Reference tracks</label><input id="r-refs" class="input" name="references" maxlength="1000" placeholder="Links"></div>
+          <div class="field full"><label for="r-desc" class="req">Details</label><textarea id="r-desc" class="input" name="description" required maxlength="4000" placeholder="Genre, what's recorded, what you need"></textarea></div>
+          <div class="field full"><span class="field-label">Files</span><div id="file-slot"></div></div>
+          <div class="field full"><label for="r-refs">Reference links</label><input id="r-refs" class="input" name="references" maxlength="1000" placeholder="Optional"></div>
           <div class="field"><label for="r-deadline">Deadline</label><input id="r-deadline" class="input" name="deadline" type="date"></div>
           <div class="field"><label for="r-budget">Budget</label><input id="r-budget" class="input" name="budget" maxlength="60" placeholder="Optional"></div>
         </div>
@@ -66,8 +67,9 @@
           <div class="form-grid">
             <div class="field" data-only="signup"><label for="a-name">Name</label><input id="a-name" class="input" autocomplete="name"></div>
             <div class="field" data-only="signup"><label for="a-artist">Artist name</label><input id="a-artist" class="input" placeholder="Optional"></div>
-            <div class="field full"><label for="a-email">Email</label><input id="a-email" class="input" type="email" autocomplete="email"></div>
-            <div class="field full"><label for="a-pass">Password</label><input id="a-pass" class="input" type="password" autocomplete="new-password" minlength="8" placeholder="8 characters or more"></div>
+            <div class="field full"><label for="a-email" class="req">Email</label><input id="a-email" class="input" type="email" autocomplete="email"></div>
+            <div class="field full"><label for="a-pass" class="req">Password</label><input id="a-pass" class="input" type="password" autocomplete="new-password" minlength="8" placeholder="8 characters or more"></div>
+            <div class="field full" data-only="signup"><label for="a-pass2" class="req">Confirm password</label><input id="a-pass2" class="input" type="password" autocomplete="new-password"></div>
             <input type="text" id="a-website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px">
           </div>
           <p class="rq-fine" data-only="login"><a href="/signin?mode=forgot">Forgot password?</a></p>
@@ -78,6 +80,7 @@
         <legend class="h3">Review</legend>
         <dl id="rq-review" class="kv2"></dl>
         <p class="rq-fine">No charge until you accept a proposal. <a href="/terms" target="_blank">Booking terms</a></p>
+        <div id="up-progress" class="up-bar" hidden><i></i></div>
       </fieldset>
 
       <div id="form-error" class="form-error" role="alert"></div>
@@ -103,6 +106,6 @@
   </div>
 </footer>
 
-<script type="module" src="/js/request-page.js?v=2"></script>
+<script type="module" src="/js/request-page.js?v=4"></script>
 </body>
 </html>

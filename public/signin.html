@@ -32,8 +32,9 @@
       <div class="form-grid">
         <div class="field full" data-only="signup"><label for="f-name">Name</label><input id="f-name" class="input" autocomplete="name"></div>
         <div class="field full" data-only="signup"><label for="f-artist">Artist name</label><input id="f-artist" class="input" placeholder="Optional"></div>
-        <div class="field full" data-only="signin signup forgot"><label for="f-email">Email</label><input id="f-email" class="input" type="email" autocomplete="email"></div>
-        <div class="field full" data-only="signin signup reset"><label for="f-pass" id="f-pass-label">Password</label><input id="f-pass" class="input" type="password" autocomplete="current-password"></div>
+        <div class="field full" data-only="signin signup forgot"><label for="f-email" class="req">Email</label><input id="f-email" class="input" type="email" autocomplete="email"></div>
+        <div class="field full" data-only="signin signup reset"><label for="f-pass" id="f-pass-label" class="req">Password</label><input id="f-pass" class="input" type="password" autocomplete="current-password"></div>
+        <div class="field full" data-only="signup reset"><label for="f-pass2" class="req">Confirm password</label><input id="f-pass2" class="input" type="password" autocomplete="new-password"></div>
         <input type="text" id="f-website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px">
       </div>
       <div id="form-error" class="form-error" role="alert"></div>

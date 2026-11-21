@@ -53,8 +53,22 @@ function accountLinks(user) {
   }
 }
 
+function attachCounters(root = document) {
+  root.querySelectorAll('textarea[maxlength]:not([data-counted])').forEach(t => {
+    t.dataset.counted = '1';
+    const max = Number(t.getAttribute('maxlength'));
+    const c = document.createElement('div');
+    c.className = 'char-count'; c.setAttribute('aria-live', 'polite');
+    const paint = () => { c.textContent = `${t.value.length.toLocaleString()} / ${max.toLocaleString()}`; c.classList.toggle('near', t.value.length > max * 0.9); };
+    t.addEventListener('input', paint);
+    t.after(c); paint();
+  });
+}
+
 export function initNav() {
   me().then(accountLinks);
+  attachCounters();
+  new MutationObserver(() => attachCounters()).observe(document.body, { childList: true, subtree: true });
   const btn = $('#menu-btn');
   const menu = $('#mobile-menu');
   if (btn && menu) {

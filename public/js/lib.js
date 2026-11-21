@@ -129,3 +129,45 @@ export function stableAnchors() {
   });
   if (location.hash) go(location.hash, false);
 }
+
+// ---------- file uploads ----------
+export const ACCEPT = '.wav,.aif,.aiff,.flac,.mp3,.m4a,.aac,.ogg,.zip,.rar,.7z,.pdf,.txt,.mid,.midi,.png,.jpg,.jpeg';
+export function bytes(n) {
+  if (n < 1024 * 1024) return `${Math.max(1, Math.round(n / 1024))} KB`;
+  if (n < 1024 ** 3) return `${(n / 1024 / 1024).toFixed(n < 10 * 1024 * 1024 ? 1 : 0)} MB`;
+  return `${(n / 1024 ** 3).toFixed(1)} GB`;
+}
+// Sends one file as the raw request body. onProgress gets 0 to 1.
+export function uploadFile(url, file, onProgress = () => {}) {
+  return new Promise((resolve, reject) => {
+    const x = new XMLHttpRequest();
+    x.open('POST', `${url}?name=${encodeURIComponent(file.name)}`);
+    x.setRequestHeader('Content-Type', 'application/octet-stream');
+    x.upload.onprogress = e => { if (e.lengthComputable) onProgress(e.loaded / e.total); };
+    x.onload = () => {
+      let body = {}; try { body = JSON.parse(x.responseText); } catch {}
+      if (x.status >= 200 && x.status < 300) resolve(body); else reject(new Error(body.error || `Upload failed (${x.status})`));
+    };
+    x.onerror = () => reject(new Error('Upload failed. Check your connection.'));
+    x.send(file);
+  });
+}
+
+// A drop zone with a file list. Returns { files() , clear() }.
+export function dropZone({ label = 'Drop files here or browse', onAdd } = {}) {
+  const picked = [];
+  const input = el('input', { type: 'file', multiple: true, accept: ACCEPT, class: 'sr-only' });
+  const list = el('ul', { class: 'file-list' });
+  const zone = el('label', { class: 'drop' }, input,
+    el('span', { class: 'drop-main' }, label),
+    el('span', { class: 'drop-sub' }, 'WAV, AIFF, FLAC, MP3, ZIP, PDF · up to 500 MB each'));
+  const paint = () => list.replaceChildren(...picked.map((f, i) => el('li', {},
+    el('span', { class: 'fn' }, f.name), el('span', { class: 'fs' }, bytes(f.size)),
+    el('button', { type: 'button', class: 'file-x', 'aria-label': `Remove ${f.name}`, html: icons.close, onclick: () => { picked.splice(i, 1); paint(); } }))));
+  const add = fl => { for (const f of fl) if (!picked.some(p => p.name === f.name && p.size === f.size)) picked.push(f); paint(); onAdd?.(picked); };
+  input.addEventListener('change', () => { add(input.files); input.value = ''; });
+  ['dragenter', 'dragover'].forEach(ev => zone.addEventListener(ev, e => { e.preventDefault(); zone.classList.add('over'); }));
+  ['dragleave', 'drop'].forEach(ev => zone.addEventListener(ev, e => { e.preventDefault(); zone.classList.remove('over'); }));
+  zone.addEventListener('drop', e => add(e.dataTransfer.files));
+  return { node: el('div', { class: 'drop-wrap' }, zone, list), files: () => [...picked], clear: () => { picked.length = 0; paint(); } };
+}

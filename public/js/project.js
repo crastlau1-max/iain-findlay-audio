@@ -1,6 +1,6 @@
 // Client project page: thread, proposal, payment, delivery approval, revisions and review.
 // Opens by project id for a signed in client, or by the private token link from older emails.
-import { $, el, api, money } from './lib.js';
+import { $, el, api, money, dropZone, uploadFile, bytes } from './lib.js';
 import { initNav, me } from './nav.js';
 
 initNav();
@@ -27,7 +27,7 @@ function thread() {
   const box = el('div', { class: 'thread', id: 'thread' }, data.messages.map(m =>
     el('div', { class: `msg ${m.from === 'client' ? 'me' : m.from === 'system' ? 'sys' : 'them'}` },
       richText(m.body), m.from !== 'system' ? el('div', { class: 'meta' }, `${m.from === 'client' ? 'You' : 'Iain'} · ${when(m.at)}`) : el('span', { class: 'meta' }, ` · ${when(m.at)}`))));
-  const ta = el('textarea', { class: 'input', placeholder: data.status === 'cancelled' ? 'This project is closed' : 'Message', disabled: data.status === 'cancelled' });
+  const ta = el('textarea', { class: 'input', maxlength: 4000, placeholder: data.status === 'cancelled' ? 'This project is closed' : 'Message', disabled: data.status === 'cancelled' });
   const send = el('button', { class: 'btn btn-primary', type: 'button', disabled: data.status === 'cancelled' }, 'Send');
   const go = async () => {
     if (!ta.value.trim()) return;
@@ -70,7 +70,7 @@ function deliveryCard() {
       else toast('Approved.');
     } catch (e) { toast(e.message); approve.disabled = false; }
   });
-  const notes = el('textarea', { class: 'input', placeholder: 'Revision notes', rows: 4 });
+  const notes = el('textarea', { class: 'input', placeholder: 'Revision notes', rows: 4, maxlength: 4000 });
   const ask = el('button', { class: 'btn', type: 'button', disabled: !left }, `Request revision (${left} left)`);
   ask.addEventListener('click', async () => {
     try { await act('revision', { notes: notes.value }); toast('Revision requested.'); } catch (e) { toast(e.message); }
@@ -88,7 +88,7 @@ function reviewCard() {
   const row = el('div', { class: 'star-input', role: 'radiogroup', 'aria-label': 'Rating' });
   const paint = () => [...row.children].forEach((b, i) => { b.textContent = i < stars ? '★' : '☆'; b.setAttribute('aria-checked', String(i + 1 === stars)); });
   for (let i = 1; i <= 5; i++) row.append(el('button', { type: 'button', role: 'radio', 'aria-label': `${i} star${i > 1 ? 's' : ''}`, onclick: () => { stars = i; paint(); } }, '☆'));
-  const text = el('textarea', { class: 'input', rows: 4, placeholder: 'How did it go?' });
+  const text = el('textarea', { class: 'input', rows: 4, placeholder: 'How did it go?', maxlength: 2000 });
   const send = el('button', { class: 'btn btn-primary', type: 'button' }, 'Post review');
   send.addEventListener('click', async () => {
     try { await act('review', { stars, text: text.value }); toast('Review posted.'); } catch (e) { toast(e.message); }
@@ -139,6 +139,35 @@ function proposalCard(p, mode) {
   return el('section', { class: 'pj-panel' }, el('div', { class: 'ph' }, mode === 'open' ? 'Proposal' : 'Your booking'), body);
 }
 
+function filesCard() {
+  const when2 = d => new Date(d).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  const list = el('ul', { class: 'file-list', style: 'margin:0' }, (data.files || []).map(f => el('li', {},
+    el('a', { class: 'fn', href: `/api/projects/${token}/files/${f.id}`, download: f.name }, f.name),
+    el('span', { class: 'fs' }, bytes(f.size)),
+    el('span', { class: 'file-meta' }, `${f.from === 'client' ? 'You' : 'Iain'} · ${when2(f.at)}`))));
+  const body = el('div', { class: 'pb' }, data.files?.length ? list : el('p', { class: 'label', style: 'margin:0 0 12px' }, 'No files yet.'));
+  if (data.status !== 'cancelled') {
+    const drop = dropZone();
+    const send = el('button', { class: 'btn btn-primary btn-sm', type: 'button' }, 'Upload');
+    const bar = el('div', { class: 'up-bar', hidden: true }, el('i'));
+    send.addEventListener('click', async () => {
+      const picked = drop.files();
+      if (!picked.length) return toast('Choose a file first.');
+      send.disabled = true; bar.hidden = false;
+      const total = picked.reduce((s, f) => s + f.size, 0); let done = 0;
+      for (const [i, f] of picked.entries()) {
+        send.textContent = `Uploading ${i + 1} of ${picked.length}`;
+        try { data = await uploadFile(`/api/projects/${token}/files`, f, p => { bar.firstChild.style.width = `${Math.round((done + f.size * p) / total * 100)}%`; }); }
+        catch (e) { toast(`${f.name}: ${e.message}`); }
+        done += f.size;
+      }
+      render(); toast('Upload finished.');
+    });
+    body.append(el('div', { style: 'margin-top:14px;display:grid;gap:10px;justify-items:start' }, drop.node, bar, send));
+  }
+  return el('section', { class: 'pj-panel' }, el('div', { class: 'ph' }, 'Files', data.files?.length ? el('span', { class: 'label' }, String(data.files.length)) : null), body);
+}
+
 function requestCard() {
   const r = data.request;
   return el('section', { class: 'pj-panel' }, el('div', { class: 'ph' }, 'Your request'),
@@ -168,7 +197,7 @@ function render() {
   sideItems.push(intakeCard(), requestCard());
   root.replaceChildren(
     el('div', { class: 'pj-head' }, el('div', {}, signedIn ? el('a', { class: 'label', href: '/account' }, '← Projects') : el('div', { class: 'label' }, 'Project'), el('h1', {}, data.request.title), el('div', { class: 'sub' }, `Started ${when(data.createdAt)}`))),
-    el('div', { class: 'pj-grid' }, el('div', {}, thread()), el('div', { class: 'pj-side' }, sideItems)));
+    el('div', { class: 'pj-grid' }, el('div', {}, thread(), filesCard()), el('div', { class: 'pj-side' }, sideItems)));
   const t = $('#thread'); if (t) t.scrollTop = t.scrollHeight;
   lastCount = data.messages.length;
 }
@@ -185,7 +214,10 @@ async function load(quiet) {
 const signedIn = Boolean(await me());
 await load(false);
 const q = new URLSearchParams(location.search);
-if (q.has('new')) toast('Request sent.');
+if (q.has('new')) {
+  let failed = null; try { failed = sessionStorage.getItem('uploadErrors'); sessionStorage.removeItem('uploadErrors'); } catch {}
+  toast(failed ? `Request sent. Some files didn't upload: ${failed}` : 'Request sent.');
+}
 if (q.has('paid')) toast('Payment received. Thank you.');
 if (q.has('new') || q.has('paid')) history.replaceState(null, '', location.pathname);
 setInterval(() => { if (!document.hidden) load(true); }, 20000);

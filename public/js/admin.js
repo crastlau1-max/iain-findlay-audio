@@ -1,5 +1,5 @@
 // Seller side dashboard: overview, clients, sessions, rate locks, bookings, settings.
-import { $, $$, el, api, money } from './lib.js';
+import { $, $$, el, api, money, dropZone, uploadFile, bytes } from './lib.js';
 
 const view = $('#view');
 let settingsCache = null;
@@ -399,6 +399,7 @@ async function renderProject(id) {
           el('dt', {}, 'Deadline'), el('dd', {}, r.deadline || 'None given'),
           el('dt', {}, 'Budget'), el('dd', {}, r.budget || 'None given'),
           r.references ? [el('dt', {}, 'References'), el('dd', {}, rich(r.references))] : ''))),
+        filesPanel(p),
         el('section', { class: 'pj-panel' }, el('div', { class: 'ph' }, 'Money'), el('div', { class: 'pb' },
           acc ? el('dl', { class: 'kv2' }, el('dt', {}, 'Accepted'), el('dd', {}, money(acc.totalCents)), el('dt', {}, 'Paid'), el('dd', {}, money(p.paidCents) || '$0'), el('dt', {}, 'Balance'), el('dd', {}, money(p.balanceCents) || '$0'))
             : el('p', { class: 'muted', style: 'margin:0;font-size:14px' }, p.openProposal ? `Proposal of ${money(p.openProposal.totalCents)} waiting on the client.` : 'No proposal accepted yet.'),
@@ -491,3 +492,25 @@ async function start() {
   setInterval(() => { if (!document.hidden) refreshUnread(); }, 30000);
 }
 start();
+
+// Files on a project: download what the client sent, upload mixes and deliveries.
+function filesPanel(p) {
+  const list = el('ul', { class: 'file-list', style: 'margin:0' }, (p.files || []).map(f => el('li', {},
+    el('a', { class: 'fn', href: `/api/admin/projects/${p.id}/files/${f.id}`, download: f.name }, f.name),
+    el('span', { class: 'fs' }, bytes(f.size)),
+    el('span', { class: 'file-meta' }, f.from === 'client' ? 'Client' : 'You'))));
+  const drop = dropZone({ label: 'Drop mixes or deliveries, or browse' });
+  const send = el('button', { class: 'mini-btn gold', type: 'button' }, 'Upload to client');
+  send.addEventListener('click', async () => {
+    const picked = drop.files();
+    if (!picked.length) return;
+    send.disabled = true;
+    for (const [i, f] of picked.entries()) {
+      send.textContent = `Uploading ${i + 1} of ${picked.length}`;
+      try { await uploadFile(`/api/admin/projects/${p.id}/files`, f); } catch (e) { alert(`${f.name}: ${e.message}`); }
+    }
+    renderProject(p.id);
+  });
+  return el('section', { class: 'pj-panel' }, el('div', { class: 'ph' }, 'Files'),
+    el('div', { class: 'pb', style: 'display:grid;gap:12px' }, p.files?.length ? list : el('p', { class: 'muted', style: 'margin:0;font-size:14px' }, 'No files yet.'), drop.node, el('div', {}, send)));
+}

@@ -91,3 +91,20 @@ test('delivery approval, revisions, cancel and reviews', () => {
   P.cancelByClient(c.id);
   assert.equal(P.get(c.id).status, 'cancelled');
 });
+
+test('file uploads: stored, recorded on the project, bad types refused', async () => {
+  process.env.UPLOAD_DIR = path.join(os.tmpdir(), `uploads-${process.pid}`);
+  delete require.cache[require.resolve('../lib/files')];
+  const F = require('../lib/files');
+  const { Readable } = require('stream');
+  const fakeReq = (buf) => Object.assign(Readable.from([buf]), { get: () => String(buf.length) });
+  const u = A.createUser({ email: 'files@example.com', password: 'password1' });
+  const pr = P.createRequest({ services: ['mixing'], description: 'Has reference tracks' }, u);
+  const rec = await F.receive(fakeReq(Buffer.from('RIFF....WAVE')), pr.id, '../Ref Track.wav', 0);
+  assert.equal(rec.name, 'Ref Track.wav', 'path parts stripped');
+  P.addFile(pr.id, rec, 'client');
+  assert.equal(P.get(pr.id).files.length, 1);
+  assert.ok(F.filePath(pr.id, rec.id));
+  assert.equal(F.filePath(pr.id, '../../etc'), null);
+  await assert.rejects(F.receive(fakeReq(Buffer.from('x')), pr.id, 'run.exe', 1), /isn't accepted/);
+});

@@ -24,6 +24,7 @@ $('#auth-form').addEventListener('submit', async e => {
   const errBox = $('#form-error'); errBox.textContent = '';
   const btn = $('#auth-btn'); btn.disabled = true;
   const email = $('#f-email').value, password = $('#f-pass').value;
+  if ((mode === 'signup' || mode === 'reset') && password !== $('#f-pass2').value) { errBox.textContent = 'Passwords don\'t match.'; btn.disabled = false; $('#f-pass2').focus(); return; }
   try {
     if (mode === 'signin') { await api('/api/account/login', { method: 'POST', body: { email, password } }); location.href = nextUrl; }
     if (mode === 'signup') { await api('/api/account/signup', { method: 'POST', body: { email, password, name: $('#f-name').value, artist: $('#f-artist').value, website: $('#f-website').value } }); location.href = nextUrl; }
