@@ -187,7 +187,12 @@ app.post('/api/twitch/simulate', (req, res, next) => (isProd && !process.env.ALL
 });
 
 // ---------- pages ----------
-app.use(express.static(PUBLIC, { extensions: ['html'], maxAge: isProd ? '1h' : 0 }));
+// Pages, scripts and styles are checked with the server on every load so a deploy shows up at once.
+// Images and fonts can be cached for an hour.
+app.use(express.static(PUBLIC, {
+  extensions: ['html'], maxAge: isProd ? '1h' : 0,
+  setHeaders: (res, file) => { if (/\.(html|js|css)$/.test(file)) res.setHeader('Cache-Control', 'no-cache'); }
+}));
 app.get('/credits', (req, res) => res.sendFile('credits.html', { root: PUBLIC }));
 app.get('/terms', (req, res) => res.sendFile('terms.html', { root: PUBLIC }));
 for (const page of ['book', 'course', 'live']) app.get(`/${page}`, (req, res) => res.sendFile(`${page}.html`, { root: PUBLIC }));
