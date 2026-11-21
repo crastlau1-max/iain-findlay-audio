@@ -1,5 +1,5 @@
 // Direct booking engine.
-import { $, $$, el, api, icons, money } from './lib.js';
+import { $, $$, el, api, icons, money } from './lib.js?v=5';
 
 export function mountBooking(cfg) {
   const form = $('#booking-form');

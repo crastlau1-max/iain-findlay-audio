@@ -1,6 +1,6 @@
 // Sign in, create account, forgot password and reset password on one page.
-import { $, $$, api } from './lib.js';
-import { initNav, me } from './nav.js';
+import { $, $$, api } from './lib.js?v=5';
+import { initNav, me } from './nav.js?v=5';
 
 initNav();
 const q = new URLSearchParams(location.search);

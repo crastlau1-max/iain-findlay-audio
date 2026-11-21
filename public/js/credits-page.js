@@ -1,6 +1,6 @@
-import { $, api } from './lib.js';
-import { initNav } from './nav.js';
-import { mountConsole, syncLine } from './discography.js';
+import { $, api } from './lib.js?v=5';
+import { initNav } from './nav.js?v=5';
+import { mountConsole, syncLine } from './discography.js?v=5';
 
 initNav();
 const cfg = await api('/api/config');

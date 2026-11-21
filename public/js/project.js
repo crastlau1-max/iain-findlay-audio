@@ -1,7 +1,7 @@
 // Client project page: thread, proposal, payment, delivery approval, revisions and review.
 // Opens by project id for a signed in client, or by the private token link from older emails.
-import { $, el, api, money, dropZone, uploadFile, bytes } from './lib.js';
-import { initNav, me } from './nav.js';
+import { $, el, api, money, dropZone, uploadFile, bytes } from './lib.js?v=5';
+import { initNav, me } from './nav.js?v=5';
 
 initNav();
 

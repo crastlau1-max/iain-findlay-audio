@@ -1,6 +1,6 @@
 // Continuous highlights marquee. JS driven so it can pause on hover and resume without a jump.
-import { el, artwork, badges, icons } from './lib.js';
-import * as player from './player.js';
+import { el, artwork, badges, icons } from './lib.js?v=5';
+import * as player from './player.js?v=5';
 
 export function mountMarquee(root, credits) {
   if (!credits.length) { root.closest('.marquee-band')?.remove(); return; }

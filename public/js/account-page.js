@@ -1,6 +1,6 @@
 // Account: projects, profile, password, email verification.
-import { $, $$, el, api, money, toast } from './lib.js';
-import { initNav, me } from './nav.js';
+import { $, $$, el, api, money, toast } from './lib.js?v=5';
+import { initNav, me } from './nav.js?v=5';
 
 initNav();
 const q = new URLSearchParams(location.search);

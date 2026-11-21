@@ -1,6 +1,6 @@
 // Quote request in four steps: service, project, account, review.
-import { $, $$, el, api, icons, dropZone, uploadFile, bytes } from './lib.js';
-import { initNav, me } from './nav.js';
+import { $, $$, el, api, icons, dropZone, uploadFile, bytes } from './lib.js?v=5';
+import { initNav, me } from './nav.js?v=5';
 
 initNav();
 const form = $('#rq-form');

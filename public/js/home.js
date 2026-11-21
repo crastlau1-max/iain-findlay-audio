@@ -2,9 +2,9 @@
 const moved = { '#book': '/book', '#loyalty': '/book#loyalty', '#course': '/course', '#live': '/live', '#work': '/credits' };
 if (moved[location.hash]) location.replace(moved[location.hash].replace(/(#.*)?$/, m => location.search + m));
 
-import { $, el, api, icons, artwork, badges } from './lib.js';
-import * as player from './player.js';
-import { initNav } from './nav.js';
+import { $, el, api, icons, artwork, badges } from './lib.js?v=5';
+import * as player from './player.js?v=5';
+import { initNav } from './nav.js?v=5';
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 initNav();

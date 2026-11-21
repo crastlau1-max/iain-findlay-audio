@@ -1,5 +1,5 @@
 // Client side: a private punch card reached by a secret link from Iain.
-import { $, el, api } from './lib.js';
+import { $, el, api } from './lib.js?v=5';
 
 const root = $('#card-root');
 const token = location.pathname.split('/').pop();

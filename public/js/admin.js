@@ -1,5 +1,5 @@
 // Seller side dashboard: overview, clients, sessions, rate locks, bookings, settings.
-import { $, $$, el, api, money, dropZone, uploadFile, bytes } from './lib.js';
+import { $, $$, el, api, money, dropZone, uploadFile, bytes } from './lib.js?v=5';
 
 const view = $('#view');
 let settingsCache = null;

@@ -1,5 +1,5 @@
 // Navbar: live status pill (fixed slot, never shifts) and mobile menu.
-import { $, api } from './lib.js';
+import { $, api } from './lib.js?v=5';
 
 const subscribers = new Set();
 let last = null;

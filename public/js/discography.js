@@ -1,6 +1,6 @@
 // Discography console: role tabs, live search, sort, click to audition.
-import { $, $$, el, api, icons, artwork, badges, formatDate } from './lib.js';
-import * as player from './player.js';
+import { $, $$, el, api, icons, artwork, badges, formatDate } from './lib.js?v=5';
+import * as player from './player.js?v=5';
 
 const TABS = [
   ['all', 'All'],

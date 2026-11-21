@@ -1,6 +1,6 @@
 // Persistent transport deck: one <audio>, Web Audio stereo metering at display rate,
 // transform-only animation (scaleX / translateX) so nothing triggers layout.
-import { $, el, icons, artwork, toast } from './lib.js';
+import { $, el, icons, artwork, toast } from './lib.js?v=5';
 
 const listeners = new Set();
 const state = { credit: null, playing: false, ctx: null, analysers: null, connected: false, raf: 0, levels: [0, 0], peaks: [0, 0], peakHold: [0, 0], dragging: false };

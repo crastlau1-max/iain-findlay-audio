@@ -1,5 +1,5 @@
 // Homepage project request form (step one of the SoundBetter style flow).
-import { $, $$, el, api, icons, money } from './lib.js';
+import { $, $$, el, api, icons, money } from './lib.js?v=5';
 
 export function mountRequest(cfg) {
   const form = $('#request-form');

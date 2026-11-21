@@ -1,7 +1,7 @@
 // Booking profile: tabs for overview, services, samples, reviews and FAQ, with a quote card.
-import { $, $$, el, api, icons, artwork, badges, money } from './lib.js';
-import * as player from './player.js';
-import { initNav } from './nav.js';
+import { $, $$, el, api, icons, artwork, badges, money } from './lib.js?v=5';
+import * as player from './player.js?v=5';
+import { initNav } from './nav.js?v=5';
 
 initNav();
 
