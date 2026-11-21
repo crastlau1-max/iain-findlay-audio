@@ -17,11 +17,11 @@ const cfg = await api('/api/config');
 const wanted = q.get('service');
 cfg.services.forEach((s, i) => $('#svc-grid').append(el('label', { class: 'choice' },
   el('input', { type: 'checkbox', name: 'services', value: s.id, checked: wanted ? s.id === wanted : i === 0 }),
-  el('span', { class: 'box', html: icons.check }), el('div', { class: 'name' }, s.name), el('div', { class: 'desc' }, s.summary))));
+  el('span', { class: 'box', html: icons.check }), el('div', { class: 'name' }, s.name))));
 const drums = cfg.addOns.find(a => a.id === 'live_drums');
 if (drums) $('#addon-wrap').append(el('div', { class: 'h3', style: 'font-size:14px;margin-bottom:10px' }, 'Add-on'), el('label', { class: 'choice' },
   el('input', { type: 'checkbox', name: 'liveDrums', checked: wanted === 'live_drums' }), el('span', { class: 'box', html: icons.check }),
-  el('div', { class: 'name' }, drums.name), el('div', { class: 'desc' }, drums.summary))));
+  el('div', { class: 'name' }, drums.name)));
 const songs = el('input', { id: 'songs-input', type: 'number', name: 'songs', value: 1, min: 1, max: 50, inputmode: 'numeric' });
 const setSongs = v => { songs.value = Math.min(50, Math.max(1, parseInt(v, 10) || 1)); };
 $('#songs-slot').append(el('div', { class: 'stepper' },

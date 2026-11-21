@@ -63,11 +63,10 @@ $('#pf-selected').replaceChildren(...hl.credits.slice(0, 8).map(c => playable(c,
 // ---------- services ----------
 const svcCard = s => el('article', { class: 'pf-svc' },
   el('div', { class: 'pf-svc-top' }, el('h3', { class: 'h3' }, s.name), el('span', { class: 'pf-price' }, fromPrice(s))),
-  el('p', {}, s.summary),
   el('ul', { class: 'pf-incl' }, cfg.includedDeliverables.map(d => el('li', { html: icons.check }, d))),
   el('a', { class: 'btn btn-sm', href: `/book/request?service=${encodeURIComponent(s.id)}` }, 'Request a quote'));
 const addonRow = a => el('li', { class: 'pf-addon' },
-  el('div', {}, el('div', { class: 'name' }, a.name), el('div', { class: 'label' }, a.summary)),
+  el('div', { class: 'name' }, a.name),
   el('span', { class: 'pf-price' }, Number.isInteger(a.rateCents) ? `+${money(a.rateCents)} / ${a.unit}` : 'Quoted per project'));
 $('#pf-services').replaceChildren(...cfg.services.map(svcCard),
   cfg.addOns.length ? el('div', { class: 'pf-addons' }, el('h3', { class: 'pf-h', style: 'margin-top:12px' }, 'Add-ons'),

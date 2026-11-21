@@ -154,5 +154,5 @@ if (!reduceMotion && matchMedia('(hover: hover) and (pointer: fine)').matches) {
 
 // ---------- services ----------
 $('#svc-cards').replaceChildren(...cfg.services.map(sv => el('a', { class: 'card', href: '/book' },
-  el('h3', { class: 'h3' }, sv.name), el('p', {}, sv.summary), el('span', { class: 'more' }, 'Request a quote'))));
+  el('h3', { class: 'h3' }, sv.name), el('span', { class: 'more' }, 'Request a quote'))));
 document.querySelectorAll('[data-soundbetter]').forEach(a => a.href = cfg.soundbetterUrl);

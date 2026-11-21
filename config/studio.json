@@ -13,24 +13,21 @@
       "name": "Mixing",
       "unit": "song",
       "rateLabel": "[$RATE / song]",
-      "rateCents": null,
-      "summary": "A full mix of your session, with two rounds of revisions per song."
+      "rateCents": null
     },
     {
       "id": "mastering",
       "name": "Mastering",
       "unit": "song",
       "rateLabel": "[$RATE / song]",
-      "rateCents": null,
-      "summary": "Stereo or stem mastering for streaming, club and radio playback."
+      "rateCents": null
     },
     {
       "id": "production",
       "name": "Production",
       "unit": "song",
       "rateLabel": "[$RATE / song]",
-      "rateCents": null,
-      "summary": "Additional instrumentation, arrangement and sound design on top of your record."
+      "rateCents": null
     }
   ],
   "includedDeliverables": [
@@ -46,8 +43,7 @@
       "name": "Live Drum Recording",
       "unit": "session",
       "rateLabel": "[$RATE / session]",
-      "rateCents": null,
-      "summary": "A live acoustic kit tracked with a full multi mic setup."
+      "rateCents": null
     }
   ],
   "payment": {
